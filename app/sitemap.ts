@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { posts } from "@/.velite";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://davidlacerda.com.br";
 
@@ -23,10 +24,19 @@ const staticRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  return staticRoutes.map(({ path, priority, changeFrequency }) => ({
+  const staticEntries = staticRoutes.map(({ path, priority, changeFrequency }) => ({
     url: `${BASE_URL}${path}`,
     lastModified: now,
     changeFrequency,
     priority,
   }));
+
+  const postEntries = posts.map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly" as const,
+    priority: post.featured ? 0.8 : 0.7,
+  }));
+
+  return [...staticEntries, ...postEntries];
 }
