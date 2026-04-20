@@ -19,52 +19,36 @@ export function schemaWebSite() {
   };
 }
 
-export function schemaPhysician() {
+export function schemaFounder() {
   return {
     "@context": "https://schema.org",
-    "@type": "Physician",
-    name: siteConfig.doctor.name,
-    description: siteConfig.description,
-    url: BASE_URL,
+    "@type": "Person",
+    name: siteConfig.founder.name,
+    jobTitle: "Pastor & Fundador",
+    description: "Pastor e fundador do Santuário Clínico, plataforma de telemedicina com acolhimento espiritual.",
+    url: `${BASE_URL}/pastor`,
     image: `${BASE_URL}/david-real.jpg`,
-    medicalSpecialty: [
-      "https://schema.org/MentalHealth",
-      "https://schema.org/GeneralPractice",
-      "https://schema.org/Nutrition",
-    ],
-    availableService: [
-      {
-        "@type": "MedicalTherapy",
-        name: "Saúde Mental",
-      },
-      {
-        "@type": "MedicalTherapy",
-        name: "Clínica Geral",
-      },
-      {
-        "@type": "MedicalTherapy",
-        name: "Nutrição",
-      },
-      {
-        "@type": "MedicalTherapy",
-        name: "Aconselhamento Espiritual",
-      },
-    ],
+    affiliation: {
+      "@type": "Organization",
+      name: "Santuário Clínico",
+      url: BASE_URL,
+    },
   };
 }
 
-export function schemaMedicalOrganization() {
+export function schemaOrganization() {
   return {
     "@context": "https://schema.org",
-    "@type": "MedicalOrganization",
+    "@type": "Organization",
     name: "Santuário Clínico",
     url: BASE_URL,
     description: siteConfig.description,
-    medicalSpecialty: "https://schema.org/GeneralPractice",
-    employee: {
-      "@type": "Physician",
-      name: siteConfig.doctor.name,
+    founder: {
+      "@type": "Person",
+      name: siteConfig.founder.name,
     },
+    serviceType: "Telemedicina",
+    areaServed: "BR",
   };
 }
 

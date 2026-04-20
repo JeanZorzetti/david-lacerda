@@ -140,10 +140,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               {post.author}
             </p>
             <p className="text-sm text-[#4a454e] leading-relaxed mb-3">
-              Médico e pastor, fundador do Santuário Clínico. Atua na interseção entre saúde mental, medicina integrativa e espiritualidade cristã.
+              Pastor e fundador do Santuário Clínico. Conecta pessoas a médicos qualificados via telemedicina, com acolhimento espiritual e cuidado integral.
             </p>
             <Link href="/pastor" className="text-sm text-[#6b538d] font-medium hover:text-[#28113e] transition-colors inline-flex items-center gap-1">
-              Conheça o Dr. David
+              Conheça o David
               <span className="material-symbols-outlined text-sm">arrow_forward</span>
             </Link>
           </div>

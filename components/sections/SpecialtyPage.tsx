@@ -70,8 +70,8 @@ export default function SpecialtyPage({
     url: `${siteConfig.url}/especialidades/${slug}`,
     about: { "@type": "MedicalCondition", name: title },
     author: {
-      "@type": "Physician",
-      name: siteConfig.doctor.name,
+      "@type": "Organization",
+      name: "Santuário Clínico",
     },
   };
 
@@ -317,7 +317,7 @@ export default function SpecialtyPage({
             Dê o primeiro passo hoje
           </h2>
           <p className="text-[#aa8ec4] text-lg mb-10 max-w-2xl mx-auto">
-            Agende sua consulta online de {title.toLowerCase()} com o Dr. David Lacerda.
+            Agende sua consulta online de {title.toLowerCase()} pelo Santuário Clínico.
             Sem filas, sem deslocamento, com toda a atenção que você merece.
           </p>
           <Link

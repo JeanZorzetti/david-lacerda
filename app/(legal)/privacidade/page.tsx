@@ -61,9 +61,9 @@ export default function PrivacidadePage() {
             1. Introdução
           </h2>
           <p className="text-[#191c1d] leading-relaxed mb-3">
-            O <strong>Santuário Clínico</strong> (doravante "nós", "nosso" ou "Clínica"), sob responsabilidade do
-            Dr. David Lacerda, está comprometido com a proteção da privacidade e dos dados pessoais de seus
-            pacientes e usuários, em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais
+            O <strong>Santuário Clínico</strong> (doravante "nós", "nosso" ou "Plataforma"), fundado por David Lacerda,
+            está comprometido com a proteção da privacidade e dos dados pessoais de seus
+            usuários, em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais
             (LGPD — Lei nº 13.709/2018)</strong> e demais normativas aplicáveis.
           </p>
           <p className="text-[#191c1d] leading-relaxed">
@@ -85,7 +85,7 @@ export default function PrivacidadePage() {
             </div>
             <div className="bg-[#f3f4f5] rounded-xl p-4">
               <p className="font-semibold text-[#28113e] text-sm mb-1">Dados de saúde (dados sensíveis)</p>
-              <p className="text-sm text-[#4a454e]">Informações clínicas fornecidas durante o agendamento e a consulta, especialidade solicitada, histórico médico, diagnósticos, prescrições e atestados gerados durante o atendimento.</p>
+              <p className="text-sm text-[#4a454e]">Informações de saúde fornecidas durante o agendamento e especialidade solicitada. Diagnósticos, prescrições e atestados são gerados pelo médico parceiro na plataforma Meditele.</p>
             </div>
             <div className="bg-[#f3f4f5] rounded-xl p-4">
               <p className="font-semibold text-[#28113e] text-sm mb-1">Dados de uso e navegação</p>
@@ -104,7 +104,7 @@ export default function PrivacidadePage() {
           </h2>
           <p className="text-[#191c1d] leading-relaxed mb-3">Seus dados são utilizados para:</p>
           <ul className="list-disc list-inside space-y-2 text-[#191c1d] text-sm">
-            <li>Prestação de serviços médicos de telemedicina (consulta, prescrição, emissão de documentos)</li>
+            <li>Facilitar o acesso a consultas médicas de telemedicina via plataforma Meditele</li>
             <li>Criação e gestão de cadastro no portal Meditele</li>
             <li>Envio de link de acesso à plataforma de atendimento</li>
             <li>Comunicação sobre agendamentos, confirmações e lembretes</li>
@@ -121,7 +121,7 @@ export default function PrivacidadePage() {
           </h2>
           <div className="space-y-3">
             {[
-              { base: "Art. 11, II, f — Tutela da saúde", uso: "Tratamento de dados sensíveis de saúde para prestação de serviços médicos." },
+              { base: "Art. 11, II, f — Tutela da saúde", uso: "Tratamento de dados sensíveis de saúde para facilitar o acesso a consultas médicas." },
               { base: "Art. 7º, II — Cumprimento de obrigação legal", uso: "Manutenção de prontuário eletrônico conforme Resolução CFM 1.821/2007." },
               { base: "Art. 7º, V — Execução de contrato", uso: "Realização da consulta agendada pelo paciente." },
               { base: "Art. 7º, I — Consentimento", uso: "Cookies analíticos e marketing (opcional, revogável a qualquer momento)." },

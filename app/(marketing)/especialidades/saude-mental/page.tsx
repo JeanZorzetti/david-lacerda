@@ -22,7 +22,7 @@ export default function SaudeMentalPage() {
       aboutTitle="Saúde mental é saúde — ponto final"
       about={[
         "Transtornos mentais afetam 1 em cada 4 pessoas ao longo da vida. Ansiedade, depressão, burnout e TDAH não são fraqueza de caráter — são condições clínicas reais, com causa, evolução e tratamento bem documentados.",
-        "O Dr. David Lacerda combina avaliação psiquiátrica cuidadosa, psicoeducação e, quando necessário, farmacoterapia baseada em evidências. Mas vai além: entende que a dimensão espiritual do paciente é um recurso terapêutico genuíno.",
+        "Os médicos do Santuário Clínico combinam avaliação cuidadosa, psicoeducação e, quando necessário, farmacoterapia baseada em evidências. E vão além: a plataforma foi criada por um pastor que entende que a dimensão espiritual do paciente é um recurso genuíno no processo de cura.",
         "Pesquisas como as de Koenig et al. (2012) demonstram que espiritualidade está associada a menor prevalência de depressão e ansiedade. No Santuário Clínico, essa dimensão é integrada ao plano terapêutico — nunca como substituto, sempre como complemento.",
       ]}
       whenItems={[
@@ -96,7 +96,7 @@ export default function SaudeMentalPage() {
         },
         {
           q: "A consulta substitui psicoterapia?",
-          a: "Não e nem pretende. A consulta médica e a psicoterapia são complementares. O Dr. David pode indicar e encaminhar para psicólogos parceiros quando a psicoterapia for indicada como parte do plano terapêutico.",
+          a: "Não e nem pretende. A consulta médica e a psicoterapia são complementares. O médico pode indicar e encaminhar para psicólogos parceiros quando a psicoterapia for indicada como parte do plano terapêutico.",
         },
         {
           q: "O tratamento espiritual substitui o tratamento médico?",
@@ -104,7 +104,7 @@ export default function SaudeMentalPage() {
         },
         {
           q: "Quanto tempo leva para ver resultados?",
-          a: "Depende do diagnóstico e da resposta individual. Ansiedade leve a moderada pode melhorar significativamente em 4 a 8 semanas com tratamento adequado. O Dr. David estabelecerá expectativas realistas na primeira consulta.",
+          a: "Depende do diagnóstico e da resposta individual. Ansiedade leve a moderada pode melhorar significativamente em 4 a 8 semanas com tratamento adequado. O médico estabelecerá expectativas realistas na primeira consulta.",
         },
       ]}
       ctaText="Agendar Avaliação de Saúde Mental"

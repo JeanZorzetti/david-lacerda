@@ -72,7 +72,7 @@ export default function TermosPage() {
             content: (
               <>
                 <p className="text-[#191c1d] leading-relaxed mb-3">
-                  O Santuário Clínico oferece consultas médicas de telemedicina realizadas pelo Dr. David Lacerda, nas modalidades de:
+                  O Santuário Clínico facilita o acesso a consultas médicas de telemedicina realizadas por médicos parceiros via plataforma Meditele, nas modalidades de:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-sm text-[#191c1d] mb-3">
                   <li>Saúde Mental e Emocional (acompanhamento psiquiátrico)</li>
@@ -117,7 +117,7 @@ export default function TermosPage() {
                   <li>Crise suicida ou risco imediato à vida</li>
                 </ul>
                 <p className="text-sm text-[#4a454e]">
-                  O médico poderá recusar ou interromper o atendimento via telemedicina quando julgar que a condição do paciente exige presença física.
+                  O médico parceiro poderá recusar ou interromper o atendimento via telemedicina quando julgar que a condição do paciente exige presença física.
                 </p>
               </>
             ),
@@ -127,9 +127,9 @@ export default function TermosPage() {
             title: "5. Responsabilidades do Paciente",
             content: (
               <ul className="list-disc list-inside space-y-2 text-sm text-[#191c1d]">
-                <li>Fornecer informações médicas completas, precisas e atualizadas</li>
+                <li>Fornecer informações de saúde completas, precisas e atualizadas</li>
                 <li>Informar todos os medicamentos em uso e alergias conhecidas</li>
-                <li>Seguir as orientações médicas fornecidas durante a consulta</li>
+                <li>Seguir as orientações fornecidas pelo médico durante a consulta</li>
                 <li>Manter o link de acesso confidencial e não compartilhá-lo com terceiros</li>
                 <li>Comunicar imediatamente qualquer reação adversa a tratamentos prescritos</li>
                 <li>Comparecer ao atendimento no horário agendado ou cancelar com antecedência mínima de 24 horas</li>
@@ -170,12 +170,12 @@ export default function TermosPage() {
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-sm text-[#191c1d]">
                   <li>Falhas de conexão à internet do lado do paciente que impeçam a consulta</li>
-                  <li>Informações incorretas fornecidas pelo paciente que comprometam o diagnóstico</li>
-                  <li>Reações adversas a tratamentos prescritos quando a posologia foi seguida corretamente</li>
+                  <li>Informações incorretas fornecidas pelo paciente que comprometam a consulta</li>
+                  <li>Reações adversas a tratamentos quando a posologia foi seguida corretamente</li>
                   <li>Uso indevido do link de acesso compartilhado pelo paciente com terceiros</li>
                 </ul>
                 <p className="text-sm text-[#4a454e] mt-3">
-                  A responsabilidade civil do médico é regida pelo Código de Ética Médica do CFM e pela legislação civil brasileira.
+                  A responsabilidade civil do médico parceiro é regida pelo Código de Ética Médica do CFM e pela legislação civil brasileira. O Santuário Clínico atua como facilitador de acesso à plataforma de telemedicina.
                 </p>
               </>
             ),

@@ -8,7 +8,7 @@ import { AgendarForm } from "@/components/forms/AgendarForm";
 export const metadata: Metadata = buildMetadata({
   title: "Agendar Consulta",
   description:
-    "Agende sua consulta de telemedicina com o Dr. David Lacerda. Preencha o formulário e receba seu link de acesso por e-mail em instantes.",
+    "Agende sua consulta de telemedicina pelo Santuário Clínico. Preencha o formulário e receba seu link de acesso por e-mail em instantes.",
   path: "/agendar",
 });
 
@@ -203,7 +203,7 @@ export default function AgendarPage() {
 
             {/* Credentials footer */}
             <p className="text-xs text-[#7c757e] text-center">
-              {siteConfig.doctor.crm} · {siteConfig.doctor.rqe}
+              Consultas realizadas por médicos parceiros via Meditele
               <br />
               Telemedicina regulamentada pelo CFM
             </p>

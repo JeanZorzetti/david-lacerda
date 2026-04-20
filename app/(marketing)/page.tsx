@@ -6,7 +6,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { StatCounter } from "@/components/sections/StatCounter";
 import { Reveal } from "@/components/reveal";
 import { buildMetadata, siteConfig } from "@/lib/seo";
-import { schemaWebSite, schemaPhysician, schemaMedicalOrganization } from "@/lib/schema";
+import { schemaWebSite, schemaFounder, schemaOrganization } from "@/lib/schema";
 import { posts } from "@/.velite";
 import { sortedPosts, categoryLabels, categoryColors, formatDate, getReadingTime } from "@/lib/blog";
 
@@ -18,7 +18,7 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const stats = [
-  { value: 15, suffix: "+", label: "Anos de experiência", description: "Formação médica e ministerial integradas", icon: "workspace_premium" },
+  { value: 10, suffix: "+", label: "Anos de ministério", description: "Cuidado pastoral e espiritual integrados", icon: "workspace_premium" },
   { value: 98, suffix: "%", label: "Satisfação dos pacientes", description: "Baseado em feedback pós-consulta", icon: "favorite" },
   { value: 4, label: "Especialidades", description: "Saúde mental, clínica geral, nutrição e aconselhamento", icon: "medical_services" },
   { value: 50, suffix: "+", label: "Cidades atendidas", description: "Telemedicina em todo o Brasil", icon: "public" },
@@ -26,15 +26,15 @@ const stats = [
 
 export default function Home() {
   const jsonLdWebSite = schemaWebSite();
-  const jsonLdPhysician = schemaPhysician();
-  const jsonLdOrg = schemaMedicalOrganization();
+  const jsonLdFounder = schemaFounder();
+  const jsonLdOrg = schemaOrganization();
 
   const recentPosts = sortedPosts(posts).slice(0, 3);
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebSite) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdPhysician) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFounder) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdOrg) }} />
 
       {/* 1. Hero */}
@@ -55,10 +55,10 @@ export default function Home() {
                 className="text-3xl md:text-4xl font-extrabold text-[#28113e] tracking-[-0.02em] mb-4"
                 style={{ fontFamily: "var(--font-headline)" }}
               >
-                Consulta médica em 4 passos simples
+                Consulta com médico em 4 passos simples
               </h2>
               <p className="text-[#4a454e] max-w-xl mx-auto">
-                Do agendamento à receita digital, tudo acontece online. Sem deslocamento, sem fila.
+                Do agendamento ao atendimento com médico, tudo acontece online. Sem deslocamento, sem fila.
               </p>
             </div>
           </Reveal>
@@ -160,25 +160,24 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-[#aa8ec4] uppercase tracking-widest mb-2">
-                    Dr. David Lacerda
+                    David Lacerda
                   </p>
                   <h3
                     className="text-2xl font-extrabold text-white mb-3 leading-tight"
                     style={{ fontFamily: "var(--font-headline)" }}
                   >
-                    Médico e pastor — dois chamados, um propósito
+                    Pastor e fundador — fé e acesso à saúde, juntos.
                   </h3>
                   <p className="text-[#aa8ec4] text-sm leading-relaxed">
-                    Formado em medicina e ordenado como pastor, Dr. David integra rigor científico e profundidade
-                    espiritual em cada consulta. Fundador do Santuário Clínico, acredita que a cura verdadeira
-                    alcança corpo, mente e espírito.
+                    Ordenado pastor e fundador do Santuário Clínico, David Lacerda criou uma plataforma
+                    onde sua comunidade acessa médicos online com o acolhimento espiritual de quem cuida da alma.
                   </p>
                 </div>
                 <Link
                   href="/pastor"
                   className="self-start inline-flex items-center gap-2 text-sm font-medium text-[#d9bdff] hover:text-white transition-colors"
                 >
-                  Conhecer o Dr. David
+                  Conhecer o David
                   <span className="material-symbols-outlined text-sm">arrow_forward</span>
                 </Link>
               </div>
@@ -193,12 +192,12 @@ export default function Home() {
                   className="text-3xl font-extrabold text-[#28113e] tracking-[-0.02em] leading-tight"
                   style={{ fontFamily: "var(--font-headline)" }}
                 >
-                  O cuidado que vai além do diagnóstico
+                  Saúde acessível com acolhimento espiritual
                 </h2>
                 <p className="text-[#4a454e] leading-relaxed">
-                  A medicina moderna trata sintomas. O Santuário Clínico trata pessoas. Integramos
-                  evidência científica com escuta ativa, valorização da espiritualidade e cuidado
-                  contextual — respeitando a história de vida de cada paciente.
+                  O Santuário Clínico conecta você a médicos qualificados via telemedicina,
+                  em um ambiente criado por um pastor que entende que corpo e alma precisam
+                  de cuidado integral — sem abrir mão de nenhum dos dois.
                 </p>
                 <div className="space-y-3">
                   {[
@@ -338,7 +337,7 @@ export default function Home() {
                 </Link>
               </div>
               <p className="mt-8 text-xs text-[#7c757e]">
-                {siteConfig.doctor.crm} &bull; {siteConfig.doctor.rqe} &bull; Telemedicina regulamentada pelo CFM
+                Telemedicina com médicos qualificados &bull; Atendimento nacional &bull; 100% online
               </p>
             </>
           </Reveal>

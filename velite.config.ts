@@ -8,7 +8,7 @@ const posts = defineCollection({
     slug: s.slug("posts"),
     description: s.string().max(300),
     date: s.isodate(),
-    author: s.string().default("Dr. David Lacerda"),
+    author: s.string().default("David Lacerda"),
     category: s.enum(["saude-mental", "clinica-geral", "devocionais", "ministerio"]),
     tags: s.array(s.string()).default([]),
     cover: s.string().optional(),

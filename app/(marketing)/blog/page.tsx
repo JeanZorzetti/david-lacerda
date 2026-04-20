@@ -8,7 +8,7 @@ import { categoryLabels, categoryColors, formatDate, sortedPosts, getReadingTime
 export const metadata: Metadata = buildMetadata({
   title: "Blog",
   description:
-    "Artigos sobre saúde mental, medicina integrativa, devocionais e bem-estar — pela perspectiva do Dr. David Lacerda, médico e pastor.",
+    "Artigos sobre saúde mental, devocionais e bem-estar — pela perspectiva do Santuário Clínico e seu fundador, o pastor David Lacerda.",
   path: "/blog",
 });
 
@@ -66,7 +66,7 @@ export default async function BlogPage({
               Saúde, fé e ciência em palavras
             </h1>
             <p className="text-lg text-[#aa8ec4]">
-              Reflexões médicas e pastorais sobre o cuidado integral da pessoa humana.
+              Reflexões pastorais e conteúdo sobre saúde para o cuidado integral da pessoa humana.
             </p>
           </div>
         </div>

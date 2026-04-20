@@ -33,8 +33,8 @@ const infoItems = [
   },
   {
     icon: "verified",
-    label: "Registro profissional",
-    value: `${siteConfig.doctor.crm} · ${siteConfig.doctor.rqe}`,
+    label: "Plataforma",
+    value: "Meditele Telemedicina — médicos qualificados",
     href: null,
   },
 ];

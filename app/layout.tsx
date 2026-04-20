@@ -23,14 +23,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Dr. David Lacerda — Telemedicina com Propósito",
-    template: "%s | Dr. David Lacerda",
+    default: "Santuário Clínico — Telemedicina com Propósito",
+    template: "%s | Santuário Clínico",
   },
   description:
-    "Unindo precisão médica e acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo.",
+    "Acesso a médicos online com acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo.",
   keywords: [
     "telemedicina",
-    "médico online",
+    "consulta médica online",
     "saúde mental",
     "clínica geral",
     "nutrição",
@@ -38,30 +38,30 @@ export const metadata: Metadata = {
     "David Lacerda",
     "Santuário Clínico",
   ],
-  authors: [{ name: "Dr. David Lacerda" }],
-  creator: "Dr. David Lacerda",
+  authors: [{ name: "Santuário Clínico" }],
+  creator: "Santuário Clínico",
   openGraph: {
     type: "website",
     locale: "pt_BR",
     url: BASE_URL,
-    siteName: "Dr. David Lacerda — Telemedicina",
-    title: "Dr. David Lacerda — Telemedicina com Propósito",
+    siteName: "Santuário Clínico — Telemedicina",
+    title: "Santuário Clínico — Telemedicina com Propósito",
     description:
-      "Unindo precisão médica e acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo.",
+      "Acesso a médicos online com acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo.",
     images: [
       {
         url: `${BASE_URL}/og-default.jpg`,
         width: 1200,
         height: 630,
-        alt: "Dr. David Lacerda — Telemedicina com Propósito",
+        alt: "Santuário Clínico — Telemedicina com Propósito",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. David Lacerda — Telemedicina com Propósito",
+    title: "Santuário Clínico — Telemedicina com Propósito",
     description:
-      "Unindo precisão médica e acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo.",
+      "Acesso a médicos online com acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo.",
     images: [`${BASE_URL}/og-default.jpg`],
   },
   robots: {
@@ -89,7 +89,7 @@ export default function RootLayout({
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="Dr. David Lacerda — Blog RSS"
+          title="Santuário Clínico — Blog RSS"
           href={`${BASE_URL}/feed.xml`}
         />
       </head>

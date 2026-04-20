@@ -5,7 +5,7 @@ import SpecialtyPage from "@/components/sections/SpecialtyPage";
 export const metadata: Metadata = buildMetadata({
   title: "Aconselhamento Espiritual",
   description:
-    "Sessões de aconselhamento espiritual pastoral com o Dr. David Lacerda — médico e pastor. Fé, cura interior e propósito de vida integrados ao cuidado da saúde.",
+    "Sessões de aconselhamento espiritual pastoral com o David Lacerda — pastor e fundador do Santuário Clínico. Fé, cura interior e propósito de vida com acolhimento real.",
   path: "/especialidades/aconselhamento-espiritual",
 });
 
@@ -18,7 +18,7 @@ export default function AconselhamentoEspiritualPage() {
       accentText="#d9bdff"
       tag="Fé · Cura Interior · Propósito"
       title="Aconselhamento Espiritual"
-      lead="Sessões pastorais dedicadas ao alinhamento da fé com o processo de cura, conduzidas por um médico que é também pastor — com a seriedade que o cuidado da alma merece."
+      lead="Sessões pastorais dedicadas ao alinhamento da fé com o processo de cura, conduzidas por David Lacerda — pastor ordenado e fundador do Santuário Clínico."
       aboutTitle="O cuidado que nenhum fármaco pode oferecer"
       about={[
         "O aconselhamento espiritual é uma das práticas mais antigas de cuidado humano — e uma das mais estudadas atualmente. A psiconeuroimunologia documenta com crescente rigor o impacto positivo da espiritualidade na saúde mental, na resiliência e até na resposta imune.",
@@ -58,7 +58,7 @@ export default function AconselhamentoEspiritualPage() {
           icon: "psychology",
           title: "Integração mente-espírito",
           description:
-            "Como médico, o Dr. David identifica quando questões espirituais e clínicas se entrelaçam, garantindo cuidado integral.",
+            "Como pastor, David identifica quando questões espirituais e de saúde se entrelaçam, orientando para o cuidado integral adequado.",
         },
         {
           icon: "assignment",
@@ -94,7 +94,7 @@ export default function AconselhamentoEspiritualPage() {
         },
         {
           q: "O que é dito na sessão fica em sigilo?",
-          a: "Sim. O sigilo pastoral é um princípio ético fundamental. As únicas exceções são situações de risco iminente de vida para o próprio paciente ou terceiros — e nesse caso, o Dr. David, como médico, tem obrigação legal de agir.",
+          a: "Sim. O sigilo pastoral é um princípio ético fundamental. As únicas exceções são situações de risco iminente de vida para o próprio paciente ou terceiros — e nesse caso, o encaminhamento para recursos de emergência é imediato.",
         },
         {
           q: "O aconselhamento espiritual tem alguma base científica?",

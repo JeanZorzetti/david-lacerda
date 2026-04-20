@@ -22,7 +22,7 @@ export default function ClinicaGeralPage() {
       aboutTitle="Medicina de família no século XXI"
       about={[
         "A clínica geral moderna vai muito além de tratar sintomas isolados. O médico de família acompanha o paciente ao longo do tempo, conhece sua história, seu contexto de vida e seus fatores de risco — e age preventivamente antes que as doenças se instalem.",
-        "O Dr. David Lacerda pratica a medicina centrada na pessoa: cada consulta considera não apenas os achados clínicos, mas também o estilo de vida, o suporte social, os hábitos alimentares e a dimensão espiritual do paciente.",
+        "O Santuário Clínico conecta você a médicos que praticam a medicina centrada na pessoa: cada consulta considera não apenas os achados clínicos, mas também o estilo de vida, o suporte social, os hábitos alimentares e a dimensão espiritual do paciente.",
         "Com a telemedicina, é possível oferecer esse acompanhamento longitudinal para pacientes em todo o Brasil, com a mesma qualidade de uma consulta presencial para as condições que se beneficiam do formato digital.",
       ]}
       whenItems={[
@@ -88,18 +88,18 @@ export default function ClinicaGeralPage() {
       faq={[
         {
           q: "Posso renovar minha receita de uso contínuo por telemedicina?",
-          a: "Sim. Para medicamentos de uso contínuo já prescritos por outro médico, o Dr. David realiza avaliação clínica e, se indicado, emite nova receita digital. Medicamentos controlados requerem avaliação presencial inicial conforme CFM.",
+          a: "Sim. Para medicamentos de uso contínuo já prescritos por outro médico, o médico parceiro realiza avaliação clínica e, se indicado, emite nova receita digital. Medicamentos controlados requerem avaliação presencial inicial conforme CFM.",
         },
         {
-          q: "O Dr. David consegue interpretar exames que já realizei?",
-          a: "Sim. Você pode enviar seus exames por e-mail antes da consulta e o Dr. David fará a interpretação integrada ao seu histórico clínico.",
+          q: "O médico consegue interpretar exames que já realizei?",
+          a: "Sim. Você pode enviar seus exames por e-mail antes da consulta e o médico fará a interpretação integrada ao seu histórico clínico.",
         },
         {
           q: "Consigo atestado médico por telemedicina?",
           a: "Sim, quando a condição for passível de avaliação online e justificar o afastamento. O atestado digital tem validade legal equivalente ao físico.",
         },
         {
-          q: "O que acontece se o Dr. David identificar algo que precise de exame presencial?",
+          q: "O que acontece se o médico identificar algo que precise de exame presencial?",
           a: "Ele orientará sobre o exame necessário, fornecerá solicitação formal e, se necessário, encaminhamento para especialista presencial com carta detalhada.",
         },
         {

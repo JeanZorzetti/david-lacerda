@@ -25,12 +25,12 @@ export function GET() {
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title><![CDATA[${siteConfig.name} — Blog]]></title>
-    <description><![CDATA[Artigos sobre saúde mental, medicina integrativa, devocionais e bem-estar pelo Dr. David Lacerda.]]></description>
+    <description><![CDATA[Artigos sobre saúde, devocionais e bem-estar pelo Santuário Clínico — fundado pelo pastor David Lacerda.]]></description>
     <link>${baseUrl}/blog</link>
     <atom:link href="${baseUrl}/feed.xml" rel="self" type="application/rss+xml"/>
     <language>pt-BR</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-    <managingEditor>contato@davidlacerda.com.br (${siteConfig.doctor.name ?? "Dr. David Lacerda"})</managingEditor>
+    <managingEditor>contato@davidlacerda.com.br (${siteConfig.founder.name ?? "David Lacerda"})</managingEditor>
     ${items}
   </channel>
 </rss>`;

@@ -26,7 +26,7 @@ function layout(content: string): string {
         <tr>
           <td style="background:${brand.primary};padding:28px 32px;border-radius:12px 12px 0 0;text-align:center;">
             <p style="margin:0;color:${brand.light};font-size:12px;letter-spacing:0.1em;text-transform:uppercase;">Santuário Clínico</p>
-            <p style="margin:4px 0 0;color:#fff;font-size:11px;">${siteConfig.doctor.crm} · ${siteConfig.doctor.rqe}</p>
+            <p style="margin:4px 0 0;color:#fff;font-size:11px;">Parceiro Meditele · Telemedicina com Propósito</p>
           </td>
         </tr>
         <!-- Body -->

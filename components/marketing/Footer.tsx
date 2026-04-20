@@ -51,13 +51,12 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-sm text-[#7c757e] leading-relaxed max-w-xs mb-6">
-              Medicina de excelência e acolhimento espiritual para o seu bem-estar completo.
+              Acesso a médicos online com acolhimento espiritual para o seu bem-estar completo.
               Atendimento 100% online para todo o Brasil.
             </p>
-            {/* Credentials */}
             <div className="space-y-1 text-xs text-[#7c757e]">
-              <p>{siteConfig.doctor.crm}</p>
-              <p>{siteConfig.doctor.rqe}</p>
+              <p>Fundado por David Lacerda — Pastor</p>
+              <p>Parceiro Meditele Telemedicina</p>
             </div>
           </div>
 
@@ -110,11 +109,11 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-[#7c757e] text-center md:text-left">
-            © {year} {siteConfig.name} — Santuário Clínico. Todos os direitos reservados.
+            © {year} Santuário Clínico. Todos os direitos reservados.
           </p>
           <p className="text-xs text-[#7c757e] text-center md:text-right max-w-md">
-            O aconselhamento espiritual não substitui diagnóstico médico profissional.
-            Publicidade médica em conformidade com a Res. CFM 1.974/2011.
+            As consultas são realizadas por médicos parceiros via plataforma Meditele.
+            O Santuário Clínico não presta serviços médicos diretamente.
           </p>
         </div>
       </div>

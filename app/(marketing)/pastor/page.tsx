@@ -2,50 +2,50 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { buildMetadata, siteConfig } from "@/lib/seo";
-import { schemaPhysician, schemaBreadcrumb } from "@/lib/schema";
+import { schemaFounder, schemaBreadcrumb } from "@/lib/schema";
 
 export const metadata: Metadata = buildMetadata({
   title: "O Pastor",
   description:
-    "Conheça o Dr. David Lacerda — médico, pastor e fundador do Santuário Clínico. Uma história de vocação dupla: curar corpos e nutrir almas.",
+    "Conheça David Lacerda — pastor e fundador do Santuário Clínico. Uma história de vocação: levar acesso à saúde com acolhimento espiritual.",
   path: "/pastor",
 });
 
 const timeline = [
   {
-    year: "2008",
-    icon: "school",
-    title: "Medicina — UFMA",
-    description:
-      "Formação médica com ênfase em clínica geral e saúde mental. Residência em psiquiatria e medicina de família.",
-  },
-  {
-    year: "2012",
+    year: "2010",
     icon: "auto_stories",
     title: "Teologia — Seminário Betel",
     description:
       "Formação teológica e ordenação pastoral. Aprofundamento em aconselhamento bíblico e cuidado espiritual.",
   },
   {
-    year: "2016",
-    icon: "volunteer_activism",
-    title: "Missões Médicas",
+    year: "2014",
+    icon: "church",
+    title: "Ministério Pastoral",
     description:
-      "Atuação em comunidades carentes do Maranhão e Pará. Medicina comunitária aliada ao ministério pastoral.",
+      "Início do ministério pastoral ativo na Comunidade Vida em Cristo — São Luís, MA. Grupos de apoio emocional e espiritual.",
+  },
+  {
+    year: "2018",
+    icon: "volunteer_activism",
+    title: "Missões e Comunidade",
+    description:
+      "Atuação em comunidades carentes do Maranhão e Pará. Ministério pastoral aliado à mobilização de acesso à saúde.",
   },
   {
     year: "2020",
     icon: "local_hospital",
     title: "Fundação do Santuário Clínico",
     description:
-      "Criação da clínica de telemedicina com DNA espiritual — o primeiro espaço de cuidado integral online do Brasil.",
+      "Criação da plataforma de telemedicina com DNA espiritual — facilitando o acesso a médicos com acolhimento pastoral.",
   },
   {
     year: "2024",
     icon: "public",
     title: "Expansão Nacional",
     description:
-      "Atendimento a pacientes em todos os estados brasileiros via telemedicina. +1.200 consultas realizadas.",
+      "Pacientes de todos os estados brasileiros acessando médicos pelo Santuário Clínico. Comunidade crescendo.",
   },
 ];
 
@@ -73,7 +73,7 @@ const ministerio = [
 ];
 
 export default function PastorPage() {
-  const jsonLdPhysician = schemaPhysician();
+  const jsonLdFounder = schemaFounder();
   const jsonLdBreadcrumb = schemaBreadcrumb([
     { name: "Home", url: siteConfig.url },
     { name: "O Pastor", url: `${siteConfig.url}/pastor` },
@@ -83,7 +83,7 @@ export default function PastorPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdPhysician) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFounder) }}
       />
       <script
         type="application/ld+json"
@@ -111,20 +111,20 @@ export default function PastorPage() {
             </nav>
 
             <span className="inline-block py-1 px-3 rounded-full bg-[#e7e8e9] text-[#4a454e] text-xs uppercase tracking-[0.05em] mb-6">
-              Médico & Pastor
+              Pastor & Fundador
             </span>
             <h1
               className="text-4xl md:text-5xl lg:text-[3rem] font-extrabold leading-[1.1] tracking-[-0.02em] text-[#28113e] mb-6"
               style={{ fontFamily: "var(--font-headline)" }}
             >
-              Uma vocação dupla:{" "}
+              Um propósito:{" "}
               <br className="hidden md:block" />
-              curar corpos,{" "}
+              levar cuidado{" "}
               <br className="hidden md:block" />
-              nutrir almas.
+              e fé juntos.
             </h1>
             <p className="text-lg md:text-xl text-[#4a454e] mb-10 max-w-xl">
-              O Dr. David Lacerda acredita que medicina e fé não são opostos — são dois
+              David Lacerda acredita que acesso à saúde e fé não são opostos — são dois
               instrumentos do mesmo Criador para o cuidado integral do ser humano.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -151,14 +151,14 @@ export default function PastorPage() {
             >
               <Image
                 src="/david-real.jpg"
-                alt="Dr. David Lacerda sorrindo em ambiente clínico com jaleco branco"
+                alt="David Lacerda, pastor e fundador do Santuário Clínico"
                 fill
                 className="object-cover"
                 priority
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
-            {/* Badge CRM */}
+            {/* Badge Fundador */}
             <div className="absolute -bottom-6 -left-6 md:bottom-8 md:-left-12 bg-white/80 backdrop-blur-xl p-5 rounded-2xl shadow-[0_20px_40px_rgb(0,0,0,0.08)] z-20 flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-[#d9bdff] flex items-center justify-center text-[#604982]">
                 <span className="material-symbols-outlined text-lg" style={{ fontVariationSettings: "'FILL' 1" }}>
@@ -167,9 +167,9 @@ export default function PastorPage() {
               </div>
               <div>
                 <p className="font-bold text-[#28113e] text-sm leading-tight" style={{ fontFamily: "var(--font-headline)" }}>
-                  {siteConfig.doctor.crm}
+                  David Lacerda
                 </p>
-                <p className="text-xs text-[#4a454e]">{siteConfig.doctor.rqe}</p>
+                <p className="text-xs text-[#4a454e]">Pastor & Fundador</p>
               </div>
             </div>
           </div>
@@ -195,29 +195,28 @@ export default function PastorPage() {
 
             <div className="lg:col-span-8 space-y-6 text-lg text-[#4a454e] leading-relaxed">
               <p>
-                Nascido em São Luís do Maranhão, o Dr. David Lacerda cresceu vendo de perto as
-                lacunas do sistema de saúde: pacientes tratados como diagnósticos, não como pessoas.
-                Desde cedo, sentiu o chamado de unir dois mundos que a sociedade insiste em separar:
-                a precisão da ciência médica e a profundidade do cuidado espiritual.
+                Nascido em São Luís do Maranhão, David Lacerda cresceu vendo de perto as
+                lacunas do sistema de saúde: pessoas sem acesso a atendimento de qualidade,
+                tratadas como números em um sistema sobrecarregado. Desde cedo, sentiu o chamado
+                de ser ponte entre dois mundos: o cuidado espiritual e o acesso real à saúde.
               </p>
               <p>
-                Após se formar em medicina pela UFMA e completar residência em psiquiatria, buscou a
-                formação teológica no Seminário Betel — não para abandonar a medicina, mas para
-                torná-la mais humana. Foi durante os grupos de aconselhamento pastoral que percebeu
-                algo que os estudos confirmavam: saúde mental, fé e propósito de vida estão
-                profundamente interligados.
+                Ordenado pastor pelo Seminário Betel e atuante na Comunidade Vida em Cristo,
+                David percebeu durante os grupos de aconselhamento pastoral algo que a ciência
+                já confirmava: saúde mental, fé e propósito de vida estão profundamente
+                interligados. Não bastava cuidar da alma — era preciso abrir portas para o
+                cuidado do corpo também.
               </p>
               <p>
-                Em 2016, embarcou em missões médicas pelo interior do Pará e Maranhão, levando
-                atendimento básico e escuta ativa a comunidades sem acesso. Essa experiência moldou
-                sua convicção: a telemedicina poderia democratizar o cuidado de qualidade sem abrir
-                mão da dimensão humana.
+                Após anos de ministério pastoral e atuação em comunidades carentes do Maranhão,
+                David encontrou na telemedicina a ferramenta que precisava: conectar pessoas a
+                médicos qualificados, de qualquer lugar do Brasil, sem burocracia nem deslocamento.
               </p>
               <p>
                 Em 2020, fundou o <strong className="text-[#28113e]">Santuário Clínico</strong> —
-                um espaço online onde medicina de excelência e acolhimento espiritual coexistem.
-                Hoje, atende pacientes em todo o Brasil, sendo referência em saúde mental integrativa
-                e nutrição terapêutica com base em evidências.
+                uma plataforma onde acesso a médicos online e acolhimento espiritual coexistem.
+                Hoje, sua comunidade em todo o Brasil agenda consultas com médicos especializados
+                pelo portal, com a segurança de um ambiente criado por alguém que cuida da alma.
               </p>
             </div>
           </div>
@@ -303,9 +302,9 @@ export default function PastorPage() {
                 Além do consultório: o chamado pastoral
               </h2>
               <p className="text-lg text-[#4a454e] leading-relaxed">
-                O Dr. David é, antes de tudo, um servo. Seu ministério pastoral não é uma
-                atividade paralela à medicina — é a âncora que dá sentido a cada consulta,
-                a cada diagnóstico, a cada vida cuidada.
+                David é, antes de tudo, um servo. Seu ministério pastoral não é uma
+                atividade paralela ao Santuário Clínico — é a âncora que dá sentido a cada
+                conexão, a cada paciente acolhido, a cada vida cuidada.
               </p>
             </div>
 
@@ -349,7 +348,7 @@ export default function PastorPage() {
             um desses aspectos é como tentar acender uma vela pela metade. Minha missão é
             iluminar o ser humano completo.&rdquo;
           </blockquote>
-          <p className="text-[#aa8ec4] mb-10 text-lg">— Dr. David Lacerda, médico e pastor</p>
+          <p className="text-[#aa8ec4] mb-10 text-lg">— David Lacerda, pastor e fundador do Santuário Clínico</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/blog"

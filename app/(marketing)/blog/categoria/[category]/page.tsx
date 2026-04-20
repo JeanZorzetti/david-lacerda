@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   if (!label) return {};
   return buildMetadata({
     title: `Blog — ${label}`,
-    description: `Artigos sobre ${label} pelo Dr. David Lacerda — saúde integral com perspectiva médica e espiritual.`,
+    description: `Artigos sobre ${label} pelo Santuário Clínico — saúde integral com perspectiva espiritual e acesso a médicos qualificados.`,
     path: `/blog/categoria/${category}`,
   });
 }

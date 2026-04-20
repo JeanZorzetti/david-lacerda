@@ -22,7 +22,7 @@ export default function NutricaoPage() {
       aboutTitle="Comer bem é um ato de cuidado com o ser que você é"
       about={[
         "A nutrição clínica moderna vai muito além de contar calorias. Ela investiga a relação do paciente com o alimento, identifica deficiências nutricionais, trata condições metabólicas e constrói estratégias alimentares que cabem na vida real da pessoa.",
-        "O Dr. David Lacerda aborda a nutrição como parte do cuidado integral: o que comemos afeta não apenas o peso corporal, mas o humor, a disposição, a imunidade, a saúde mental e até a espiritualidade — afinal, a Bíblia fala do corpo como templo do Espírito Santo.",
+        "Os médicos do Santuário Clínico abordam a nutrição como parte do cuidado integral: o que comemos afeta não apenas o peso corporal, mas o humor, a disposição, a imunidade, a saúde mental e até a espiritualidade — afinal, a Bíblia fala do corpo como templo do Espírito Santo.",
         "O plano é construído junto com o paciente, respeitando preferências, cultura alimentar, rotina e condições de vida. Sem fórmulas genéricas. Sem proibições absolutas. Com foco em sustentabilidade e bem-estar duradouro.",
       ]}
       whenItems={[
@@ -91,12 +91,12 @@ export default function NutricaoPage() {
           a: "Sim. Estudos demonstram que o acompanhamento nutricional remoto alcança resultados comparáveis ao presencial para a maioria dos objetivos. A única limitação é a impossibilidade de realizar bioimpedância ou medidas antropométricas — que podem ser feitas em farmácias ou academias e enviadas para análise.",
         },
         {
-          q: "O Dr. David prescreve suplementos alimentares?",
+          q: "O médico prescreve suplementos alimentares?",
           a: "Quando há indicação clínica e/ou laboratorial, sim. A prescrição de suplementos e fitoterápicos é feita com base em evidências, evitando gastos desnecessários.",
         },
         {
           q: "Preciso fazer exames antes da consulta?",
-          a: "Não obrigatoriamente, mas hemograma completo, glicemia de jejum, perfil lipídico, TSH e vitamina D ajudam muito na personalização do plano. Se não tiver exames recentes, o Dr. David pode solicitá-los na própria consulta.",
+          a: "Não obrigatoriamente, mas hemograma completo, glicemia de jejum, perfil lipídico, TSH e vitamina D ajudam muito na personalização do plano. Se não tiver exames recentes, o médico pode solicitá-los na própria consulta.",
         },
         {
           q: "O plano alimentar considera minhas restrições religiosas ou culturais?",
@@ -104,7 +104,7 @@ export default function NutricaoPage() {
         },
         {
           q: "Com que frequência devo retornar?",
-          a: "Para emagrecimento, recomendamos retornos a cada 30-45 dias. Para ajuste metabólico ou doenças crônicas, a frequência varia conforme evolução. O Dr. David estabelecerá um plano de acompanhamento na primeira consulta.",
+          a: "Para emagrecimento, recomendamos retornos a cada 30-45 dias. Para ajuste metabólico ou doenças crônicas, a frequência varia conforme evolução. O médico estabelecerá um plano de acompanhamento na primeira consulta.",
         },
       ]}
       ctaText="Agendar Consulta de Nutrição"

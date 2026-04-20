@@ -35,8 +35,8 @@ export default function Hero() {
             variants={fadeInUp}
             className="text-lg md:text-xl text-[#4a454e] mb-10 max-w-xl"
           >
-            Unindo precisão médica e acolhimento espiritual, O Santuário Clínico
-            oferece telemedicina de excelência para o seu bem-estar completo.
+            O Santuário Clínico conecta você a médicos qualificados online,
+            com o acolhimento espiritual de quem cuida da alma e do corpo.
           </motion.p>
           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -69,7 +69,7 @@ export default function Hero() {
           >
             <Image
               src="/david-real.jpg"
-              alt="David Lacerda sorrindo em ambiente clínico com jaleco branco e estetoscópio"
+              alt="David Lacerda, pastor e fundador do Santuário Clínico"
               fill
               className="object-cover"
               priority
