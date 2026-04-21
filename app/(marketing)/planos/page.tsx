@@ -83,10 +83,10 @@ const programasEspeciais = [
     nome: "NR-1 — Saúde Mental Corporativa",
     descricao: "Conformidade com a NR-1 do MTE para empresas de qualquer porte. Suporte psicológico, clínico e psiquiátrico via telemedicina para colaboradores.",
     planos: [
-      { label: "Pacote 1 Quinzenal", detalhe: "1 Clínico + 2 Psicólogos/mês", preco: "R$ 302,17", unidade: "colab/mês" },
-      { label: "Pacote 1 Semanal", detalhe: "1 Clínico + 4 Psicólogos/mês", preco: "R$ 488,12", unidade: "colab/mês" },
-      { label: "Pacote 2 Quinzenal", detalhe: "1 Psiquiatra + 2 Psicólogos/mês", preco: "R$ 454,58", unidade: "colab/mês" },
-      { label: "Pacote 2 Semanal", detalhe: "1 Psiquiatra + 4 Psicólogos/mês", preco: "R$ 640,54", unidade: "colab/mês" },
+      { label: "Pacote 1 Quinzenal", detalhe: "1 Clínico + 2 Psicólogos/mês" },
+      { label: "Pacote 1 Semanal", detalhe: "1 Clínico + 4 Psicólogos/mês" },
+      { label: "Pacote 2 Quinzenal", detalhe: "1 Psiquiatra + 2 Psicólogos/mês" },
+      { label: "Pacote 2 Semanal", detalhe: "1 Psiquiatra + 4 Psicólogos/mês" },
     ],
     cta: "Solicitar Proposta",
     href: "/empresas",
@@ -98,9 +98,9 @@ const programasEspeciais = [
     nome: "Programa Mounjaro — Emagrecimento Clínico",
     descricao: "Tratamento multidisciplinar com Tirzepatida — médico, nutricionista e psicólogo. O valor do medicamento não está incluso.",
     planos: [
-      { label: "Programa 2 meses", detalhe: "2 consultas médicas + 2 nutrição + 2 psicologia", preco: "R$ 1.558,96", unidade: "por paciente" },
-      { label: "Programa 4 meses ⭐", detalhe: "4 consultas médicas + 4 nutrição + 4 psicologia", preco: "R$ 3.117,92", unidade: "por paciente" },
-      { label: "Programa 6 meses", detalhe: "6 consultas médicas + 6 nutrição + 6 psicologia", preco: "R$ 4.676,88", unidade: "por paciente" },
+      { label: "Programa 2 meses", detalhe: "2 consultas médicas + 2 nutrição + 2 psicologia" },
+      { label: "Programa 4 meses ⭐", detalhe: "4 consultas médicas + 4 nutrição + 4 psicologia" },
+      { label: "Programa 6 meses", detalhe: "6 consultas médicas + 6 nutrição + 6 psicologia" },
     ],
     cta: "Saber Mais",
     href: "/contato",
@@ -112,9 +112,9 @@ const programasEspeciais = [
     nome: "Projeto TEA — Acompanhamento Multidisciplinar",
     descricao: "Avaliação e acompanhamento especializado para crianças com TEA — Psiquiatria Pediátrica, Psicologia, Fonoaudiologia e Fisioterapia, 100% online.",
     planos: [
-      { label: "Plano Mensal (manutenção)", detalhe: "5 atendimentos/mês com equipe completa", preco: "R$ 1.939,60", unidade: "paciente/mês" },
-      { label: "Plano Quinzenal ⭐", detalhe: "8 atendimentos/mês com equipe completa", preco: "R$ 2.849,60", unidade: "paciente/mês" },
-      { label: "Plano Semanal (intensivo)", detalhe: "14 atendimentos/mês com equipe completa", preco: "R$ 4.669,60", unidade: "paciente/mês" },
+      { label: "Plano Mensal (manutenção)", detalhe: "5 atendimentos/mês com equipe completa" },
+      { label: "Plano Quinzenal ⭐", detalhe: "8 atendimentos/mês com equipe completa" },
+      { label: "Plano Semanal (intensivo)", detalhe: "14 atendimentos/mês com equipe completa" },
     ],
     cta: "Saber Mais",
     href: "/contato",
@@ -281,7 +281,7 @@ export default function PlanosPage() {
             ))}
           </div>
           <p className="text-center text-xs text-[#7c757e] mt-6">
-            Plano Empresarial disponível a partir de R$ 27,00/vida/mês ·{" "}
+            Plano Empresarial disponível para equipes ·{" "}
             <Link href="/empresas" className="underline hover:text-[#28113e]">Solicitar proposta corporativa</Link>
           </p>
         </div>
@@ -354,8 +354,6 @@ export default function PlanosPage() {
                     <div key={p.label} className="bg-white rounded-2xl p-4 flex flex-col gap-1">
                       <span className="text-xs font-bold text-[#28113e]" style={{ fontFamily: "var(--font-headline)" }}>{p.label}</span>
                       <span className="text-xs text-[#6b538d]">{p.detalhe}</span>
-                      <span className="text-lg font-extrabold text-[#28113e] mt-1" style={{ fontFamily: "var(--font-headline)" }}>{p.preco}</span>
-                      <span className="text-xs text-[#7c757e]">{p.unidade}</span>
                     </div>
                   ))}
                 </div>
