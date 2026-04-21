@@ -26,7 +26,7 @@ function layout(content: string): string {
         <tr>
           <td style="background:${brand.primary};padding:28px 32px;border-radius:12px 12px 0 0;text-align:center;">
             <p style="margin:0;color:${brand.light};font-size:12px;letter-spacing:0.1em;text-transform:uppercase;">Santuário Clínico</p>
-            <p style="margin:4px 0 0;color:#fff;font-size:11px;">Parceiro Meditele · Telemedicina com Propósito</p>
+            <p style="margin:4px 0 0;color:#fff;font-size:11px;">Telemedicina com Propósito</p>
           </td>
         </tr>
         <!-- Body -->
@@ -69,7 +69,7 @@ export function emailConfirmacaoAgendamento(p: ConfirmacaoAgendamentoParams): st
     </h1>
     <p style="margin:0 0 24px;color:${brand.text};">
       Olá, <strong>${p.nome}</strong>! Recebemos sua solicitação de consulta de
-      <strong>${p.especialidade}</strong>. Seu link de acesso ao portal Meditele está pronto.
+      <strong>${p.especialidade}</strong>. Seu link de acesso ao portal de consulta está pronto.
     </p>
 
     <!-- CTA principal -->
@@ -168,7 +168,7 @@ export function emailNotificacaoInterna(p: NotificacaoInternaParams): string {
     ["Data de nascimento", p.dataNascimento],
     ["Gênero", generoLabel[p.genero] ?? p.genero],
     ["Especialidade solicitada", p.especialidade],
-    ["ID Meditele", p.meditelePatientId],
+    ["ID Paciente", p.meditelePatientId],
   ];
 
   const body = `
@@ -206,7 +206,7 @@ export function emailNotificacaoInterna(p: NotificacaoInternaParams): string {
 
     <a href="${BASE}/paciente"
        style="display:inline-block;background:${brand.primary};color:#fff;padding:12px 24px;border-radius:9999px;font-weight:700;text-decoration:none;font-size:13px;">
-      Acessar Portal Meditele
+      Acessar Portal de Consulta
     </a>
   `;
   return layout(body);

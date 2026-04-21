@@ -85,7 +85,7 @@ export default function PrivacidadePage() {
             </div>
             <div className="bg-[#f3f4f5] rounded-xl p-4">
               <p className="font-semibold text-[#28113e] text-sm mb-1">Dados de saúde (dados sensíveis)</p>
-              <p className="text-sm text-[#4a454e]">Informações de saúde fornecidas durante o agendamento e especialidade solicitada. Diagnósticos, prescrições e atestados são gerados pelo médico parceiro na plataforma Meditele.</p>
+              <p className="text-sm text-[#4a454e]">Informações de saúde fornecidas durante o agendamento e especialidade solicitada. Diagnósticos, prescrições e atestados são gerados pelo médico parceiro na plataforma de atendimento.</p>
             </div>
             <div className="bg-[#f3f4f5] rounded-xl p-4">
               <p className="font-semibold text-[#28113e] text-sm mb-1">Dados de uso e navegação</p>
@@ -104,8 +104,8 @@ export default function PrivacidadePage() {
           </h2>
           <p className="text-[#191c1d] leading-relaxed mb-3">Seus dados são utilizados para:</p>
           <ul className="list-disc list-inside space-y-2 text-[#191c1d] text-sm">
-            <li>Facilitar o acesso a consultas médicas de telemedicina via plataforma Meditele</li>
-            <li>Criação e gestão de cadastro no portal Meditele</li>
+            <li>Facilitar o acesso a consultas médicas de telemedicina com médicos parceiros credenciados</li>
+            <li>Criação e gestão de cadastro no portal de atendimento</li>
             <li>Envio de link de acesso à plataforma de atendimento</li>
             <li>Comunicação sobre agendamentos, confirmações e lembretes</li>
             <li>Emissão de receitas digitais, atestados e pedidos de exame</li>
@@ -143,7 +143,7 @@ export default function PrivacidadePage() {
           </p>
           <div className="space-y-3">
             {[
-              { nome: "Meditele (plataforma de telemedicina)", motivo: "Criação de cadastro, geração de magic link e realização da videoconsulta.", politica: "gateway.meditele.com.br" },
+              { nome: "Plataforma de telemedicina parceira", motivo: "Criação de cadastro, geração de link de acesso e realização da videoconsulta.", politica: null },
               { nome: "Resend (serviço de e-mail transacional)", motivo: "Envio de confirmações de agendamento e links de acesso.", politica: "resend.com" },
               { nome: "Vercel Analytics (analytics de navegação)", motivo: "Métricas anonimizadas de uso do site (apenas com consentimento).", politica: "vercel.com/analytics" },
             ].map((p) => (
@@ -212,7 +212,7 @@ export default function PrivacidadePage() {
           <p className="text-[#191c1d] leading-relaxed mb-3">Adotamos as seguintes medidas técnicas e organizacionais:</p>
           <ul className="list-disc list-inside space-y-2 text-sm text-[#191c1d]">
             <li>Transmissão por HTTPS/TLS em todas as comunicações</li>
-            <li>Videoconsultas com criptografia de ponta a ponta (plataforma Meditele)</li>
+            <li>Videoconsultas com criptografia de ponta a ponta</li>
             <li>Controle de acesso restrito aos dados de saúde</li>
             <li>Magic links de acesso com expiração (72h para agendamento, 4h para portal)</li>
             <li>Rate limiting nas APIs para prevenção de ataques de força bruta</li>

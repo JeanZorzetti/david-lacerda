@@ -67,10 +67,10 @@ const time = [
     href: "/especialidades",
   },
   {
-    nome: "Meditele",
-    cargo: "Parceiro Tecnológico",
+    nome: "Plataforma de Telemedicina",
+    cargo: "Infraestrutura Tecnológica",
     descricao:
-      "A plataforma Meditele fornece a infraestrutura de agendamento, videoconsulta e prontuário eletrônico. As consultas médicas são realizadas por médicos parceiros via Meditele.",
+      "A infraestrutura de agendamento, videoconsulta e prontuário eletrônico é fornecida por parceiro tecnológico certificado, regulamentado pelo CFM. As consultas são realizadas por médicos parceiros credenciados.",
     icon: "devices",
     href: "/telemedicina",
   },
@@ -147,7 +147,7 @@ export default function SobrePage() {
               A visão que deu origem ao Santuário Clínico é que o cuidado mais eficaz é aquele que considera o ser humano inteiro — não apenas o sintoma. Uma plataforma de telemedicina que, além de conectar pacientes a médicos competentes, seja permeada por acolhimento, compaixão e respeito pela fé e pela história de cada pessoa.
             </p>
             <p>
-              Em parceria com a Meditele, plataforma de telemedicina regulamentada pelo CFM, o Santuário Clínico tornou isso possível: consultas com especialistas certificados, do celular, sem sair de casa, com receita digital válida em todo o Brasil — e com o diferencial único de uma organização fundada sobre valores cristãos de serviço e dignidade humana.
+              Com infraestrutura de telemedicina regulamentada pelo CFM, o Santuário Clínico tornou isso possível: consultas com especialistas certificados, do celular, sem sair de casa, com receita digital válida em todo o Brasil — e com o diferencial único de uma organização fundada sobre valores cristãos de serviço e dignidade humana.
             </p>
             <p>
               Hoje, atendemos pacientes em todo o Brasil, em mais de 30 especialidades. Mas o que não mudou desde o primeiro dia é o propósito: cuidar bem, cuidar de verdade, cuidar do ser humano inteiro.

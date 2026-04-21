@@ -51,7 +51,7 @@ export default function PacientePage() {
               </h1>
               <p className="text-[#4a454e] mb-8 leading-relaxed">
                 Informe o CPF ou e-mail cadastrado e receba um link direto de acesso ao
-                portal Meditele — sem precisar criar senha.
+                portal de consulta — sem precisar criar senha.
               </p>
 
               <div className="space-y-4">

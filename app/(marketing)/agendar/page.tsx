@@ -15,7 +15,7 @@ export const metadata: Metadata = buildMetadata({
 const steps = [
   { icon: "edit_note", label: "Preencha o formulário", description: "Dados básicos + especialidade desejada" },
   { icon: "mark_email_read", label: "Receba o link por e-mail", description: "Link de acesso válido por 72 horas" },
-  { icon: "video_call", label: "Acesse o portal Meditele", description: "Entre na plataforma sem precisar de senha" },
+  { icon: "video_call", label: "Acesse o portal de consulta", description: "Entre na plataforma sem precisar de senha" },
   { icon: "medical_services", label: "Realize sua consulta", description: "Receita e documentos entregues por e-mail" },
 ];
 
@@ -203,7 +203,7 @@ export default function AgendarPage() {
 
             {/* Credentials footer */}
             <p className="text-xs text-[#7c757e] text-center">
-              Consultas realizadas por médicos parceiros via Meditele
+              Consultas realizadas por médicos parceiros credenciados
               <br />
               Telemedicina regulamentada pelo CFM
             </p>

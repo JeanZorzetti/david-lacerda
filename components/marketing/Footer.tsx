@@ -60,7 +60,7 @@ export default function Footer() {
             </p>
             <div className="space-y-1 text-xs text-[#7c757e]">
               <p>Fundado por David Lacerda — Pastor</p>
-              <p>Parceiro Meditele Telemedicina</p>
+              <p>Telemedicina regulamentada pelo CFM</p>
             </div>
           </div>
 
@@ -116,7 +116,7 @@ export default function Footer() {
             © {year} Santuário Clínico. Todos os direitos reservados.
           </p>
           <p className="text-xs text-[#7c757e] text-center md:text-right max-w-md">
-            As consultas são realizadas por médicos parceiros via plataforma Meditele.
+            As consultas são realizadas por médicos parceiros credenciados.
             O Santuário Clínico não presta serviços médicos diretamente.
           </p>
         </div>

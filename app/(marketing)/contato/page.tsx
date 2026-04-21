@@ -34,7 +34,7 @@ const infoItems = [
   {
     icon: "verified",
     label: "Plataforma",
-    value: "Meditele Telemedicina — médicos qualificados",
+    value: "Telemedicina — médicos qualificados e credenciados",
     href: null,
   },
 ];

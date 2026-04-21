@@ -72,7 +72,7 @@ export default function TermosPage() {
             content: (
               <>
                 <p className="text-[#191c1d] leading-relaxed mb-3">
-                  O Santuário Clínico facilita o acesso a consultas médicas de telemedicina realizadas por médicos parceiros via plataforma Meditele, nas modalidades de:
+                  O Santuário Clínico facilita o acesso a consultas médicas de telemedicina realizadas por médicos parceiros credenciados, nas modalidades de:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-sm text-[#191c1d] mb-3">
                   <li>Saúde Mental e Emocional (acompanhamento psiquiátrico)</li>

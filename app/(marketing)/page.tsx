@@ -67,7 +67,7 @@ export default function Home() {
             {[
               { step: "01", icon: "edit_note", title: "Preencha o formulário", desc: "Nome, CPF, e-mail e especialidade desejada — leva menos de 2 minutos." },
               { step: "02", icon: "mark_email_read", title: "Receba o link", desc: "Um link de acesso chega ao seu e-mail em instantes. Válido por 72h." },
-              { step: "03", icon: "video_call", title: "Entre na consulta", desc: "Acesse o portal Meditele sem precisar criar senha ou instalar nada." },
+              { step: "03", icon: "video_call", title: "Entre na consulta", desc: "Acesse o portal de consulta sem precisar criar senha ou instalar nada." },
               { step: "04", icon: "receipt_long", title: "Receita por e-mail", desc: "Receita digital assinada, atestado e pedido de exame — tudo em minutos." },
             ].map((item, i) => (
               <Reveal key={item.step} delay={i * 0.08}>
