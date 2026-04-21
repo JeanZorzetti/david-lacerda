@@ -49,7 +49,7 @@ const atendemos = [
   "Renovação de receitas de uso contínuo",
   "Segunda opinião médica",
   "Orientações pré e pós-cirúrgicas",
-  "Aconselhamento espiritual e suporte emocional",
+  "Suporte emocional e escuta ativa",
 ];
 
 const naoAtendemos = [
@@ -86,7 +86,7 @@ const tecnologia = [
 const faq = [
   {
     q: "Qual é o valor das consultas?",
-    a: "Os valores variam por tipo de consulta e duração. Consulta clínica geral (30 min): R$ 180. Saúde mental (50 min): R$ 250. Aconselhamento espiritual (45 min): R$ 150. Consulte a agenda para valores atualizados.",
+    a: "Os valores variam por tipo de consulta e duração. Consulta clínica geral (30 min): R$ 180. Saúde mental (50 min): R$ 250. Consulte a agenda para valores atualizados.",
   },
   {
     q: "Aceita convênio ou plano de saúde?",

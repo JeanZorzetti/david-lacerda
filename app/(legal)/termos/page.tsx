@@ -78,7 +78,7 @@ export default function TermosPage() {
                   <li>Saúde Mental e Emocional (acompanhamento psiquiátrico)</li>
                   <li>Clínica Geral (condições agudas e crônicas)</li>
                   <li>Nutrição e Bem-Estar (orientação alimentar)</li>
-                  <li>Aconselhamento Espiritual (pastoral clínica)</li>
+                  <li>Telemedicina geral e suporte emocional integrado</li>
                 </ul>
                 <p className="text-sm text-[#4a454e]">
                   Os serviços são prestados em conformidade com a Resolução CFM nº 2.314/2022, que regulamenta a telemedicina no Brasil.

@@ -117,7 +117,7 @@ export default function Especialidades() {
           </div>
 
           {/* Card 4 — Horizontal highlight */}
-          <div className="md:col-span-2 bg-gradient-to-r from-[#28113e] to-[#3e2755] rounded-[1.5rem] p-8 md:p-10 text-white flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden">
+          <a href="/telemedicina" className="md:col-span-2 bg-gradient-to-r from-[#28113e] to-[#3e2755] rounded-[1.5rem] p-8 md:p-10 text-white flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden hover:opacity-95 transition-opacity">
             <div
               className="absolute inset-0 opacity-50"
               style={{
@@ -130,17 +130,16 @@ export default function Especialidades() {
                 className="text-2xl font-bold mb-2"
                 style={{ fontFamily: "var(--font-headline)" }}
               >
-                Aconselhamento Espiritual Integrado
+                Telemedicina — Consulta Online
               </h3>
               <p className="text-[#aa8ec4]">
-                Sessões dedicadas ao alinhamento da fé com o processo de cura,
-                guiadas pelos princípios da Palavra.
+                Consultas médicas 100% online, regulamentadas pelo CFM, com receita digital válida em todo o Brasil. Sem sair de casa.
               </p>
             </div>
-            <button className="relative z-10 whitespace-nowrap bg-white text-[#28113e] px-6 py-3 rounded-full font-medium uppercase tracking-wider hover:bg-[#f3f4f5] transition-colors w-full md:w-auto text-center">
-              Solicitar Sessão
-            </button>
-          </div>
+            <span className="relative z-10 whitespace-nowrap bg-white text-[#28113e] px-6 py-3 rounded-full font-medium uppercase tracking-wider hover:bg-[#f3f4f5] transition-colors w-full md:w-auto text-center">
+              Saiba Mais
+            </span>
+          </a>
         </div>
       </div>
     </section>

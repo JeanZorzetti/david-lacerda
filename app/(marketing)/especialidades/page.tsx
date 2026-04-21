@@ -6,7 +6,7 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Especialidades",
   description:
-    "Saúde Mental, Clínica Geral, Nutrição e Aconselhamento Espiritual. Conheça as especialidades do Santuário Clínico e agende sua consulta online.",
+    "Saúde Mental, Clínica Geral, Nutrição e Telemedicina. Conheça as especialidades do Santuário Clínico e agende sua consulta online.",
   path: "/especialidades",
 });
 
@@ -45,14 +45,14 @@ const especialidades = [
     featured: false,
   },
   {
-    slug: "aconselhamento-espiritual",
-    icon: "self_improvement",
+    slug: "telemedicina",
+    icon: "video_call",
     color: { bg: "#28113e", text: "#aa8ec4", cardAccent: "" },
     tagColor: { bg: "#28113e", text: "#d9bdff" },
-    title: "Aconselhamento Espiritual",
-    subtitle: "Fé · Cura interior · Propósito",
+    title: "Telemedicina",
+    subtitle: "Online · Seguro · CFM",
     description:
-      "Sessões dedicadas ao alinhamento da fé com o processo de cura, guiadas pelos princípios da Palavra.",
+      "Consultas médicas 100% online, regulamentadas pelo CFM, com receita digital válida em todo o Brasil. Sem sair de casa.",
     featured: false,
     dark: true,
   },
@@ -230,13 +230,13 @@ export default function EspecialidadesPage() {
               );
             })()}
 
-            {/* Card Aconselhamento Espiritual — dark, full width */}
+            {/* Card Telemedicina — dark, full width */}
             {(() => {
               const esp = especialidades[3];
               return (
                 <Link
                   key={esp.slug}
-                  href={`/especialidades/${esp.slug}`}
+                  href={`/telemedicina`}
                   className="md:col-span-2 bg-gradient-to-r from-[#28113e] to-[#3e2755] rounded-[1.5rem] p-8 md:p-10 text-white flex flex-col md:flex-row items-start md:items-center justify-between gap-8 relative overflow-hidden group hover:opacity-95 transition-opacity"
                   aria-label={`Ver ${esp.title}`}
                 >
@@ -261,7 +261,7 @@ export default function EspecialidadesPage() {
                     <p className="text-[#aa8ec4]">{esp.description}</p>
                   </div>
                   <div className="relative z-10 flex items-center gap-2 bg-white text-[#28113e] px-6 py-3 rounded-full font-medium uppercase tracking-wider text-sm whitespace-nowrap group-hover:bg-[#f3f4f5] transition-colors w-full md:w-auto justify-center">
-                    Solicitar Sessão
+                    Saiba Mais
                     <span className="material-symbols-outlined text-sm transition-transform group-hover:translate-x-1">arrow_forward</span>
                   </div>
                 </Link>

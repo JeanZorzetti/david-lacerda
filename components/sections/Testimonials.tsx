@@ -24,8 +24,8 @@ const testimonials = [
     id: 3,
     name: "Fernanda L.",
     location: "Belo Horizonte, MG",
-    specialty: "Aconselhamento Espiritual",
-    text: "Passei por um luto muito difícil e não sabia se precisava de um psicólogo, de um pastor, ou dos dois. O Santuário Clínico uniu as duas perspectivas de forma natural e respeitosa. Não impôs nada — apenas escutou e me ajudou a encontrar meu próprio caminho de cura.",
+    specialty: "Telemedicina",
+    text: "Passei por um luto muito difícil e não sabia a quem recorrer. O Santuário Clínico me conectou com um médico que tratou minha saúde emocional com sensibilidade e profissionalismo. Tudo pelo celular, sem sair de casa, com receita chegando por e-mail no mesmo dia.",
     initials: "FL",
   },
   {
@@ -41,7 +41,7 @@ const testimonials = [
 const categoryColors: Record<string, { bg: string; text: string }> = {
   "Saúde Mental": { bg: "bg-[#eddcff]", text: "text-[#523b74]" },
   "Clínica Geral": { bg: "bg-[#d9f3e8]", text: "text-[#1a5c3a]" },
-  "Aconselhamento Espiritual": { bg: "bg-[#fff3cd]", text: "text-[#7c5c00]" },
+  "Telemedicina": { bg: "bg-[#cce5ff]", text: "text-[#004085]" },
 };
 
 export function Testimonials() {
