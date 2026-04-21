@@ -62,10 +62,11 @@ export default function Navbar() {
           <Image
             src="/3.png"
             alt="David Lacerda Telemedicina"
-            width={400}
-            height={120}
+            width={2000}
+            height={624}
             className="object-contain"
             style={{ height: "48px", width: "auto" }}
+            unoptimized
             priority
           />
         </Link>
