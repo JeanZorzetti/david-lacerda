@@ -6,46 +6,130 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Protocolos Clínicos",
   description:
-    "Conheça os protocolos de atendimento, segurança e compliance do Santuário Clínico. Regulamentado pelo CFM, com criptografia ponta a ponta e conformidade LGPD.",
+    "Conheça os 5 protocolos do Santuário Clínico: Telemedicina 24/7, NR-1 Saúde Mental Corporativa, Emagrecimento Clínico com Tirzepatida, Acompanhamento TEA e Entrevista Qualificada.",
   path: "/protocolos",
 });
 
-const protocolosAtendimento = [
+const protocolos = [
   {
-    titulo: "Triagem e Elegibilidade",
+    numero: "01",
+    titulo: "Telemedicina Pro Life",
+    subtitulo: "Consultas ilimitadas · 24h/7 dias",
     descricao:
-      "Antes de cada consulta, o paciente é orientado sobre os casos adequados para telemedicina. Situações de emergência ou que exijam exame físico obrigatório são redirecionadas para atendimento presencial ou SAMU (192). A triagem protege o paciente e garante a qualidade do atendimento.",
-    icon: "filter_alt",
+      "Acesso contínuo a consultas médicas online com mais de 32 especialidades, via videochamada, 24 horas por dia, 7 dias por semana — incluindo fins de semana e feriados. Atendimento por fila de pronto-atendimento (PA) com tempo médio de espera de até 15 minutos, ou agendado para especialistas e multiprofissionais.",
+    detalhes: [
+      "Consultas ilimitadas com clínicos gerais no PA 24h",
+      "Mais de 32 especialidades disponíveis para agendamento",
+      "Emissão de receitas digitais com assinatura ICP-Brasil (medicamentos comuns, antibióticos e controlados)",
+      "Atestados e declarações médicas com validade legal",
+      "Encaminhamentos para especialistas e exames",
+      "Prontuário eletrônico com histórico completo",
+      "App próprio para agendamento e acesso às consultas",
+    ],
+    sla: [
+      { label: "Tempo de espera no PA 24h", valor: "Até 15 minutos" },
+      { label: "Uptime da plataforma", valor: "99,5% mensal" },
+      { label: "Envio de receita digital", valor: "Até 2h após consulta" },
+      { label: "Cancelamento de consulta", valor: "Mínimo 48h de antecedência" },
+    ],
+    icon: "video_call",
+    publico: "Pessoas físicas, famílias e empresas",
   },
   {
-    titulo: "Protocolo de Consulta",
+    numero: "02",
+    titulo: "Programa NR-1 Pro Life",
+    subtitulo: "Saúde Mental Corporativa · Conformidade Legal",
     descricao:
-      "Todas as consultas seguem estrutura padronizada: identificação do paciente, anamnese, avaliação clínica por videochamada, orientação terapêutica e documentação no prontuário eletrônico. Duração mínima conforme tipo: clínica geral (30 min), saúde mental (50 min).",
-    icon: "assignment",
+      "Programa estruturado para garantir conformidade legal com a NR-1 do MTE — que exige das empresas medidas de prevenção a riscos psicossociais no trabalho. Atendimento psicológico, clínico e psiquiátrico via telemedicina, com relatório mensal de conformidade anonimizado.",
+    detalhes: [
+      "Pacote 1 — Suporte Psicossocial Inicial: Clínico Geral + Psicólogo (2 ou 4 sessões/mês)",
+      "Pacote 2 — Suporte Especializado: Psiquiatra + Psicólogo (2 ou 4 sessões/mês)",
+      "Triagem por psicólogo para encaminhamento correto (Pacote 1 ou 2)",
+      "Plataforma exclusiva da empresa com link para o colaborador agendar de forma autônoma",
+      "Relatório mensal NR-1 anonimizado (LGPD) com CIDs e indicadores de utilização",
+      "Documentação para comprovação em fiscalizações do MTE",
+      "Implantação gratuita, sem taxa de setup",
+    ],
+    sla: [
+      { label: "Disponibilidade de agendamento", valor: "Até 48h úteis" },
+      { label: "Encaminhamento para psiquiatria", valor: "Até 7 dias após triagem" },
+      { label: "Relatório mensal NR-1", valor: "Até o 5º dia útil do mês" },
+      { label: "Resposta de suporte ao RH", valor: "Até 1 dia útil" },
+    ],
+    icon: "psychology",
+    publico: "Empresas de qualquer porte · RH e Gestão de Pessoas",
   },
   {
-    titulo: "Emissão de Receitas e Documentos",
+    numero: "03",
+    titulo: "Programa Mounjaro Pro Life",
+    subtitulo: "Emagrecimento Clínico · Tirzepatida · Multidisciplinar",
     descricao:
-      "Receitas são emitidas com assinatura eletrônica qualificada (ICP-Brasil), conforme Lei 13.787/2018 e Resolução CFF 677/2020. Medicamentos controlados seguem regulação específica da Anvisa. Atestados e encaminhamentos são emitidos quando clinicamente indicados, nunca por conveniência.",
-    icon: "description",
+      "Tratamento médico estruturado para emagrecimento sustentável com Tirzepatida (Mounjaro), com acompanhamento multidisciplinar completo: médico, nutricional e psicológico. Foco na mudança real de comportamento alimentar e prevenção do efeito rebote.",
+    detalhes: [
+      "Consulta inicial com Clínico Geral para avaliação e definição de dosagem",
+      "Emissão de receita médica digital com validade legal",
+      "Acompanhamento nutricional para reeducação alimentar e controle metabólico",
+      "Acompanhamento psicológico focado em comportamento alimentar e saúde emocional",
+      "Ajuste de dosagem e renovação de receita nas consultas de acompanhamento",
+      "Gestão de efeitos adversos e suporte clínico durante todo o tratamento",
+      "O valor do medicamento (Tirzepatida) não está incluso — adquirido separadamente pelo paciente",
+    ],
+    sla: [
+      { label: "Consulta inicial após cadastro", valor: "Até 48h" },
+      { label: "Emissão de receita", valor: "Até 2h após consulta" },
+      { label: "Agendamento nutricional", valor: "Até 7 dias" },
+      { label: "Renovação de receita", valor: "Até 24h após solicitação" },
+    ],
+    icon: "monitor_weight",
+    publico: "Pacientes com sobrepeso ou obesidade com indicação clínica",
   },
   {
-    titulo: "Protocolo de Emergência",
+    numero: "04",
+    titulo: "Projeto TEA Pro Life",
+    subtitulo: "Transtorno do Espectro Autista · Acompanhamento Multidisciplinar",
     descricao:
-      "Caso o médico identifique risco à vida durante a consulta, o protocolo de emergência é ativado: orientação imediata ao paciente para ligar 192 (SAMU), comunicação com familiar se possível, e registro do incidente no prontuário. O médico permanece em linha até confirmação de ajuda externa.",
-    icon: "emergency",
+      "Avaliação, diagnóstico e acompanhamento multidisciplinar estruturado para crianças com suspeita ou diagnóstico de TEA, combinando Psiquiatria Pediátrica, Neuropediatria, Psicologia, Fonoaudiologia e Fisioterapia — 100% digital, com os mesmos especialistas em cada sessão.",
+    detalhes: [
+      "Plano Mensal (manutenção): 5 atendimentos/mês — 1 Clínico + 1 Psiquiatra/Neuropediatra + 1 Psicologia + 1 Fono + 1 Fisio",
+      "Plano Quinzenal (intermediário): 8 atendimentos/mês — equipe completa com sessões duplicadas",
+      "Plano Semanal (intensivo): 14 atendimentos/mês — indicado para diagnóstico recente",
+      "Continuidade garantida com os mesmos especialistas em 100% dos casos",
+      "Relatório mensal de evolução enviado à família",
+      "Prontuário eletrônico com histórico completo do desenvolvimento",
+      "Contratos de 2, 4 ou 6 meses com renovação automática",
+    ],
+    sla: [
+      { label: "Avaliação inicial após cadastro", valor: "Até 48h" },
+      { label: "Disponibilidade de sessões", valor: "Até 7 dias úteis" },
+      { label: "Relatório mensal de evolução", valor: "Até o 5º dia útil" },
+      { label: "Suporte à família", valor: "Resposta em até 24h úteis" },
+    ],
+    icon: "child_care",
+    publico: "Crianças com TEA · Famílias · Empresas com dependentes",
   },
   {
-    titulo: "Reagendamento e Cancelamento",
+    numero: "05",
+    titulo: "Entrevista Qualificada Pro Life",
+    subtitulo: "Triagem Clínica · Declaração de Saúde · Controle de Sinistralidade",
     descricao:
-      "Cancelamentos devem ser feitos com no mínimo 24 horas de antecedência. Reagendamento é gratuito nos planos mensais e família. Consultas avulsas canceladas com menos de 2 horas de antecedência não são reembolsadas, exceto por comprovação de força maior.",
-    icon: "event_busy",
-  },
-  {
-    titulo: "Continuidade do Cuidado",
-    descricao:
-      "O histórico de consultas, diagnósticos e prescrições fica registrado no prontuário eletrônico do paciente. Médicos de retorno têm acesso ao histórico completo, garantindo continuidade e evitando duplicidade de procedimentos.",
-    icon: "history",
+      "Realização da Entrevista Qualificada Gravada de beneficiários de planos de saúde, com finalidade de declaração de saúde. Garante segurança jurídica para a operadora, análise de risco assistencial e conformidade com normas ANS — conduzida por Médico CRM ou Técnico de Enfermagem COREN.",
+    detalhes: [
+      "Contato ativo da equipe Pro Life para agendamento de cada beneficiário",
+      "Entrevista por Médico CRM (Modalidade Padrão) ou Técnico de Enfermagem COREN (Modalidade Técnico)",
+      "Gravação obrigatória da entrevista para fins probatórios e de auditoria",
+      "Retificação formal em caso de resposta positiva (CID, nome da doença, data do diagnóstico)",
+      "Envio do documento de retificação ao beneficiário para assinatura",
+      "Dossiê completo encaminhado à operadora para análise técnica (CPT ou carência)",
+      "Relatório de produção por data de corte",
+    ],
+    sla: [
+      { label: "Primeiro contato após inclusão", valor: "Até 2 dias úteis" },
+      { label: "Realização da entrevista", valor: "Até 5 dias após agendamento" },
+      { label: "Envio do documento de retificação", valor: "Até 24h após entrevista" },
+      { label: "Relatório de produção", valor: "Até o 3º dia útil após corte" },
+    ],
+    icon: "assignment_ind",
+    publico: "Operadoras de saúde · Corretoras · Empresas com planos coletivos",
   },
 ];
 
@@ -60,13 +144,13 @@ const seguranca = [
     icon: "security",
     title: "Conformidade LGPD",
     description:
-      "Dados pessoais e de saúde são tratados conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018). Coletamos apenas o necessário, com base legal definida e direito de acesso, retificação e exclusão garantidos ao paciente.",
+      "Dados pessoais e de saúde são tratados conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018). Coletamos apenas o necessário, com base legal definida e direitos de acesso, retificação e exclusão garantidos ao paciente.",
   },
   {
     icon: "verified",
     title: "Assinatura Digital ICP-Brasil",
     description:
-      "Receitas e documentos médicos possuem assinatura eletrônica qualificada ICP-Brasil, com validade jurídica plena em todo o território nacional. Farmácias e empregadores aceitam esses documentos como equivalentes ao papel.",
+      "Receitas e documentos médicos possuem assinatura eletrônica qualificada ICP-Brasil, conforme Lei 14.510/2022, RDC ANVISA 471/2021 e Resolução CFM 2.314/2022. Validade jurídica plena em todo o território nacional.",
   },
 ];
 
@@ -77,19 +161,29 @@ const resolucoescfm = [
       "Regulamenta o exercício da medicina por telemedicina no Brasil. Define condições, deveres e responsabilidades do médico no atendimento remoto.",
   },
   {
-    codigo: "CFM 1.974/2011",
+    codigo: "Lei 14.510/2022",
     descricao:
-      "Dispõe sobre publicidade médica. Todo o conteúdo do site cumpre as normas de vedação a promessas de cura, antes/depois e depoimentos com garantias.",
+      "Autoriza e disciplina a prática da telemedicina em todo o território nacional, assegurando ao paciente o direito ao atendimento médico à distância.",
   },
   {
-    codigo: "Lei 13.787/2018",
+    codigo: "RDC ANVISA 471/2021",
     descricao:
-      "Dispõe sobre a digitalização e a utilização de sistemas informatizados para guarda e manuseio de prontuário de pacientes.",
+      "Dispõe sobre a prescrição e dispensação de medicamentos por meio de prescrição eletrônica, incluindo assinatura digital e receitas emitidas em telemedicina.",
   },
   {
     codigo: "LGPD — Lei 13.709/2018",
     descricao:
       "Lei Geral de Proteção de Dados. Dados sensíveis de saúde recebem tratamento especial, com base legal, minimização e segurança reforçada.",
+  },
+  {
+    codigo: "NR-1 (MTE) — 2025",
+    descricao:
+      "Norma Regulamentadora que exige das empresas medidas de prevenção a riscos psicossociais no trabalho. Vigência plena a partir de 2025.",
+  },
+  {
+    codigo: "Res. CFM 1.974/2011",
+    descricao:
+      "Dispõe sobre publicidade médica. Todo o conteúdo do site cumpre as normas de vedação a promessas de cura, antes/depois e depoimentos com garantias.",
   },
 ];
 
@@ -103,7 +197,7 @@ export default function ProtocolosPage() {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
     name: "Protocolos Clínicos — Santuário Clínico",
-    description: "Protocolos de atendimento, segurança e compliance do Santuário Clínico.",
+    description: "5 protocolos clínicos do Santuário Clínico: Telemedicina, NR-1, Mounjaro, TEA e Entrevista Qualificada.",
     url: `${siteConfig.url}/protocolos`,
     author: { "@type": "Organization", name: "Santuário Clínico" },
   };
@@ -131,14 +225,13 @@ export default function ProtocolosPage() {
             className="text-4xl md:text-5xl font-extrabold leading-[1.1] tracking-[-0.02em] text-[#28113e] mb-6"
             style={{ fontFamily: "var(--font-headline)" }}
           >
-            Protocolos Clínicos e de Segurança
+            Nossos Protocolos Clínicos
           </h1>
           <p className="text-lg md:text-xl text-[#4a454e] max-w-2xl mb-8">
-            Transparência é parte do cuidado. Aqui você encontra como operamos, quais resoluções seguimos
-            e como seus dados e sua consulta são protegidos em cada etapa.
+            5 protocolos estruturados — telemedicina, saúde mental corporativa, emagrecimento clínico, acompanhamento TEA e triagem qualificada. Cada um com fluxo definido, SLA publicado e conformidade regulatória.
           </p>
           <div className="flex flex-wrap gap-3">
-            {["CFM 2.314/2022", "LGPD Compliant", "ICP-Brasil", "CRM Verificado"].map((badge) => (
+            {["CFM 2.314/2022", "Lei 14.510/2022", "LGPD", "ICP-Brasil", "NR-1 Compliant"].map((badge) => (
               <span key={badge} className="inline-flex items-center gap-1.5 py-1 px-3 rounded-full bg-[#28113e] text-[#aa8ec4] text-xs font-semibold uppercase tracking-wider">
                 <span className="material-symbols-outlined text-sm" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">verified</span>
                 {badge}
@@ -148,30 +241,61 @@ export default function ProtocolosPage() {
         </div>
       </section>
 
-      {/* Protocolos de Atendimento */}
+      {/* Os 5 Protocolos */}
       <section className="py-20 bg-[#f3f4f5]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
-            <span className="inline-block py-1 px-3 rounded-full bg-white text-[#4a454e] text-xs uppercase tracking-[0.05em] mb-4">Atendimento</span>
+            <span className="inline-block py-1 px-3 rounded-full bg-white text-[#4a454e] text-xs uppercase tracking-[0.05em] mb-4">Portfólio</span>
             <h2 className="text-3xl font-extrabold text-[#28113e] tracking-[-0.02em]" style={{ fontFamily: "var(--font-headline)" }}>
-              Protocolos de Atendimento
+              5 protocolos. 1 missão.
             </h2>
             <p className="text-[#4a454e] mt-3 max-w-2xl">
-              Cada consulta segue procedimentos definidos para garantir segurança, qualidade e conformidade regulatória.
+              Cada protocolo tem escopo, público-alvo, entregáveis e níveis de serviço definidos.
             </p>
           </div>
           <div className="space-y-4">
-            {protocolosAtendimento.map((p, i) => (
-              <details key={i} className="group bg-white rounded-2xl overflow-hidden">
+            {protocolos.map((p) => (
+              <details key={p.numero} className="group bg-white rounded-2xl overflow-hidden">
                 <summary className="flex items-center gap-4 px-6 py-5 cursor-pointer list-none">
+                  <span className="text-xs font-bold text-[#aa8ec4] tracking-widest w-8 shrink-0">{p.numero}</span>
                   <div className="w-10 h-10 rounded-full bg-[#eddcff] text-[#523b74] flex items-center justify-center shrink-0">
                     <span className="material-symbols-outlined text-lg" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">{p.icon}</span>
                   </div>
-                  <span className="font-semibold text-[#28113e] flex-1 pr-4" style={{ fontFamily: "var(--font-headline)" }}>{p.titulo}</span>
+                  <div className="flex-1 pr-4">
+                    <span className="font-semibold text-[#28113e] block" style={{ fontFamily: "var(--font-headline)" }}>{p.titulo}</span>
+                    <span className="text-xs text-[#6b538d]">{p.subtitulo}</span>
+                  </div>
                   <span className="material-symbols-outlined text-[#6b538d] shrink-0 transition-transform duration-200 group-open:rotate-180" aria-hidden="true">expand_more</span>
                 </summary>
-                <div className="px-6 pb-6 pl-20">
-                  <p className="text-[#4a454e] leading-relaxed">{p.descricao}</p>
+                <div className="px-6 pb-8 pl-24 space-y-6">
+                  <div>
+                    <p className="text-[#4a454e] leading-relaxed">{p.descricao}</p>
+                    <p className="text-xs text-[#6b538d] font-semibold uppercase tracking-wider mt-3">Público-alvo: {p.publico}</p>
+                  </div>
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div>
+                      <h4 className="text-sm font-bold text-[#28113e] mb-3" style={{ fontFamily: "var(--font-headline)" }}>O que está incluso</h4>
+                      <ul className="space-y-2">
+                        {p.detalhes.map((d) => (
+                          <li key={d} className="flex items-start gap-2 text-sm text-[#4a454e]">
+                            <span className="material-symbols-outlined text-sm text-[#6b538d] mt-0.5 shrink-0" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">check_circle</span>
+                            {d}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-[#28113e] mb-3" style={{ fontFamily: "var(--font-headline)" }}>SLA — Níveis de Serviço</h4>
+                      <div className="space-y-2">
+                        {p.sla.map((s) => (
+                          <div key={s.label} className="flex items-center justify-between bg-[#f3f4f5] rounded-xl px-4 py-2.5">
+                            <span className="text-xs text-[#4a454e]">{s.label}</span>
+                            <span className="text-xs font-bold text-[#28113e] ml-4 text-right">{s.valor}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </details>
             ))}
@@ -202,7 +326,7 @@ export default function ProtocolosPage() {
         </div>
       </section>
 
-      {/* Compliance CFM */}
+      {/* Compliance regulatório */}
       <section className="py-20 bg-[#f3f4f5]">
         <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
@@ -211,7 +335,7 @@ export default function ProtocolosPage() {
               Conformidade Regulatória
             </h2>
             <p className="text-[#4a454e] mt-3 max-w-2xl">
-              Operamos dentro do marco regulatório vigente no Brasil, seguindo as principais resoluções e legislações aplicáveis à telemedicina.
+              Operamos dentro do marco regulatório vigente no Brasil, seguindo todas as resoluções e legislações aplicáveis à telemedicina e saúde digital.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -229,14 +353,10 @@ export default function ProtocolosPage() {
         </div>
       </section>
 
-      {/* Código de Ética */}
+      {/* Compromisso */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#28113e] to-[#3e2755] rounded-[1.5rem] p-10 md:p-14 text-center text-white relative overflow-hidden">
-            <div className="absolute inset-0 opacity-5"
-              style={{ backgroundImage: "url(\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4yKSIvPjwvc3ZnPg==\")" }}
-              aria-hidden="true"
-            />
             <div className="relative z-10">
               <span className="material-symbols-outlined text-5xl text-[#aa8ec4] mb-6 block" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">favorite</span>
               <h2 className="text-2xl md:text-3xl font-bold mb-6" style={{ fontFamily: "var(--font-headline)" }}>
@@ -262,8 +382,8 @@ export default function ProtocolosPage() {
             <Link href="/contato" className="bg-[#28113e] text-white px-8 py-3 rounded-full font-medium uppercase tracking-wider hover:bg-[#3e2755] transition-colors">
               Falar com Equipe
             </Link>
-            <Link href="/privacidade" className="border border-[#28113e]/30 text-[#28113e] px-8 py-3 rounded-full font-medium uppercase tracking-wider hover:bg-[#e7e8e9] transition-colors">
-              Política de Privacidade
+            <Link href="/empresas" className="border border-[#28113e]/30 text-[#28113e] px-8 py-3 rounded-full font-medium uppercase tracking-wider hover:bg-[#e7e8e9] transition-colors">
+              Soluções Corporativas
             </Link>
           </div>
         </div>
