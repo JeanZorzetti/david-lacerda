@@ -60,12 +60,12 @@ export default function Navbar() {
       <div className="flex justify-between items-center w-full px-6 md:px-8 py-2.5 max-w-7xl mx-auto">
         <Link href="/" aria-label="Voltar para a home" className="shrink-0">
           <Image
-            src="/logo-navbar.png"
+            src="/3.png"
             alt="David Lacerda Telemedicina"
-            width={600}
-            height={600}
+            width={400}
+            height={120}
             className="object-contain"
-            style={{ height: "52px", width: "auto", transform: "scale(1.4)", transformOrigin: "left center" }}
+            style={{ height: "48px", width: "auto" }}
             priority
           />
         </Link>
