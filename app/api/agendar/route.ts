@@ -48,7 +48,7 @@ export async function POST(req: NextRequest) {
     parsed.data;
 
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
-  const FROM_EMAIL = "Santuário Clínico <contato@davidlacerda.com.br>";
+  const FROM_EMAIL = "David Lacerda Telemedicina <contato@davidlacerda.com.br>";
   const INTERNAL_EMAIL = process.env.CONTACT_EMAIL ?? "contato@davidlacerda.com.br";
 
   if (!RESEND_API_KEY) {
@@ -124,7 +124,7 @@ export async function POST(req: NextRequest) {
       sendEmail({
         from: FROM_EMAIL,
         to: [email],
-        subject: "Seu acesso ao portal de telemedicina está pronto — Santuário Clínico",
+        subject: "Seu acesso ao portal de telemedicina está pronto — David Lacerda Telemedicina",
         html: confirmacaoHtml,
       }),
       sendEmail({

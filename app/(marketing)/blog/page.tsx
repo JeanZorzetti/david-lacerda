@@ -8,7 +8,7 @@ import { categoryLabels, categoryColors, formatDate, sortedPosts, getReadingTime
 export const metadata: Metadata = buildMetadata({
   title: "Blog",
   description:
-    "Artigos sobre saúde mental, bem-estar e telemedicina — pelo Santuário Clínico, fundado por David Lacerda.",
+    "Artigos sobre saúde mental, bem-estar e telemedicina — pelo David Lacerda Telemedicina, fundado por David Lacerda.",
   path: "/blog",
 });
 

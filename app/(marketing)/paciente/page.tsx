@@ -7,7 +7,7 @@ import { PacienteAcessoForm } from "@/components/forms/PacienteAcessoForm";
 export const metadata: Metadata = buildMetadata({
   title: "Área do Paciente",
   description:
-    "Acesse o portal de telemedicina do Santuário Clínico com seu CPF ou e-mail. Sem senha — link direto enviado para você.",
+    "Acesse o portal de telemedicina do David Lacerda Telemedicina com seu CPF ou e-mail. Sem senha — link direto enviado para você.",
   path: "/paciente",
   noIndex: true,
 });

@@ -16,7 +16,7 @@ function layout(content: string): string {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Santuário Clínico</title>
+  <title>David Lacerda Telemedicina</title>
 </head>
 <body style="margin:0;padding:0;background:#f8f9fa;font-family:sans-serif;color:${brand.text};">
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#f8f9fa;padding:32px 16px;">
@@ -25,7 +25,7 @@ function layout(content: string): string {
         <!-- Header -->
         <tr>
           <td style="background:${brand.primary};padding:28px 32px;border-radius:12px 12px 0 0;text-align:center;">
-            <p style="margin:0;color:${brand.light};font-size:12px;letter-spacing:0.1em;text-transform:uppercase;">Santuário Clínico</p>
+            <p style="margin:0;color:${brand.light};font-size:12px;letter-spacing:0.1em;text-transform:uppercase;">David Lacerda Telemedicina</p>
             <p style="margin:4px 0 0;color:#fff;font-size:11px;">Telemedicina com Propósito</p>
           </td>
         </tr>
@@ -39,7 +39,7 @@ function layout(content: string): string {
         <tr>
           <td style="padding:20px 0;text-align:center;">
             <p style="margin:0;font-size:11px;color:#7c757e;">
-              © ${new Date().getFullYear()} ${siteConfig.name} — Santuário Clínico<br />
+              © ${new Date().getFullYear()} ${siteConfig.name} — David Lacerda Telemedicina<br />
               Telemedicina regulamentada pelo CFM · Res. 2.314/2022<br />
               <a href="${BASE}/privacidade" style="color:${brand.accent};">Política de Privacidade</a>
             </p>

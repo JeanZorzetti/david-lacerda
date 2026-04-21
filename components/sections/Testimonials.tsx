@@ -9,7 +9,7 @@ const testimonials = [
     name: "Ana Paula S.",
     location: "São Paulo, SP",
     specialty: "Saúde Mental",
-    text: "Depois de meses tentando marcar consulta presencialmente, encontrei o Santuário Clínico. A atenção e o cuidado foram além do que esperava. Pela primeira vez senti que minha ansiedade estava sendo tratada de forma integral — não apenas com remédio, mas com compreensão real da minha história.",
+    text: "Depois de meses tentando marcar consulta presencialmente, encontrei o David Lacerda Telemedicina. A atenção e o cuidado foram além do que esperava. Pela primeira vez senti que minha ansiedade estava sendo tratada de forma integral — não apenas com remédio, mas com compreensão real da minha história.",
     initials: "AS",
   },
   {
@@ -25,7 +25,7 @@ const testimonials = [
     name: "Fernanda L.",
     location: "Belo Horizonte, MG",
     specialty: "Telemedicina",
-    text: "Passei por um luto muito difícil e não sabia a quem recorrer. O Santuário Clínico me conectou com um médico que tratou minha saúde emocional com sensibilidade e profissionalismo. Tudo pelo celular, sem sair de casa, com receita chegando por e-mail no mesmo dia.",
+    text: "Passei por um luto muito difícil e não sabia a quem recorrer. O David Lacerda Telemedicina me conectou com um médico que tratou minha saúde emocional com sensibilidade e profissionalismo. Tudo pelo celular, sem sair de casa, com receita chegando por e-mail no mesmo dia.",
     initials: "FL",
   },
   {
@@ -33,7 +33,7 @@ const testimonials = [
     name: "Roberto C.",
     location: "Manaus, AM",
     specialty: "Saúde Mental",
-    text: "Estava relutante em buscar apoio médico por falta de tempo e distância dos consultórios. O Santuário Clínico resolveu isso. Hoje estou medicado corretamente, dormindo bem, e com qualidade de vida muito melhor — tudo sem sair de casa.",
+    text: "Estava relutante em buscar apoio médico por falta de tempo e distância dos consultórios. O David Lacerda Telemedicina resolveu isso. Hoje estou medicado corretamente, dormindo bem, e com qualidade de vida muito melhor — tudo sem sair de casa.",
     initials: "RC",
   },
 ];

@@ -6,7 +6,7 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Como Funciona",
   description:
-    "Passo a passo da consulta online no Santuário Clínico. Do cadastro à receita digital — entenda tudo antes de agendar.",
+    "Passo a passo da consulta online no David Lacerda Telemedicina. Do cadastro à receita digital — entenda tudo antes de agendar.",
   path: "/como-funciona",
 });
 
@@ -96,7 +96,7 @@ export default function ComoFuncionaPage() {
   const jsonLdHowTo = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    name: "Como fazer uma consulta de telemedicina no Santuário Clínico",
+    name: "Como fazer uma consulta de telemedicina no David Lacerda Telemedicina",
     description: "Passo a passo completo para agendar e realizar uma consulta médica online.",
     step: etapas.map((e) => ({
       "@type": "HowToStep",

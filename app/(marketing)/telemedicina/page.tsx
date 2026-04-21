@@ -6,7 +6,7 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Telemedicina",
   description:
-    "Entenda como funciona a telemedicina do Santuário Clínico — segura, regulamentada pelo CFM, e com a qualidade de uma consulta presencial.",
+    "Entenda como funciona a telemedicina do David Lacerda Telemedicina — segura, regulamentada pelo CFM, e com a qualidade de uma consulta presencial.",
   path: "/telemedicina",
 });
 
@@ -173,7 +173,7 @@ export default function TelemedicinaPage() {
             de onde você estiver.
           </h1>
           <p className="text-lg md:text-xl text-[#4a454e] mb-8 max-w-2xl">
-            A telemedicina do Santuário Clínico é regulamentada pelo CFM, segura e tão eficaz
+            A telemedicina do David Lacerda Telemedicina é regulamentada pelo CFM, segura e tão eficaz
             quanto uma consulta presencial para a grande maioria das condições de saúde.
           </p>
           <div className="flex flex-wrap gap-4">

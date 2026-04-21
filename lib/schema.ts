@@ -25,12 +25,12 @@ export function schemaFounder() {
     "@type": "Person",
     name: siteConfig.founder.name,
     jobTitle: "Fundador",
-    description: "Fundador do Santuário Clínico, plataforma de telemedicina com excelência clínica.",
+    description: "Fundador do David Lacerda Telemedicina, plataforma de telemedicina com excelência clínica.",
     url: `${BASE_URL}/pastor`,
     image: `${BASE_URL}/david-real.jpg`,
     affiliation: {
       "@type": "Organization",
-      name: "Santuário Clínico",
+      name: "David Lacerda Telemedicina",
       url: BASE_URL,
     },
   };
@@ -40,7 +40,7 @@ export function schemaOrganization() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Santuário Clínico",
+    name: "David Lacerda Telemedicina",
     url: BASE_URL,
     description: siteConfig.description,
     founder: {

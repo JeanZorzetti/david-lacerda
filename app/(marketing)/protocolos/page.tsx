@@ -6,7 +6,7 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Protocolos Clínicos",
   description:
-    "Conheça os 5 protocolos do Santuário Clínico: Telemedicina 24/7, NR-1 Saúde Mental Corporativa, Emagrecimento Clínico com Tirzepatida, Acompanhamento TEA e Entrevista Qualificada.",
+    "Conheça os 5 protocolos do David Lacerda Telemedicina: Telemedicina 24/7, NR-1 Saúde Mental Corporativa, Emagrecimento Clínico com Tirzepatida, Acompanhamento TEA e Entrevista Qualificada.",
   path: "/protocolos",
 });
 
@@ -196,10 +196,10 @@ export default function ProtocolosPage() {
   const jsonLdMedical = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    name: "Protocolos Clínicos — Santuário Clínico",
-    description: "5 protocolos clínicos do Santuário Clínico: Telemedicina, NR-1, Mounjaro, TEA e Entrevista Qualificada.",
+    name: "Protocolos Clínicos — David Lacerda Telemedicina",
+    description: "5 protocolos clínicos do David Lacerda Telemedicina: Telemedicina, NR-1, Mounjaro, TEA e Entrevista Qualificada.",
     url: `${siteConfig.url}/protocolos`,
-    author: { "@type": "Organization", name: "Santuário Clínico" },
+    author: { "@type": "Organization", name: "David Lacerda Telemedicina" },
   };
 
   return (
@@ -363,7 +363,7 @@ export default function ProtocolosPage() {
                 Nosso Compromisso Ético
               </h2>
               <blockquote className="text-[#d9bdff] text-lg md:text-xl leading-relaxed italic max-w-2xl mx-auto mb-6">
-                &ldquo;Cuidar com excelência técnica é um dever. Fazê-lo com compaixão, respeito e integridade é o que diferencia o Santuário Clínico. Esses dois compromissos caminham juntos em cada consulta.&rdquo;
+                &ldquo;Cuidar com excelência técnica é um dever. Fazê-lo com compaixão, respeito e integridade é o que diferencia o David Lacerda Telemedicina. Esses dois compromissos caminham juntos em cada consulta.&rdquo;
               </blockquote>
               <p className="text-[#aa8ec4] text-sm">— David Lacerda, Fundador</p>
             </div>

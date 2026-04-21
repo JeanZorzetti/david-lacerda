@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
   const MEDITELE_API_KEY = process.env.MEDITELE_API_KEY;
   const MEDITELE_CLINIC_ID = process.env.MEDITELE_CLINIC_ID;
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
-  const FROM_EMAIL = "Santuário Clínico <contato@davidlacerda.com.br>";
+  const FROM_EMAIL = "David Lacerda Telemedicina <contato@davidlacerda.com.br>";
 
   if (!MEDITELE_API_KEY || !MEDITELE_CLINIC_ID) {
     return NextResponse.json(
@@ -124,7 +124,7 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify({
         from: FROM_EMAIL,
         to: [patientEmail],
-        subject: "Seu link de acesso ao portal — Santuário Clínico",
+        subject: "Seu link de acesso ao portal — David Lacerda Telemedicina",
         html,
       }),
     }).catch((e) => console.error("[paciente/acesso] Resend error:", e));

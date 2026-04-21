@@ -22,7 +22,7 @@ export default function AconselhamentoEspiritualPage() {
       aboutTitle="Cuidado que vai além do diagnóstico"
       about={[
         "O aconselhamento terapêutico é uma das práticas de cuidado humano mais estudadas atualmente. A psiconeuroimunologia documenta com crescente rigor o impacto positivo do suporte emocional, do senso de propósito e dos vínculos relacionais na saúde mental e física.",
-        "As sessões de aconselhamento do Santuário Clínico seguem princípios consolidados de escuta ativa, orientação e suporte, integrando os valores e a história de vida do paciente ao processo de cuidado.",
+        "As sessões de aconselhamento do David Lacerda Telemedicina seguem princípios consolidados de escuta ativa, orientação e suporte, integrando os valores e a história de vida do paciente ao processo de cuidado.",
         "Importante: o aconselhamento terapêutico é distinto da psicoterapia clínica e não a substitui. É um cuidado complementar que atende a dimensão emocional e existencial do ser humano — e que pode ser o apoio que faltava no processo de recuperação.",
       ]}
       whenItems={[
@@ -94,7 +94,7 @@ export default function AconselhamentoEspiritualPage() {
         },
         {
           q: "O aconselhamento terapêutico tem base científica?",
-          a: "Há extensa literatura científica sobre o impacto positivo do suporte emocional, do senso de propósito e dos vínculos sociais na saúde mental e física. O Santuário Clínico integra essas perspectivas com responsabilidade.",
+          a: "Há extensa literatura científica sobre o impacto positivo do suporte emocional, do senso de propósito e dos vínculos sociais na saúde mental e física. O David Lacerda Telemedicina integra essas perspectivas com responsabilidade.",
         },
         {
           q: "Com que frequência devo participar das sessões?",

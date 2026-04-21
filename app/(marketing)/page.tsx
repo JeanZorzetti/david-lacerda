@@ -110,7 +110,7 @@ export default function Home() {
       </section>
 
       {/* 4. Em Números */}
-      <section className="py-20 bg-gradient-to-br from-[#28113e] to-[#3e2755]" aria-label="Números do Santuário Clínico">
+      <section className="py-20 bg-gradient-to-br from-[#28113e] to-[#3e2755]" aria-label="Números do David Lacerda Telemedicina">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <Reveal>
             <div className="text-center mb-14">
@@ -166,10 +166,10 @@ export default function Home() {
                     className="text-2xl font-extrabold text-white mb-3 leading-tight"
                     style={{ fontFamily: "var(--font-headline)" }}
                   >
-                    Fundador e idealizador do Santuário Clínico
+                    Fundador e idealizador do David Lacerda Telemedicina
                   </h3>
                   <p className="text-[#aa8ec4] text-sm leading-relaxed">
-                    David Lacerda fundou o Santuário Clínico com o objetivo de democratizar o acesso
+                    David Lacerda fundou o David Lacerda Telemedicina com o objetivo de democratizar o acesso
                     à saúde de qualidade, conectando pacientes a médicos especialistas via telemedicina.
                   </p>
                 </div>
@@ -177,7 +177,7 @@ export default function Home() {
                   href="/sobre"
                   className="self-start inline-flex items-center gap-2 text-sm font-medium text-[#d9bdff] hover:text-white transition-colors"
                 >
-                  Conhecer o Santuário Clínico
+                  Conhecer o David Lacerda Telemedicina
                   <span className="material-symbols-outlined text-sm">arrow_forward</span>
                 </Link>
               </div>
@@ -195,7 +195,7 @@ export default function Home() {
                   Saúde acessível com cuidado humanizado
                 </h2>
                 <p className="text-[#4a454e] leading-relaxed">
-                  O Santuário Clínico conecta você a médicos qualificados via telemedicina,
+                  O David Lacerda Telemedicina conecta você a médicos qualificados via telemedicina,
                   com atendimento humanizado, excelência clínica e respeito à individualidade
                   de cada paciente.
                 </p>

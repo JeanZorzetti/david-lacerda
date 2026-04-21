@@ -12,7 +12,7 @@ export default function AbordagemClinica() {
               <div className="relative w-full rounded-xl bg-[#28113e] overflow-hidden" style={{ aspectRatio: "16/9" }}>
                 <Image
                   src="/logo-footer.png"
-                  alt="Logotipo Santuário Clínico Telemedicina"
+                  alt="Logotipo David Lacerda Telemedicina"
                   fill
                   className="object-contain p-10"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -31,7 +31,7 @@ export default function AbordagemClinica() {
             </h2>
             <div className="space-y-6 text-lg text-[#4a454e]">
               <p>
-                No Santuário Clínico, acreditamos que uma consulta médica de qualidade vai além do diagnóstico.
+                No David Lacerda Telemedicina, acreditamos que uma consulta médica de qualidade vai além do diagnóstico.
                 Nossos profissionais combinam rigor clínico com escuta ativa e atendimento humanizado.
               </p>
               <p>

@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Termos de Uso",
   description:
-    "Termos e condições de uso dos serviços de telemedicina do Santuário Clínico.",
+    "Termos e condições de uso dos serviços de telemedicina do David Lacerda Telemedicina.",
   path: "/termos",
   noIndex: true,
 });
@@ -58,7 +58,7 @@ export default function TermosPage() {
             content: (
               <>
                 <p className="text-[#191c1d] leading-relaxed mb-3">
-                  Ao acessar ou utilizar os serviços do <strong>Santuário Clínico</strong> (site, formulário de agendamento, portal do paciente ou consultas de telemedicina), você concorda integralmente com estes Termos de Uso. Caso não concorde com qualquer disposição, não utilize os serviços.
+                  Ao acessar ou utilizar os serviços do <strong>David Lacerda Telemedicina</strong> (site, formulário de agendamento, portal do paciente ou consultas de telemedicina), você concorda integralmente com estes Termos de Uso. Caso não concorde com qualquer disposição, não utilize os serviços.
                 </p>
                 <p className="text-[#191c1d] leading-relaxed">
                   Estes Termos são regidos pela legislação brasileira, incluindo o Código de Defesa do Consumidor (Lei nº 8.078/1990), o Marco Civil da Internet (Lei nº 12.965/2014) e a LGPD (Lei nº 13.709/2018).
@@ -72,7 +72,7 @@ export default function TermosPage() {
             content: (
               <>
                 <p className="text-[#191c1d] leading-relaxed mb-3">
-                  O Santuário Clínico facilita o acesso a consultas médicas de telemedicina realizadas por médicos parceiros credenciados, nas modalidades de:
+                  O David Lacerda Telemedicina facilita o acesso a consultas médicas de telemedicina realizadas por médicos parceiros credenciados, nas modalidades de:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-sm text-[#191c1d] mb-3">
                   <li>Saúde Mental e Emocional (acompanhamento psiquiátrico)</li>
@@ -141,7 +141,7 @@ export default function TermosPage() {
             title: "6. Propriedade Intelectual",
             content: (
               <p className="text-[#191c1d] leading-relaxed">
-                Todo o conteúdo do site — textos, artigos do blog, logotipos, design e elementos visuais — é de propriedade do Santuário Clínico ou licenciado por seus fornecedores. É vedada a reprodução, distribuição ou uso comercial sem autorização expressa e por escrito. Citações de artigos do blog para fins educativos são permitidas com atribuição clara ao autor.
+                Todo o conteúdo do site — textos, artigos do blog, logotipos, design e elementos visuais — é de propriedade do David Lacerda Telemedicina ou licenciado por seus fornecedores. É vedada a reprodução, distribuição ou uso comercial sem autorização expressa e por escrito. Citações de artigos do blog para fins educativos são permitidas com atribuição clara ao autor.
               </p>
             ),
           },
@@ -166,7 +166,7 @@ export default function TermosPage() {
             content: (
               <>
                 <p className="text-[#191c1d] leading-relaxed mb-3">
-                  O Santuário Clínico não se responsabiliza por:
+                  O David Lacerda Telemedicina não se responsabiliza por:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-sm text-[#191c1d]">
                   <li>Falhas de conexão à internet do lado do paciente que impeçam a consulta</li>
@@ -175,7 +175,7 @@ export default function TermosPage() {
                   <li>Uso indevido do link de acesso compartilhado pelo paciente com terceiros</li>
                 </ul>
                 <p className="text-sm text-[#4a454e] mt-3">
-                  A responsabilidade civil do médico parceiro é regida pelo Código de Ética Médica do CFM e pela legislação civil brasileira. O Santuário Clínico atua como facilitador de acesso à plataforma de telemedicina.
+                  A responsabilidade civil do médico parceiro é regida pelo Código de Ética Médica do CFM e pela legislação civil brasileira. O David Lacerda Telemedicina atua como facilitador de acesso à plataforma de telemedicina.
                 </p>
               </>
             ),
@@ -195,7 +195,7 @@ export default function TermosPage() {
             content: (
               <div className="bg-[#f3f4f5] rounded-xl p-5">
                 <p className="text-sm text-[#4a454e] mb-2">Dúvidas sobre estes Termos:</p>
-                <p className="text-sm font-semibold text-[#28113e]">David Lacerda — Santuário Clínico</p>
+                <p className="text-sm font-semibold text-[#28113e]">David Lacerda — David Lacerda Telemedicina</p>
                 <p className="text-sm text-[#4a454e]">
                   E-mail: <a href="mailto:contato@davidlacerda.com.br" className="text-[#6b538d] underline">contato@davidlacerda.com.br</a>
                 </p>

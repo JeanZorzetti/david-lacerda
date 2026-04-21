@@ -20,7 +20,7 @@ export function buildMetadata({
   noIndex = false,
 }: BuildMetadataParams): Metadata {
   const url = `${BASE_URL}${path}`;
-  const fullTitle = `${title} | Santuário Clínico`;
+  const fullTitle = `${title} | David Lacerda Telemedicina`;
 
   return {
     title: fullTitle,
@@ -31,7 +31,7 @@ export function buildMetadata({
       title: fullTitle,
       description,
       url,
-      siteName: "Santuário Clínico — Telemedicina",
+      siteName: "David Lacerda Telemedicina — Telemedicina",
       images: [{ url: image, width: 1200, height: 630, alt: fullTitle }],
       locale: "pt_BR",
       type: "website",
@@ -49,7 +49,7 @@ export function buildMetadata({
 }
 
 export const siteConfig = {
-  name: "Santuário Clínico",
+  name: "David Lacerda Telemedicina",
   tagline: "Telemedicina de Qualidade",
   description:
     "Acesso a médicos online com excelência clínica. Telemedicina de qualidade para o seu bem-estar completo.",

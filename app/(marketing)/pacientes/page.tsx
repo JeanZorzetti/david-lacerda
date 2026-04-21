@@ -6,7 +6,7 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Para Pacientes",
   description:
-    "Cuidado médico online sem sair de casa. Entenda como funciona a jornada do paciente no Santuário Clínico — do agendamento à receita digital.",
+    "Cuidado médico online sem sair de casa. Entenda como funciona a jornada do paciente no David Lacerda Telemedicina — do agendamento à receita digital.",
   path: "/pacientes",
 });
 
@@ -130,10 +130,10 @@ export default function PacientesPage() {
   const jsonLdService = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "Telemedicina para Pacientes — Santuário Clínico",
+    name: "Telemedicina para Pacientes — David Lacerda Telemedicina",
     description:
       "Consultas médicas online para pacientes em todo o Brasil. Especialidades diversas, receita digital, acolhimento integral.",
-    provider: { "@type": "Organization", name: "Santuário Clínico", url: siteConfig.url },
+    provider: { "@type": "Organization", name: "David Lacerda Telemedicina", url: siteConfig.url },
     serviceType: "Telemedicina",
     areaServed: "BR",
     url: `${siteConfig.url}/pacientes`,
@@ -211,7 +211,7 @@ export default function PacientesPage() {
               Diferenciais
             </span>
             <h2 className="text-3xl font-extrabold text-[#28113e] tracking-[-0.02em]" style={{ fontFamily: "var(--font-headline)" }}>
-              Por que pacientes escolhem o Santuário Clínico
+              Por que pacientes escolhem o David Lacerda Telemedicina
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">

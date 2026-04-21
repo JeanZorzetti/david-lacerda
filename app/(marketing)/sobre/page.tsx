@@ -4,9 +4,9 @@ import { buildMetadata, siteConfig } from "@/lib/seo";
 import { schemaBreadcrumb, schemaOrganization } from "@/lib/schema";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Sobre o Santuário Clínico",
+  title: "Sobre o David Lacerda Telemedicina",
   description:
-    "Conheça o Santuário Clínico — plataforma de telemedicina fundada por David Lacerda, com missão de democratizar o acesso a cuidados médicos de qualidade no Brasil.",
+    "Conheça o David Lacerda Telemedicina — plataforma de telemedicina fundada por David Lacerda, com missão de democratizar o acesso a cuidados médicos de qualidade no Brasil.",
   path: "/sobre",
 });
 
@@ -54,7 +54,7 @@ const time = [
     nome: "David Lacerda",
     cargo: "Fundador",
     descricao:
-      "Fundador do Santuário Clínico, David concebeu a plataforma a partir da convicção de que o acesso a cuidados médicos de qualidade deve ser universal, humanizado e sem barreiras geográficas.",
+      "Fundador do David Lacerda Telemedicina, David concebeu a plataforma a partir da convicção de que o acesso a cuidados médicos de qualidade deve ser universal, humanizado e sem barreiras geográficas.",
     icon: "person",
     href: "/sobre",
   },
@@ -62,7 +62,7 @@ const time = [
     nome: "Médicos Parceiros",
     cargo: "Especialistas Credenciados",
     descricao:
-      "Rede de médicos especialistas com registro ativo no CRM, selecionados por experiência, reputação e alinhamento com a proposta de cuidado integral do Santuário Clínico.",
+      "Rede de médicos especialistas com registro ativo no CRM, selecionados por experiência, reputação e alinhamento com a proposta de cuidado integral do David Lacerda Telemedicina.",
     icon: "medical_services",
     href: "/especialidades",
   },
@@ -109,7 +109,7 @@ export default function SobrePage() {
               Saúde de qualidade para todos
             </h1>
             <p className="text-lg md:text-xl text-[#4a454e] max-w-xl">
-              O Santuário Clínico nasceu da convicção de que o cuidado com a saúde deve ser acessível,
+              O David Lacerda Telemedicina nasceu da convicção de que o cuidado com a saúde deve ser acessível,
               humanizado e integral — alcançando corpo e mente de cada paciente, onde quer que esteja.
             </p>
           </div>
@@ -136,18 +136,18 @@ export default function SobrePage() {
           <div className="mb-10">
             <span className="inline-block py-1 px-3 rounded-full bg-white text-[#4a454e] text-xs uppercase tracking-[0.05em] mb-4">Origem</span>
             <h2 className="text-3xl font-extrabold text-[#28113e] tracking-[-0.02em]" style={{ fontFamily: "var(--font-headline)" }}>
-              Como o Santuário Clínico nasceu
+              Como o David Lacerda Telemedicina nasceu
             </h2>
           </div>
           <div className="space-y-6 text-[#4a454e] leading-relaxed">
             <p>
-              O Santuário Clínico foi fundado por David Lacerda a partir de uma percepção simples mas urgente: milhões de brasileiros não têm acesso a cuidados médicos de qualidade — seja por distância geográfica, custo ou falta de tempo.
+              O David Lacerda Telemedicina foi fundado por David Lacerda a partir de uma percepção simples mas urgente: milhões de brasileiros não têm acesso a cuidados médicos de qualidade — seja por distância geográfica, custo ou falta de tempo.
             </p>
             <p>
-              A visão que deu origem ao Santuário Clínico é que o cuidado mais eficaz é aquele que considera o ser humano inteiro — não apenas o sintoma. Uma plataforma de telemedicina que, além de conectar pacientes a médicos competentes, seja permeada por acolhimento, compaixão e respeito pela história de cada pessoa.
+              A visão que deu origem ao David Lacerda Telemedicina é que o cuidado mais eficaz é aquele que considera o ser humano inteiro — não apenas o sintoma. Uma plataforma de telemedicina que, além de conectar pacientes a médicos competentes, seja permeada por acolhimento, compaixão e respeito pela história de cada pessoa.
             </p>
             <p>
-              Com infraestrutura de telemedicina regulamentada pelo CFM, o Santuário Clínico tornou isso possível: consultas com especialistas certificados, do celular, sem sair de casa, com receita digital válida em todo o Brasil.
+              Com infraestrutura de telemedicina regulamentada pelo CFM, o David Lacerda Telemedicina tornou isso possível: consultas com especialistas certificados, do celular, sem sair de casa, com receita digital válida em todo o Brasil.
             </p>
             <p>
               Hoje, atendemos pacientes em todo o Brasil, em mais de 30 especialidades. Mas o que não mudou desde o primeiro dia é o propósito: cuidar bem, cuidar de verdade, cuidar do ser humano inteiro.
@@ -214,7 +214,7 @@ export default function SobrePage() {
           <div className="text-center max-w-2xl mx-auto mb-14">
             <span className="inline-block py-1 px-3 rounded-full bg-white text-[#4a454e] text-xs uppercase tracking-[0.05em] mb-4">Equipe</span>
             <h2 className="text-3xl font-extrabold text-[#28113e] tracking-[-0.02em]" style={{ fontFamily: "var(--font-headline)" }}>
-              Quem faz o Santuário Clínico
+              Quem faz o David Lacerda Telemedicina
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

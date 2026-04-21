@@ -7,7 +7,7 @@ import { schemaFounder, schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "O Fundador",
   description:
-    "Conheça David Lacerda — fundador do Santuário Clínico. Uma história de compromisso com o acesso à saúde de qualidade para todos os brasileiros.",
+    "Conheça David Lacerda — fundador do David Lacerda Telemedicina. Uma história de compromisso com o acesso à saúde de qualidade para todos os brasileiros.",
   path: "/pastor",
 });
 
@@ -36,7 +36,7 @@ const timeline = [
   {
     year: "2020",
     icon: "local_hospital",
-    title: "Fundação do Santuário Clínico",
+    title: "Fundação do David Lacerda Telemedicina",
     description:
       "Criação da plataforma de telemedicina para democratizar o acesso a médicos qualificados em todo o Brasil.",
   },
@@ -45,7 +45,7 @@ const timeline = [
     icon: "public",
     title: "Expansão Nacional",
     description:
-      "Pacientes de todos os estados brasileiros acessando médicos pelo Santuário Clínico. Plataforma em crescimento contínuo.",
+      "Pacientes de todos os estados brasileiros acessando médicos pelo David Lacerda Telemedicina. Plataforma em crescimento contínuo.",
   },
 ];
 
@@ -58,12 +58,12 @@ const atuacao = [
   {
     icon: "medical_services",
     label: "Iniciativa",
-    value: "Santuário Clínico — Telemedicina de qualidade para todos",
+    value: "David Lacerda Telemedicina — Telemedicina de qualidade para todos",
   },
   {
     icon: "article",
     label: "Publicações",
-    value: "Artigos sobre saúde e bem-estar no Blog do Santuário Clínico",
+    value: "Artigos sobre saúde e bem-estar no Blog do David Lacerda Telemedicina",
   },
   {
     icon: "group",
@@ -125,7 +125,7 @@ export default function PastorPage() {
             </h1>
             <p className="text-lg md:text-xl text-[#4a454e] mb-10 max-w-xl">
               David Lacerda acredita que acesso à saúde de qualidade é um direito, não um
-              privilégio — e criou o Santuário Clínico para tornar isso real.
+              privilégio — e criou o David Lacerda Telemedicina para tornar isso real.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -151,7 +151,7 @@ export default function PastorPage() {
             >
               <Image
                 src="/david-real.jpg"
-                alt="David Lacerda, fundador do Santuário Clínico"
+                alt="David Lacerda, fundador do David Lacerda Telemedicina"
                 fill
                 className="object-cover"
                 priority
@@ -210,7 +210,7 @@ export default function PastorPage() {
                 de qualquer lugar do Brasil, sem burocracia nem deslocamento.
               </p>
               <p>
-                Em 2020, fundou o <strong className="text-[#28113e]">Santuário Clínico</strong> —
+                Em 2020, fundou o <strong className="text-[#28113e]">David Lacerda Telemedicina</strong> —
                 uma plataforma onde acesso a médicos online e cuidado humanizado coexistem.
                 Hoje, pacientes em todo o Brasil agendam consultas com médicos especializados
                 pelo portal, com a segurança de um ambiente criado por alguém comprometido com o bem-estar humano.
@@ -337,9 +337,9 @@ export default function PastorPage() {
             style={{ fontFamily: "var(--font-headline)" }}
           >
             &ldquo;O acesso a cuidados médicos de qualidade não deveria depender de onde você mora
-            ou quanto você tem. O Santuário Clínico existe para mudar essa realidade.&rdquo;
+            ou quanto você tem. O David Lacerda Telemedicina existe para mudar essa realidade.&rdquo;
           </blockquote>
-          <p className="text-[#aa8ec4] mb-10 text-lg">— David Lacerda, fundador do Santuário Clínico</p>
+          <p className="text-[#aa8ec4] mb-10 text-lg">— David Lacerda, fundador do David Lacerda Telemedicina</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/blog"

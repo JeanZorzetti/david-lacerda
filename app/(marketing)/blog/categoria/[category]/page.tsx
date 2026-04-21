@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   if (!label) return {};
   return buildMetadata({
     title: `Blog — ${label}`,
-    description: `Artigos sobre ${label} pelo Santuário Clínico — saúde integral e acesso a médicos qualificados via telemedicina.`,
+    description: `Artigos sobre ${label} pelo David Lacerda Telemedicina — saúde integral e acesso a médicos qualificados via telemedicina.`,
     path: `/blog/categoria/${category}`,
   });
 }

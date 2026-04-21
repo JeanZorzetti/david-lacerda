@@ -8,7 +8,7 @@ import { ContactForm } from "@/components/forms/ContactForm";
 export const metadata: Metadata = buildMetadata({
   title: "Contato",
   description:
-    "Entre em contato com o Santuário Clínico. Dúvidas sobre telemedicina, agendamentos ou informações — respondemos em até 1 dia útil.",
+    "Entre em contato com o David Lacerda Telemedicina. Dúvidas sobre telemedicina, agendamentos ou informações — respondemos em até 1 dia útil.",
   path: "/contato",
 });
 

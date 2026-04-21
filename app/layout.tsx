@@ -23,8 +23,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Santuário Clínico — Telemedicina",
-    template: "%s | Santuário Clínico",
+    default: "David Lacerda Telemedicina — Telemedicina",
+    template: "%s | David Lacerda Telemedicina",
   },
   description:
     "Acesso a médicos online com excelência clínica. Telemedicina de qualidade para o seu bem-estar completo.",
@@ -35,16 +35,16 @@ export const metadata: Metadata = {
     "clínica geral",
     "nutrição",
     "David Lacerda",
-    "Santuário Clínico",
+    "David Lacerda Telemedicina",
   ],
-  authors: [{ name: "Santuário Clínico" }],
-  creator: "Santuário Clínico",
+  authors: [{ name: "David Lacerda Telemedicina" }],
+  creator: "David Lacerda Telemedicina",
   openGraph: {
     type: "website",
     locale: "pt_BR",
     url: BASE_URL,
-    siteName: "Santuário Clínico — Telemedicina",
-    title: "Santuário Clínico — Telemedicina",
+    siteName: "David Lacerda Telemedicina — Telemedicina",
+    title: "David Lacerda Telemedicina — Telemedicina",
     description:
       "Acesso a médicos online com excelência clínica. Telemedicina de qualidade para o seu bem-estar completo.",
     images: [
@@ -52,13 +52,13 @@ export const metadata: Metadata = {
         url: `${BASE_URL}/og-default.jpg`,
         width: 1200,
         height: 630,
-        alt: "Santuário Clínico — Telemedicina",
+        alt: "David Lacerda Telemedicina — Telemedicina",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Santuário Clínico — Telemedicina",
+    title: "David Lacerda Telemedicina — Telemedicina",
     description:
       "Acesso a médicos online com excelência clínica. Telemedicina de qualidade para o seu bem-estar completo.",
     images: [`${BASE_URL}/og-default.jpg`],
@@ -88,7 +88,7 @@ export default function RootLayout({
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="Santuário Clínico — Blog"
+          title="David Lacerda Telemedicina — Blog"
           href={`${BASE_URL}/feed.xml`}
         />
       </head>

@@ -8,7 +8,7 @@ import { AgendarForm } from "@/components/forms/AgendarForm";
 export const metadata: Metadata = buildMetadata({
   title: "Agendar Consulta",
   description:
-    "Agende sua consulta de telemedicina pelo Santuário Clínico. Preencha o formulário e receba seu link de acesso por e-mail em instantes.",
+    "Agende sua consulta de telemedicina pelo David Lacerda Telemedicina. Preencha o formulário e receba seu link de acesso por e-mail em instantes.",
   path: "/agendar",
 });
 

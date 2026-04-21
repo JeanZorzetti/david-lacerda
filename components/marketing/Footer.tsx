@@ -6,7 +6,7 @@ const columns = [
   {
     title: "Institucional",
     links: [
-      { href: "/sobre", label: "Sobre o Santuário" },
+      { href: "/sobre", label: "Sobre Nós" },
       { href: "/protocolos", label: "Protocolos Clínicos" },
       { href: "/como-funciona", label: "Como Funciona" },
       { href: "/blog", label: "Blog" },
@@ -112,11 +112,11 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-[#7c757e] text-center md:text-left">
-            © {year} Santuário Clínico. Todos os direitos reservados.
+            © {year} David Lacerda Telemedicina. Todos os direitos reservados.
           </p>
           <p className="text-xs text-[#7c757e] text-center md:text-right max-w-md">
             As consultas são realizadas por médicos parceiros credenciados.
-            O Santuário Clínico não presta serviços médicos diretamente.
+            O David Lacerda Telemedicina não presta serviços médicos diretamente.
           </p>
         </div>
       </div>

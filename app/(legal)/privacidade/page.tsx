@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Política de Privacidade",
   description:
-    "Saiba como o Santuário Clínico coleta, usa e protege seus dados pessoais em conformidade com a LGPD.",
+    "Saiba como o David Lacerda Telemedicina coleta, usa e protege seus dados pessoais em conformidade com a LGPD.",
   path: "/privacidade",
   noIndex: true,
 });
@@ -61,7 +61,7 @@ export default function PrivacidadePage() {
             1. Introdução
           </h2>
           <p className="text-[#191c1d] leading-relaxed mb-3">
-            O <strong>Santuário Clínico</strong> (doravante "nós", "nosso" ou "Plataforma"), fundado por David Lacerda,
+            O <strong>David Lacerda Telemedicina</strong> (doravante "nós", "nosso" ou "Plataforma"), fundado por David Lacerda,
             está comprometido com a proteção da privacidade e dos dados pessoais de seus
             usuários, em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais
             (LGPD — Lei nº 13.709/2018)</strong> e demais normativas aplicáveis.
@@ -239,7 +239,7 @@ export default function PrivacidadePage() {
           </h2>
           <div className="bg-[#f3f4f5] rounded-xl p-5">
             <p className="font-semibold text-[#28113e] mb-2">Responsável pelo Tratamento</p>
-            <p className="text-sm text-[#4a454e] mb-1">David Lacerda — Fundador, Santuário Clínico</p>
+            <p className="text-sm text-[#4a454e] mb-1">David Lacerda — Fundador, David Lacerda Telemedicina</p>
             <p className="text-sm text-[#4a454e] mb-3">
               E-mail: <a href="mailto:privacidade@davidlacerda.com.br" className="text-[#6b538d] underline">privacidade@davidlacerda.com.br</a>
             </p>

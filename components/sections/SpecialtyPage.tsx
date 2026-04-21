@@ -71,7 +71,7 @@ export default function SpecialtyPage({
     about: { "@type": "MedicalCondition", name: title },
     author: {
       "@type": "Organization",
-      name: "Santuário Clínico",
+      name: "David Lacerda Telemedicina",
     },
   };
 
@@ -317,7 +317,7 @@ export default function SpecialtyPage({
             Dê o primeiro passo hoje
           </h2>
           <p className="text-[#aa8ec4] text-lg mb-10 max-w-2xl mx-auto">
-            Agende sua consulta online de {title.toLowerCase()} pelo Santuário Clínico.
+            Agende sua consulta online de {title.toLowerCase()} pelo David Lacerda Telemedicina.
             Sem filas, sem deslocamento, com toda a atenção que você merece.
           </p>
           <Link

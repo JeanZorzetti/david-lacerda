@@ -5,7 +5,7 @@ import SpecialtyPage from "@/components/sections/SpecialtyPage";
 export const metadata: Metadata = buildMetadata({
   title: "Nutrição e Bem-Estar",
   description:
-    "Planos alimentares personalizados via telemedicina com base em evidências. Médicos parceiros do Santuário Clínico integram nutrição clínica e cuidado integral.",
+    "Planos alimentares personalizados via telemedicina com base em evidências. Médicos parceiros do David Lacerda Telemedicina integram nutrição clínica e cuidado integral.",
   path: "/especialidades/nutricao",
 });
 
@@ -22,7 +22,7 @@ export default function NutricaoPage() {
       aboutTitle="Comer bem é um ato de cuidado com você mesmo"
       about={[
         "A nutrição clínica moderna vai muito além de contar calorias. Ela investiga a relação do paciente com o alimento, identifica deficiências nutricionais, trata condições metabólicas e constrói estratégias alimentares que cabem na vida real da pessoa.",
-        "Os médicos do Santuário Clínico abordam a nutrição como parte do cuidado integral: o que comemos afeta não apenas o peso corporal, mas o humor, a disposição, a imunidade e a saúde mental como um todo.",
+        "Os médicos do David Lacerda Telemedicina abordam a nutrição como parte do cuidado integral: o que comemos afeta não apenas o peso corporal, mas o humor, a disposição, a imunidade e a saúde mental como um todo.",
         "O plano é construído junto com o paciente, respeitando preferências, cultura alimentar, rotina e condições de vida. Sem fórmulas genéricas. Sem proibições absolutas. Com foco em sustentabilidade e bem-estar duradouro.",
       ]}
       whenItems={[

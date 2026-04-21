@@ -7,7 +7,7 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Nossa Abordagem",
   description:
-    "Conheça a abordagem clínica do Santuário Clínico: medicina baseada em evidências com cuidado humanizado, rigor técnico e respeito à individualidade de cada paciente.",
+    "Conheça a abordagem clínica do David Lacerda Telemedicina: medicina baseada em evidências com cuidado humanizado, rigor técnico e respeito à individualidade de cada paciente.",
   path: "/ciencia-e-fe",
 });
 
@@ -108,7 +108,7 @@ export default function AbordagemPage() {
               e cuidado humanizado.
             </h1>
             <p className="text-lg text-[#aa8ec4] max-w-2xl">
-              No Santuário Clínico, cada consulta combina rigor científico com escuta ativa
+              No David Lacerda Telemedicina, cada consulta combina rigor científico com escuta ativa
               e respeito à individualidade do paciente — porque a saúde vai além do sintoma.
             </p>
           </div>
@@ -124,7 +124,7 @@ export default function AbordagemPage() {
                 <div className="relative w-full rounded-xl bg-[#28113e] overflow-hidden" style={{ aspectRatio: "1/1" }}>
                   <Image
                     src="/logo-footer.png"
-                    alt="Logotipo Santuário Clínico"
+                    alt="Logotipo David Lacerda Telemedicina"
                     fill
                     className="object-contain p-8"
                     sizes="(max-width: 1024px) 100vw, 33vw"
@@ -146,7 +146,7 @@ export default function AbordagemPage() {
               </p>
 
               <p>
-                No Santuário Clínico, acreditamos que o cuidado médico mais eficaz considera o paciente inteiro.
+                No David Lacerda Telemedicina, acreditamos que o cuidado médico mais eficaz considera o paciente inteiro.
                 Que há uma dimensão interior que influencia profundamente como vivemos, adoecemos e nos recuperamos.
                 Isso está documentado em décadas de pesquisa em psiconeuroimunologia e medicina integrativa.
               </p>
@@ -156,7 +156,7 @@ export default function AbordagemPage() {
                 style={{ fontFamily: "var(--font-headline)" }}
               >
                 &ldquo;Cuidar com excelência técnica é um dever. Fazê-lo com compaixão e respeito
-                à individualidade do paciente é o que diferencia o Santuário Clínico.&rdquo;
+                à individualidade do paciente é o que diferencia o David Lacerda Telemedicina.&rdquo;
                 <footer className="text-base not-italic text-[#4a454e] mt-3">
                   — David Lacerda, Fundador
                 </footer>
@@ -272,7 +272,7 @@ export default function AbordagemPage() {
             Pronto para cuidar da sua saúde?
           </h2>
           <p className="text-[#4a454e] text-lg mb-10 max-w-2xl mx-auto">
-            No Santuário Clínico, sua história é respeitada. Sua saúde é nossa missão.
+            No David Lacerda Telemedicina, sua história é respeitada. Sua saúde é nossa missão.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

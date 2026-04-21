@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Página não encontrada | Santuário Clínico",
+  title: "Página não encontrada | David Lacerda Telemedicina",
   robots: { index: false, follow: false },
 };
 
