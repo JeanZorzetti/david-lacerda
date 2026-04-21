@@ -57,7 +57,7 @@ export default function Navbar() {
       }`}
       aria-label="Navegação principal"
     >
-      <div className="flex justify-between items-center w-full px-6 md:px-8 py-4 max-w-7xl mx-auto">
+      <div className="flex justify-between items-center w-full px-6 md:px-8 py-2.5 max-w-7xl mx-auto">
         <Link href="/" aria-label="Voltar para a home" className="shrink-0">
           <Image
             src="/logo-navbar.png"
@@ -65,7 +65,7 @@ export default function Navbar() {
             width={600}
             height={600}
             className="object-contain"
-            style={{ height: "80px", width: "auto", transform: "scale(1.8)", transformOrigin: "left center" }}
+            style={{ height: "52px", width: "auto", transform: "scale(1.4)", transformOrigin: "left center" }}
             priority
           />
         </Link>
