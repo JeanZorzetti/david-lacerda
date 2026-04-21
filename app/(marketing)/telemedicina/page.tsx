@@ -114,7 +114,7 @@ const faq = [
   },
   {
     q: "O aconselhamento espiritual é diferente de sessão de psicologia?",
-    a: "Sim. O aconselhamento espiritual é conduzido pelo Dr. David na sua função pastoral, com base bíblica e oração. Não substitui psicoterapia, mas pode ser complementar ao tratamento médico.",
+    a: "Sim. O aconselhamento espiritual é conduzido por David Lacerda na sua função pastoral, com base bíblica e oração. Não substitui psicoterapia, mas pode ser complementar ao tratamento médico.",
   },
 ];
 

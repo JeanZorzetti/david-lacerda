@@ -6,7 +6,7 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Especialidades",
   description:
-    "Saúde Mental, Clínica Geral, Nutrição e Aconselhamento Espiritual. Conheça as especialidades do Dr. David Lacerda e agende sua consulta online.",
+    "Saúde Mental, Clínica Geral, Nutrição e Aconselhamento Espiritual. Conheça as especialidades do Santuário Clínico e agende sua consulta online.",
   path: "/especialidades",
 });
 

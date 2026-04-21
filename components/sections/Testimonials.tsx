@@ -9,7 +9,7 @@ const testimonials = [
     name: "Ana Paula S.",
     location: "São Paulo, SP",
     specialty: "Saúde Mental",
-    text: "Depois de meses tentando marcar consulta presencialmente, encontrei o Dr. David. A atenção e o cuidado foram além do que esperava. Pela primeira vez senti que minha ansiedade estava sendo tratada de forma integral — não apenas com remédio, mas com compreensão real da minha história.",
+    text: "Depois de meses tentando marcar consulta presencialmente, encontrei o Santuário Clínico. A atenção e o cuidado foram além do que esperava. Pela primeira vez senti que minha ansiedade estava sendo tratada de forma integral — não apenas com remédio, mas com compreensão real da minha história.",
     initials: "AS",
   },
   {
@@ -25,7 +25,7 @@ const testimonials = [
     name: "Fernanda L.",
     location: "Belo Horizonte, MG",
     specialty: "Aconselhamento Espiritual",
-    text: "Passei por um luto muito difícil e não sabia se precisava de um psicólogo, de um pastor, ou dos dois. O Dr. David conseguiu unir as duas perspectivas de forma natural e respeitosa. Não impôs nada — apenas escutou e me ajudou a encontrar meu próprio caminho de cura.",
+    text: "Passei por um luto muito difícil e não sabia se precisava de um psicólogo, de um pastor, ou dos dois. O Santuário Clínico uniu as duas perspectivas de forma natural e respeitosa. Não impôs nada — apenas escutou e me ajudou a encontrar meu próprio caminho de cura.",
     initials: "FL",
   },
   {
@@ -33,7 +33,7 @@ const testimonials = [
     name: "Roberto C.",
     location: "Manaus, AM",
     specialty: "Saúde Mental",
-    text: "Como pastor leigo, estava relutante em procurar ajuda psiquiátrica — pensava que precisava ter mais fé. O Dr. David me mostrou que fé e ciência não são opostos. Hoje estou medicado corretamente, dormindo bem, e minha vida ministerial nunca esteve tão plena.",
+    text: "Como pastor leigo, estava relutante em buscar apoio médico — pensava que precisava ter mais fé. O Santuário Clínico me mostrou que fé e ciência não são opostos. Hoje estou medicado corretamente, dormindo bem, e minha vida ministerial nunca esteve tão plena.",
     initials: "RC",
   },
 ];

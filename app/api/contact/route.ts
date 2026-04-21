@@ -84,7 +84,7 @@ export async function POST(req: NextRequest) {
 <body style="font-family:sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#191c1d;">
   <div style="background:#28113e;padding:24px;border-radius:12px 12px 0 0;text-align:center;">
     <h1 style="color:#fff;margin:0;font-size:20px;">Mensagem recebida!</h1>
-    <p style="color:#aa8ec4;margin:4px 0 0;">Dr. David Lacerda — Santuário Clínico</p>
+    <p style="color:#aa8ec4;margin:4px 0 0;">Santuário Clínico — davidlacerda.com.br</p>
   </div>
   <div style="background:#f3f4f5;padding:24px;border-radius:0 0 12px 12px;">
     <p>Olá, <strong>${name}</strong>!</p>
@@ -99,7 +99,7 @@ export async function POST(req: NextRequest) {
     </p>
   </div>
   <p style="text-align:center;color:#7c757e;font-size:12px;margin-top:16px;">
-    Dr. David Lacerda · Santuário Clínico · ${new Date().getFullYear()}
+    Santuário Clínico · davidlacerda.com.br · ${new Date().getFullYear()}
   </p>
 </body>
 </html>
@@ -128,7 +128,7 @@ export async function POST(req: NextRequest) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          from: "Dr. David Lacerda <contato@davidlacerda.com.br>",
+          from: "Santuário Clínico <contato@davidlacerda.com.br>",
           to: [email],
           subject: "Recebemos sua mensagem — Santuário Clínico",
           html: confirmHtml,

@@ -5,7 +5,7 @@ import SpecialtyPage from "@/components/sections/SpecialtyPage";
 export const metadata: Metadata = buildMetadata({
   title: "Saúde Mental e Emocional",
   description:
-    "Tratamento humanizado para ansiedade, depressão e burnout via telemedicina. Dr. David Lacerda integra suporte clínico e acolhimento espiritual.",
+    "Tratamento humanizado para ansiedade, depressão e burnout via telemedicina. O Santuário Clínico integra suporte clínico baseado em evidências e acolhimento espiritual.",
   path: "/especialidades/saude-mental",
 });
 

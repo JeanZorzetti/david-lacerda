@@ -48,7 +48,7 @@ export async function POST(req: NextRequest) {
     parsed.data;
 
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
-  const FROM_EMAIL = "Dr. David Lacerda <contato@davidlacerda.com.br>";
+  const FROM_EMAIL = "Santuário Clínico <contato@davidlacerda.com.br>";
   const INTERNAL_EMAIL = process.env.CONTACT_EMAIL ?? "contato@davidlacerda.com.br";
 
   if (!RESEND_API_KEY) {

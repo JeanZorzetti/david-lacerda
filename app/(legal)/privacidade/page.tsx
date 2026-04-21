@@ -239,7 +239,7 @@ export default function PrivacidadePage() {
           </h2>
           <div className="bg-[#f3f4f5] rounded-xl p-5">
             <p className="font-semibold text-[#28113e] mb-2">Responsável pelo Tratamento</p>
-            <p className="text-sm text-[#4a454e] mb-1">Dr. David Lacerda — Santuário Clínico</p>
+            <p className="text-sm text-[#4a454e] mb-1">David Lacerda — Fundador, Santuário Clínico</p>
             <p className="text-sm text-[#4a454e] mb-3">
               E-mail: <a href="mailto:privacidade@davidlacerda.com.br" className="text-[#6b538d] underline">privacidade@davidlacerda.com.br</a>
             </p>

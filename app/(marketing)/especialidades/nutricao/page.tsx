@@ -5,7 +5,7 @@ import SpecialtyPage from "@/components/sections/SpecialtyPage";
 export const metadata: Metadata = buildMetadata({
   title: "Nutrição e Bem-Estar",
   description:
-    "Planos alimentares personalizados via telemedicina com base em evidências. O Dr. David Lacerda integra nutrição clínica e cuidado espiritual do corpo.",
+    "Planos alimentares personalizados via telemedicina com base em evidências. Médicos parceiros do Santuário Clínico integram nutrição clínica e cuidado integral.",
   path: "/especialidades/nutricao",
 });
 

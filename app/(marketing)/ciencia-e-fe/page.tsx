@@ -166,7 +166,7 @@ export default function CienciaFePage() {
                 &ldquo;A medicina trata doenças. Deus cura pacientes. Nossa missão é ser o melhor instrumento
                 possível entre os dois.&rdquo;
                 <footer className="text-base not-italic text-[#4a454e] mt-3">
-                  — Dr. David Lacerda
+                  — David Lacerda, Pastor & Fundador
                 </footer>
               </blockquote>
 

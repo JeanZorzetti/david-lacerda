@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Termos de Uso",
   description:
-    "Termos e condições de uso dos serviços de telemedicina do Santuário Clínico — Dr. David Lacerda.",
+    "Termos e condições de uso dos serviços de telemedicina do Santuário Clínico.",
   path: "/termos",
   noIndex: true,
 });
@@ -195,7 +195,7 @@ export default function TermosPage() {
             content: (
               <div className="bg-[#f3f4f5] rounded-xl p-5">
                 <p className="text-sm text-[#4a454e] mb-2">Dúvidas sobre estes Termos:</p>
-                <p className="text-sm font-semibold text-[#28113e]">Dr. David Lacerda — Santuário Clínico</p>
+                <p className="text-sm font-semibold text-[#28113e]">David Lacerda — Santuário Clínico</p>
                 <p className="text-sm text-[#4a454e]">
                   E-mail: <a href="mailto:contato@davidlacerda.com.br" className="text-[#6b538d] underline">contato@davidlacerda.com.br</a>
                 </p>

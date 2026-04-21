@@ -5,7 +5,7 @@ import SpecialtyPage from "@/components/sections/SpecialtyPage";
 export const metadata: Metadata = buildMetadata({
   title: "Clínica Geral Avançada",
   description:
-    "Acompanhamento clínico geral via telemedicina: check-up, doenças crônicas, renovação de receitas e segunda opinião com o Dr. David Lacerda.",
+    "Acompanhamento clínico geral via telemedicina: check-up, doenças crônicas, renovação de receitas e segunda opinião. Médicos qualificados via Santuário Clínico.",
   path: "/especialidades/clinica-geral",
 });
 

@@ -22,7 +22,7 @@ export default function AconselhamentoEspiritualPage() {
       aboutTitle="O cuidado que nenhum fármaco pode oferecer"
       about={[
         "O aconselhamento espiritual é uma das práticas mais antigas de cuidado humano — e uma das mais estudadas atualmente. A psiconeuroimunologia documenta com crescente rigor o impacto positivo da espiritualidade na saúde mental, na resiliência e até na resposta imune.",
-        "O Dr. David Lacerda é pastor ordenado com formação teológica formal. Suas sessões de aconselhamento espiritual não são improvisadas — seguem princípios pastorais consolidados, integrando escuta ativa, orientação bíblica e oração.",
+        "David Lacerda é pastor ordenado com formação teológica formal. Suas sessões de aconselhamento espiritual não são improvisadas — seguem princípios pastorais consolidados, integrando escuta ativa, orientação bíblica e oração.",
         "Importante: o aconselhamento espiritual é distinto da psicoterapia e não a substitui. É um cuidado complementar que atende a dimensão de fé do ser humano — e que, para quem tem convicções cristãs, pode ser o elemento que faltava no processo de cura.",
       ]}
       whenItems={[
@@ -90,7 +90,7 @@ export default function AconselhamentoEspiritualPage() {
         },
         {
           q: "Preciso ser cristão para agendar?",
-          a: "O aconselhamento do Dr. David é fundamentado na tradição cristã evangélica. Pessoas de outras crenças são bem-vindas a explorar, mas o conteúdo das sessões terá essa base teológica. Para quem busca aconselhamento laico ou de outras tradições, há profissionais mais adequados.",
+          a: "O aconselhamento no Santuário Clínico é fundamentado na tradição cristã evangélica. Pessoas de outras crenças são bem-vindas a explorar, mas o conteúdo das sessões terá essa base teológica. Para quem busca aconselhamento laico ou de outras tradições, há profissionais mais adequados.",
         },
         {
           q: "O que é dito na sessão fica em sigilo?",
@@ -98,11 +98,11 @@ export default function AconselhamentoEspiritualPage() {
         },
         {
           q: "O aconselhamento espiritual tem alguma base científica?",
-          a: "O aconselhamento espiritual em si é uma prática pastoral, não uma terapia clínica. Porém, há extensa literatura científica sobre o impacto positivo da espiritualidade na saúde mental e física. O Dr. David une as duas perspectivas com responsabilidade.",
+          a: "O aconselhamento espiritual em si é uma prática pastoral, não uma terapia clínica. Porém, há extensa literatura científica sobre o impacto positivo da espiritualidade na saúde mental e física. O Santuário Clínico une as duas perspectivas com responsabilidade.",
         },
         {
           q: "Com que frequência devo ir às sessões?",
-          a: "Depende do objetivo e da situação. Em crises agudas, sessões semanais ou quinzenais. Para crescimento espiritual, mensais são comuns. O Dr. David ajudará a definir a frequência ideal na primeira sessão.",
+          a: "Depende do objetivo e da situação. Em crises agudas, sessões semanais ou quinzenais. Para crescimento espiritual, mensais são comuns. A frequência ideal será definida na primeira sessão.",
         },
       ]}
       ctaText="Agendar Sessão Espiritual"
