@@ -24,8 +24,8 @@ export function schemaFounder() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: siteConfig.founder.name,
-    jobTitle: "Pastor & Fundador",
-    description: "Pastor e fundador do Santuário Clínico, plataforma de telemedicina com acolhimento espiritual.",
+    jobTitle: "Fundador",
+    description: "Fundador do Santuário Clínico, plataforma de telemedicina com excelência clínica.",
     url: `${BASE_URL}/pastor`,
     image: `${BASE_URL}/david-real.jpg`,
     affiliation: {

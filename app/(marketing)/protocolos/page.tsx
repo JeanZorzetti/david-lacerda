@@ -363,9 +363,9 @@ export default function ProtocolosPage() {
                 Nosso Compromisso Ético
               </h2>
               <blockquote className="text-[#d9bdff] text-lg md:text-xl leading-relaxed italic max-w-2xl mx-auto mb-6">
-                &ldquo;Cuidar com excelência técnica é um dever. Fazê-lo com compaixão, respeito e integridade é um chamado. No Santuário Clínico, esses dois compromissos caminham juntos em cada consulta.&rdquo;
+                &ldquo;Cuidar com excelência técnica é um dever. Fazê-lo com compaixão, respeito e integridade é o que diferencia o Santuário Clínico. Esses dois compromissos caminham juntos em cada consulta.&rdquo;
               </blockquote>
-              <p className="text-[#aa8ec4] text-sm">— David Lacerda, Pastor & Fundador</p>
+              <p className="text-[#aa8ec4] text-sm">— David Lacerda, Fundador</p>
             </div>
           </div>
         </div>

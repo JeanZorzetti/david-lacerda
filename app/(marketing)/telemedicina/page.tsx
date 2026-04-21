@@ -113,8 +113,8 @@ const faq = [
     a: "Sim. Na hora do agendamento, informe que a consulta é para um dependente. Para menores de 18 anos, é obrigatória a presença do responsável legal.",
   },
   {
-    q: "O aconselhamento espiritual é diferente de sessão de psicologia?",
-    a: "Sim. O aconselhamento espiritual é conduzido por David Lacerda na sua função pastoral, com base bíblica e oração. Não substitui psicoterapia, mas pode ser complementar ao tratamento médico.",
+    q: "O que é o aconselhamento terapêutico?",
+    a: "O aconselhamento clínico terapêutico é conduzido por profissional de saúde especializado. Não substitui psicoterapia formal, mas pode ser complementar ao tratamento médico quando clinicamente indicado.",
   },
 ];
 

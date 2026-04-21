@@ -5,9 +5,9 @@ import { buildMetadata, siteConfig } from "@/lib/seo";
 import { schemaBreadcrumb } from "@/lib/schema";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Ciência & Fé",
+  title: "Nossa Abordagem",
   description:
-    "Um manifesto sobre cuidado integral: como a medicina moderna e a fé cristã não são opostos, mas parceiros no cuidado do ser humano completo.",
+    "Conheça a abordagem clínica do Santuário Clínico: medicina baseada em evidências com cuidado humanizado, rigor técnico e respeito à individualidade de cada paciente.",
   path: "/ciencia-e-fe",
 });
 
@@ -15,26 +15,22 @@ const papers = [
   {
     area: "Saúde Mental",
     citation: "Koenig HG (2012). Religion, spirituality, and health: The research and clinical implications. ISRN Psychiatry.",
-    finding: "Estudos com mais de 3.000 participantes mostram que espiritualidade está associada a menor prevalência de depressão e ansiedade.",
-    versiculo: "\"Aquele que crê em mim, ainda que morra, viverá.\" — João 11:25",
+    finding: "Estudos com mais de 3.000 participantes mostram que suporte social e propósito de vida estão associados a menor prevalência de depressão e ansiedade.",
   },
   {
     area: "Resiliência",
     citation: "Pargament KI (2011). Spiritually integrated psychotherapy. Guilford Press.",
-    finding: "O coping religioso positivo é um dos preditores mais consistentes de resiliência psicológica em situações de crise.",
-    versiculo: "\"Tudo posso naquele que me fortalece.\" — Filipenses 4:13",
+    finding: "Recursos internos e crenças pessoais são preditores consistentes de resiliência psicológica em situações de crise.",
   },
   {
     area: "Inflamação e Estresse",
     citation: "Black DS, Slavich GM (2016). Mindfulness meditation and the immune system. Ann NY Acad Sci.",
-    finding: "Práticas contemplativas e de oração reduzem biomarcadores inflamatórios, incluindo IL-6 e cortisol, em populações sob estresse crônico.",
-    versiculo: "\"Não andeis ansiosos de coisa alguma.\" — Filipenses 4:6",
+    finding: "Práticas contemplativas e de mindfulness reduzem biomarcadores inflamatórios, incluindo IL-6 e cortisol, em populações sob estresse crônico.",
   },
   {
     area: "Propósito de Vida",
     citation: "Kim ES et al. (2019). Purpose in life and reduced incidence of stroke. Psychosomatic Medicine.",
     finding: "Indivíduos com alto senso de propósito têm 44% menos risco de AVC e 19% menos mortalidade por todas as causas.",
-    versiculo: "\"Porque dele, e por ele, e para ele são todas as coisas.\" — Romanos 11:36",
   },
 ];
 
@@ -49,26 +45,26 @@ const principios = [
     icon: "favorite",
     title: "Escuta Profunda",
     description:
-      "Cada paciente é uma narrativa única. A escuta ativa vai além dos sintomas — alcança crenças, medos e esperanças.",
+      "Cada paciente é uma narrativa única. A escuta ativa vai além dos sintomas — alcança valores, medos e expectativas.",
   },
   {
     icon: "self_improvement",
     title: "Cuidado Integral",
     description:
-      "Corpo, mente e espírito são inseparáveis. O plano terapêutico considera todas as dimensões do ser humano.",
+      "Corpo e mente são inseparáveis. O plano terapêutico considera todas as dimensões do bem-estar do paciente.",
   },
   {
     icon: "volunteer_activism",
     title: "Compaixão Ativa",
     description:
-      "Não apenas diagnóstico e prescrição, mas presença genuína. Cuidar é um ato de amor ao próximo.",
+      "Não apenas diagnóstico e prescrição, mas presença genuína. Cuidar é um ato de compromisso com o bem-estar do outro.",
   },
 ];
 
-export default function CienciaFePage() {
+export default function AbordagemPage() {
   const jsonLdBreadcrumb = schemaBreadcrumb([
     { name: "Home", url: siteConfig.url },
-    { name: "Ciência & Fé", url: `${siteConfig.url}/ciencia-e-fe` },
+    { name: "Nossa Abordagem", url: `${siteConfig.url}/ciencia-e-fe` },
   ]);
 
   return (
@@ -95,27 +91,25 @@ export default function CienciaFePage() {
                 <Link href="/" className="hover:text-white transition-colors">Home</Link>
               </li>
               <li aria-hidden="true"><span className="material-symbols-outlined text-sm">chevron_right</span></li>
-              <li><span className="text-white font-medium">Ciência & Fé</span></li>
+              <li><span className="text-white font-medium">Nossa Abordagem</span></li>
             </ol>
           </nav>
 
           <div className="max-w-3xl">
             <span className="inline-block py-1 px-3 rounded-full bg-white/10 text-[#d9bdff] text-xs uppercase tracking-[0.05em] mb-6">
-              Um Manifesto
+              Filosofia de Cuidado
             </span>
             <h1
               className="text-4xl md:text-5xl lg:text-[3rem] font-extrabold leading-[1.1] tracking-[-0.02em] text-white mb-6"
               style={{ fontFamily: "var(--font-headline)" }}
             >
-              A ciência e a fé{" "}
+              Medicina com excelência{" "}
               <br className="hidden md:block" />
-              não disputam o mesmo{" "}
-              <br className="hidden md:block" />
-              território.
+              e cuidado humanizado.
             </h1>
             <p className="text-lg text-[#aa8ec4] max-w-2xl">
-              Elas falam idiomas diferentes sobre a mesma realidade: o mistério de ser humano.
-              No Santuário Clínico, aprendemos a traduzir os dois.
+              No Santuário Clínico, cada consulta combina rigor científico com escuta ativa
+              e respeito à individualidade do paciente — porque a saúde vai além do sintoma.
             </p>
           </div>
         </div>
@@ -141,53 +135,43 @@ export default function CienciaFePage() {
 
             <div className="lg:col-span-8 space-y-8 text-lg text-[#4a454e] leading-relaxed">
               <p className="text-2xl font-bold text-[#28113e] leading-snug" style={{ fontFamily: "var(--font-headline)" }}>
-                Por séculos, a humanidade viveu como se mente e espírito fossem dois mundos inconciliáveis.
-                Essa separação nos custou caro.
+                A medicina mais eficaz é aquela que trata o ser humano completo, não apenas o sintoma isolado.
               </p>
 
               <p>
                 A medicina moderna nasceu da observação metódica, do experimento e da evidência. Essa é sua força
-                inegável. Mas ao longo do caminho, muitas escolas médicas descartaram dimensões igualmente reais do
-                paciente: o sentido que dá à própria vida, as crenças que sustentam sua esperança, as relações que
-                alimentam ou adoecem sua alma.
+                inegável. Mas ao longo do caminho, muitas abordagens descartaram dimensões igualmente reais do
+                paciente: o sentido que dá à própria vida, os valores que sustentam suas escolhas, as relações que
+                impactam sua saúde.
               </p>
 
               <p>
-                A fé cristã, por sua vez, sempre soube que o ser humano é mais do que bioquímica. Que há uma
-                dimensão interior — chamemos de espírito — que influencia profundamente como vivemos, adoecemos
-                e nos curamos. Não como magia, mas como realidade documentada em décadas de pesquisa em
-                psiconeuroimunologia.
+                No Santuário Clínico, acreditamos que o cuidado médico mais eficaz considera o paciente inteiro.
+                Que há uma dimensão interior que influencia profundamente como vivemos, adoecemos e nos recuperamos.
+                Isso está documentado em décadas de pesquisa em psiconeuroimunologia e medicina integrativa.
               </p>
 
               <blockquote
                 className="border-l-4 border-[#6b538d] pl-6 py-2 my-8 italic text-[#191c1d] text-xl"
                 style={{ fontFamily: "var(--font-headline)" }}
               >
-                &ldquo;A medicina trata doenças. Deus cura pacientes. Nossa missão é ser o melhor instrumento
-                possível entre os dois.&rdquo;
+                &ldquo;Cuidar com excelência técnica é um dever. Fazê-lo com compaixão e respeito
+                à individualidade do paciente é o que diferencia o Santuário Clínico.&rdquo;
                 <footer className="text-base not-italic text-[#4a454e] mt-3">
-                  — David Lacerda, Pastor & Fundador
+                  — David Lacerda, Fundador
                 </footer>
               </blockquote>
 
               <p>
-                No Santuário Clínico, não pedimos que o paciente abandone sua fé ao cruzar a porta virtual do
-                consultório. Pelo contrário: queremos conhecê-la. Porque sabemos que uma pessoa que encontrou
-                propósito, que ora, que pertence a uma comunidade, tem recursos internos que nenhum fármaco
-                consegue replicar.
+                Cada diagnóstico é feito com o rigor que a medicina exige. Cada prescrição segue
+                protocolos baseados em evidências. Mas a conversa sobre o que sustenta o paciente —
+                seus valores, sua história, seus objetivos de vida — também tem lugar aqui.
               </p>
 
               <p>
-                Isso não significa ignorar a ciência. Significa completá-la. Cada diagnóstico é feito com o
-                rigor que a medicina exige. Cada prescrição segue protocolos baseados em evidências. Mas a
-                conversa sobre o que sustenta o paciente por dentro — sua fé, seus valores, seu propósito —
-                essa conversa também tem lugar aqui.
-              </p>
-
-              <p>
-                Porque acreditamos que a cura mais profunda não acontece apenas no corpo. Acontece quando
-                corpo, mente e espírito encontram alinhamento. E quando isso ocorre, a medicina se torna
-                verdadeiramente poderosa.
+                Porque acreditamos que a recuperação mais duradoura não acontece apenas no corpo.
+                Acontece quando corpo e mente encontram equilíbrio. E quando isso ocorre, a medicina
+                se torna verdadeiramente poderosa.
               </p>
             </div>
           </div>
@@ -230,7 +214,7 @@ export default function CienciaFePage() {
         </div>
       </section>
 
-      {/* Ciência + Escritura lado a lado */}
+      {/* Evidências científicas */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
@@ -241,10 +225,10 @@ export default function CienciaFePage() {
               className="text-3xl md:text-4xl font-bold text-[#28113e] tracking-[-0.02em]"
               style={{ fontFamily: "var(--font-headline)" }}
             >
-              O que a pesquisa e a Palavra dizem
+              O que a pesquisa científica confirma
             </h2>
             <p className="text-[#4a454e] mt-4">
-              Não precisamos escolher entre ciência e fé. Elas convergem mais do que parecem.
+              O cuidado integral tem base sólida em evidências clínicas e científicas.
             </p>
           </div>
 
@@ -266,17 +250,6 @@ export default function CienciaFePage() {
                       <p className="text-xs text-[#7c757e] mt-2 italic">{item.citation}</p>
                     </div>
                   </div>
-
-                  <div className="flex gap-3 items-start">
-                    <div className="w-8 h-8 rounded-full bg-[#3e2755] flex items-center justify-center shrink-0 mt-0.5">
-                      <span className="material-symbols-outlined text-sm text-[#aa8ec4]" style={{ fontVariationSettings: "'FILL' 1" }}>
-                        menu_book
-                      </span>
-                    </div>
-                    <blockquote className="text-sm text-[#28113e] italic leading-relaxed font-medium" style={{ fontFamily: "var(--font-headline)" }}>
-                      {item.versiculo}
-                    </blockquote>
-                  </div>
                 </div>
               </div>
             ))}
@@ -296,10 +269,10 @@ export default function CienciaFePage() {
             className="text-3xl md:text-4xl font-bold text-[#28113e] mb-6 tracking-[-0.02em]"
             style={{ fontFamily: "var(--font-headline)" }}
           >
-            Pronto para ser cuidado por inteiro?
+            Pronto para cuidar da sua saúde?
           </h2>
           <p className="text-[#4a454e] text-lg mb-10 max-w-2xl mx-auto">
-            No Santuário Clínico, sua fé é bem-vinda. Sua história é respeitada. Sua saúde é nossa missão.
+            No Santuário Clínico, sua história é respeitada. Sua saúde é nossa missão.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

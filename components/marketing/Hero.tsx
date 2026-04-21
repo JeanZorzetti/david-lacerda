@@ -27,16 +27,16 @@ export default function Hero() {
             className="text-5xl md:text-6xl lg:text-[3.5rem] font-extrabold leading-[1.1] tracking-[-0.02em] text-[#28113e] mb-6"
             style={{ fontFamily: "var(--font-headline)" }}
           >
-            A cura que vem do alto,{" "}
+            Saúde de qualidade{" "}
             <br className="hidden md:block" />
-            o cuidado que você precisa aqui.
+            onde você estiver.
           </motion.h1>
           <motion.p
             variants={fadeInUp}
             className="text-lg md:text-xl text-[#4a454e] mb-10 max-w-xl"
           >
             O Santuário Clínico conecta você a médicos qualificados online,
-            com o acolhimento espiritual de quem cuida da alma e do corpo.
+            com excelência clínica e cuidado humanizado.
           </motion.p>
           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -69,7 +69,7 @@ export default function Hero() {
           >
             <Image
               src="/david-real.jpg"
-              alt="David Lacerda, pastor e fundador do Santuário Clínico"
+              alt="David Lacerda, fundador do Santuário Clínico"
               fill
               className="object-cover"
               priority

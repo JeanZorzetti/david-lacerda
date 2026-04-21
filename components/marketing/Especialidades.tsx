@@ -37,7 +37,7 @@ export default function Especialidades() {
               </h3>
               <p className="text-[#4a454e] mb-6 max-w-md">
                 Tratamento humanizado para ansiedade, depressão e transtornos de
-                humor, integrando suporte clínico e fortalecimento espiritual.
+                humor, integrando suporte clínico e acompanhamento multidisciplinar.
               </p>
               <a
                 href="#"
@@ -103,7 +103,7 @@ export default function Especialidades() {
             </h3>
             <p className="text-[#4a454e] text-sm mb-6 flex-1">
               Planos alimentares personalizados para vitalidade física,
-              respeitando o templo que é o seu corpo.
+              respeitando suas necessidades e estilo de vida.
             </p>
             <a
               href="#"

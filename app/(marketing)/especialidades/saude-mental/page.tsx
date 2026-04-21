@@ -5,7 +5,7 @@ import SpecialtyPage from "@/components/sections/SpecialtyPage";
 export const metadata: Metadata = buildMetadata({
   title: "Saúde Mental e Emocional",
   description:
-    "Tratamento humanizado para ansiedade, depressão e burnout via telemedicina. O Santuário Clínico integra suporte clínico baseado em evidências e acolhimento espiritual.",
+    "Tratamento humanizado para ansiedade, depressão e burnout via telemedicina. O Santuário Clínico integra suporte clínico baseado em evidências com atendimento humanizado.",
   path: "/especialidades/saude-mental",
 });
 
@@ -18,12 +18,12 @@ export default function SaudeMentalPage() {
       accentText="#ffffff"
       tag="Saúde Mental · Emocional"
       title="Saúde Mental e Emocional"
-      lead="Tratamento humanizado para ansiedade, depressão e transtornos de humor, integrando suporte clínico baseado em evidências e fortalecimento espiritual."
+      lead="Tratamento humanizado para ansiedade, depressão e transtornos de humor, integrando suporte clínico baseado em evidências e acompanhamento longitudinal."
       aboutTitle="Saúde mental é saúde — ponto final"
       about={[
         "Transtornos mentais afetam 1 em cada 4 pessoas ao longo da vida. Ansiedade, depressão, burnout e TDAH não são fraqueza de caráter — são condições clínicas reais, com causa, evolução e tratamento bem documentados.",
-        "Os médicos do Santuário Clínico combinam avaliação cuidadosa, psicoeducação e, quando necessário, farmacoterapia baseada em evidências. E vão além: a plataforma foi criada por um pastor que entende que a dimensão espiritual do paciente é um recurso genuíno no processo de cura.",
-        "Pesquisas como as de Koenig et al. (2012) demonstram que espiritualidade está associada a menor prevalência de depressão e ansiedade. No Santuário Clínico, essa dimensão é integrada ao plano terapêutico — nunca como substituto, sempre como complemento.",
+        "Os médicos do Santuário Clínico combinam avaliação cuidadosa, psicoeducação e, quando necessário, farmacoterapia baseada em evidências, com escuta ativa e cuidado humanizado.",
+        "O atendimento é individualizado, respeitando a história, os valores e as crenças do paciente. O objetivo é um plano terapêutico real e sustentável, não apenas uma receita.",
       ]}
       whenItems={[
         "Ansiedade excessiva que interfere no trabalho, relações ou sono",
@@ -50,9 +50,9 @@ export default function SaudeMentalPage() {
         },
         {
           icon: "self_improvement",
-          title: "Integração mente-espírito",
+          title: "Técnicas de regulação emocional",
           description:
-            "Técnicas de atenção plena, reestruturação cognitiva e, quando o paciente desejar, práticas espirituais como recurso de coping.",
+            "Atenção plena, reestruturação cognitiva e estratégias de coping adaptadas ao perfil e estilo de vida do paciente.",
         },
         {
           icon: "groups",
@@ -70,7 +70,7 @@ export default function SaudeMentalPage() {
           icon: "favorite",
           title: "Escuta sem julgamento",
           description:
-            "Ambiente seguro onde sua fé, seus valores e sua história são respeitados como parte do processo terapêutico.",
+            "Ambiente seguro onde seus valores e sua história são respeitados como parte do processo terapêutico.",
         },
       ]}
       cases={[
@@ -99,8 +99,8 @@ export default function SaudeMentalPage() {
           a: "Não e nem pretende. A consulta médica e a psicoterapia são complementares. O médico pode indicar e encaminhar para psicólogos parceiros quando a psicoterapia for indicada como parte do plano terapêutico.",
         },
         {
-          q: "O tratamento espiritual substitui o tratamento médico?",
-          a: "Nunca. O acolhimento espiritual é integrado ao plano clínico como recurso complementar, nunca como substituto. O tratamento médico segue protocolos baseados em evidências independentemente das crenças do paciente.",
+          q: "O tratamento leva em conta meus valores e crenças pessoais?",
+          a: "Sempre. O atendimento respeita a individualidade do paciente, incluindo seus valores e crenças. O tratamento médico segue protocolos baseados em evidências e é personalizado para cada pessoa.",
         },
         {
           q: "Quanto tempo leva para ver resultados?",

@@ -19,7 +19,7 @@ const especialidades = [
     title: "Saúde Mental e Emocional",
     subtitle: "Ansiedade · Depressão · Burnout",
     description:
-      "Tratamento humanizado para ansiedade, depressão e transtornos de humor, integrando suporte clínico e fortalecimento espiritual. Abordagem baseada em evidências com escuta ativa.",
+      "Tratamento humanizado para ansiedade, depressão e transtornos de humor, integrando suporte clínico e acompanhamento multidisciplinar. Abordagem baseada em evidências com escuta ativa.",
     featured: true,
   },
   {
@@ -41,7 +41,7 @@ const especialidades = [
     title: "Nutrição e Bem-Estar",
     subtitle: "Planos alimentares · Emagrecimento saudável",
     description:
-      "Planos alimentares personalizados para vitalidade física, respeitando o templo que é o seu corpo.",
+      "Planos alimentares personalizados para vitalidade física, respeitando suas preferências e estilo de vida.",
     featured: false,
   },
   {

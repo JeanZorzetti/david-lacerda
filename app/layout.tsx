@@ -23,18 +23,17 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Santuário Clínico — Telemedicina com Propósito",
+    default: "Santuário Clínico — Telemedicina",
     template: "%s | Santuário Clínico",
   },
   description:
-    "Acesso a médicos online com acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo.",
+    "Acesso a médicos online com excelência clínica. Telemedicina de qualidade para o seu bem-estar completo.",
   keywords: [
     "telemedicina",
     "consulta médica online",
     "saúde mental",
     "clínica geral",
     "nutrição",
-    "aconselhamento espiritual",
     "David Lacerda",
     "Santuário Clínico",
   ],
@@ -45,23 +44,23 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: BASE_URL,
     siteName: "Santuário Clínico — Telemedicina",
-    title: "Santuário Clínico — Telemedicina com Propósito",
+    title: "Santuário Clínico — Telemedicina",
     description:
-      "Acesso a médicos online com acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo.",
+      "Acesso a médicos online com excelência clínica. Telemedicina de qualidade para o seu bem-estar completo.",
     images: [
       {
         url: `${BASE_URL}/og-default.jpg`,
         width: 1200,
         height: 630,
-        alt: "Santuário Clínico — Telemedicina com Propósito",
+        alt: "Santuário Clínico — Telemedicina",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Santuário Clínico — Telemedicina com Propósito",
+    title: "Santuário Clínico — Telemedicina",
     description:
-      "Acesso a médicos online com acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo.",
+      "Acesso a médicos online com excelência clínica. Telemedicina de qualidade para o seu bem-estar completo.",
     images: [`${BASE_URL}/og-default.jpg`],
   },
   robots: {
@@ -89,7 +88,7 @@ export default function RootLayout({
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="Santuário Clínico — Blog RSS"
+          title="Santuário Clínico — Blog"
           href={`${BASE_URL}/feed.xml`}
         />
       </head>

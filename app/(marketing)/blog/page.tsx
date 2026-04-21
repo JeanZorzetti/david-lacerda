@@ -8,7 +8,7 @@ import { categoryLabels, categoryColors, formatDate, sortedPosts, getReadingTime
 export const metadata: Metadata = buildMetadata({
   title: "Blog",
   description:
-    "Artigos sobre saúde mental, devocionais e bem-estar — pela perspectiva do Santuário Clínico e seu fundador, o pastor David Lacerda.",
+    "Artigos sobre saúde mental, bem-estar e telemedicina — pelo Santuário Clínico, fundado por David Lacerda.",
   path: "/blog",
 });
 
@@ -63,10 +63,10 @@ export default async function BlogPage({
               className="text-4xl md:text-5xl font-extrabold leading-[1.1] tracking-[-0.02em] text-white mb-4"
               style={{ fontFamily: "var(--font-headline)" }}
             >
-              Saúde, fé e ciência em palavras
+              Saúde e bem-estar em palavras
             </h1>
             <p className="text-lg text-[#aa8ec4]">
-              Reflexões pastorais e conteúdo sobre saúde para o cuidado integral da pessoa humana.
+              Conteúdo sobre saúde, telemedicina e bem-estar para o cuidado integral da pessoa.
             </p>
           </div>
         </div>

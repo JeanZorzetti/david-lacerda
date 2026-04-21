@@ -5,70 +5,70 @@ import { buildMetadata, siteConfig } from "@/lib/seo";
 import { schemaFounder, schemaBreadcrumb } from "@/lib/schema";
 
 export const metadata: Metadata = buildMetadata({
-  title: "O Pastor",
+  title: "O Fundador",
   description:
-    "Conheça David Lacerda — pastor e fundador do Santuário Clínico. Uma história de vocação: levar acesso à saúde com acolhimento espiritual.",
+    "Conheça David Lacerda — fundador do Santuário Clínico. Uma história de compromisso com o acesso à saúde de qualidade para todos os brasileiros.",
   path: "/pastor",
 });
 
 const timeline = [
   {
     year: "2010",
-    icon: "auto_stories",
-    title: "Teologia — Seminário Betel",
+    icon: "school",
+    title: "Formação e Liderança Comunitária",
     description:
-      "Formação teológica e ordenação pastoral. Aprofundamento em aconselhamento bíblico e cuidado espiritual.",
+      "Início da atuação em grupos comunitários, aconselhamento e apoio emocional a pessoas em situação de vulnerabilidade.",
   },
   {
     year: "2014",
-    icon: "church",
-    title: "Ministério Pastoral",
+    icon: "groups",
+    title: "Atuação Comunitária",
     description:
-      "Início do ministério pastoral ativo na Comunidade Vida em Cristo — São Luís, MA. Grupos de apoio emocional e espiritual.",
+      "Liderança ativa em comunidades de São Luís, MA. Grupos de apoio emocional e identificação das lacunas no acesso à saúde.",
   },
   {
     year: "2018",
     icon: "volunteer_activism",
-    title: "Missões e Comunidade",
+    title: "Mobilização Social",
     description:
-      "Atuação em comunidades carentes do Maranhão e Pará. Ministério pastoral aliado à mobilização de acesso à saúde.",
+      "Atuação em comunidades carentes do Maranhão e Pará, mobilizando acesso a serviços de saúde para populações distantes de grandes centros.",
   },
   {
     year: "2020",
     icon: "local_hospital",
     title: "Fundação do Santuário Clínico",
     description:
-      "Criação da plataforma de telemedicina com DNA espiritual — facilitando o acesso a médicos com acolhimento pastoral.",
+      "Criação da plataforma de telemedicina para democratizar o acesso a médicos qualificados em todo o Brasil.",
   },
   {
     year: "2024",
     icon: "public",
     title: "Expansão Nacional",
     description:
-      "Pacientes de todos os estados brasileiros acessando médicos pelo Santuário Clínico. Comunidade crescendo.",
+      "Pacientes de todos os estados brasileiros acessando médicos pelo Santuário Clínico. Plataforma em crescimento contínuo.",
   },
 ];
 
-const ministerio = [
+const atuacao = [
   {
-    icon: "church",
-    label: "Igreja",
-    value: "Comunidade Vida em Cristo — São Luís, MA",
+    icon: "location_city",
+    label: "Base",
+    value: "São Luís, Maranhão",
   },
   {
-    icon: "mic",
-    label: "Ministério",
-    value: "Pregação, aconselhamento pastoral e grupos de apoio emocional",
+    icon: "medical_services",
+    label: "Iniciativa",
+    value: "Santuário Clínico — Telemedicina de qualidade para todos",
   },
   {
-    icon: "book",
+    icon: "article",
     label: "Publicações",
-    value: "Artigos sobre fé e saúde no Blog do Santuário Clínico",
+    value: "Artigos sobre saúde e bem-estar no Blog do Santuário Clínico",
   },
   {
     icon: "group",
     label: "Comunidade",
-    value: "Grupos semanais de suporte espiritual e emocional (online)",
+    value: "Grupos de suporte emocional e orientação em saúde (online)",
   },
 ];
 
@@ -76,7 +76,7 @@ export default function PastorPage() {
   const jsonLdFounder = schemaFounder();
   const jsonLdBreadcrumb = schemaBreadcrumb([
     { name: "Home", url: siteConfig.url },
-    { name: "O Pastor", url: `${siteConfig.url}/pastor` },
+    { name: "O Fundador", url: `${siteConfig.url}/pastor` },
   ]);
 
   return (
@@ -105,13 +105,13 @@ export default function PastorPage() {
                   <span className="material-symbols-outlined text-sm">chevron_right</span>
                 </li>
                 <li>
-                  <span className="text-[#28113e] font-medium">O Pastor</span>
+                  <span className="text-[#28113e] font-medium">O Fundador</span>
                 </li>
               </ol>
             </nav>
 
             <span className="inline-block py-1 px-3 rounded-full bg-[#e7e8e9] text-[#4a454e] text-xs uppercase tracking-[0.05em] mb-6">
-              Pastor & Fundador
+              Fundador
             </span>
             <h1
               className="text-4xl md:text-5xl lg:text-[3rem] font-extrabold leading-[1.1] tracking-[-0.02em] text-[#28113e] mb-6"
@@ -119,13 +119,13 @@ export default function PastorPage() {
             >
               Um propósito:{" "}
               <br className="hidden md:block" />
-              levar cuidado{" "}
+              levar saúde{" "}
               <br className="hidden md:block" />
-              e fé juntos.
+              a quem precisa.
             </h1>
             <p className="text-lg md:text-xl text-[#4a454e] mb-10 max-w-xl">
-              David Lacerda acredita que acesso à saúde e fé não são opostos — são dois
-              instrumentos do mesmo Criador para o cuidado integral do ser humano.
+              David Lacerda acredita que acesso à saúde de qualidade é um direito, não um
+              privilégio — e criou o Santuário Clínico para tornar isso real.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -138,7 +138,7 @@ export default function PastorPage() {
                 href="/blog"
                 className="bg-[#e1e3e4] text-[#191c1d] px-8 py-4 rounded-full font-medium uppercase tracking-wider hover:bg-[#edeeef] transition-colors duration-300 text-center"
               >
-                Ler Devocionais
+                Ler Artigos
               </Link>
             </div>
           </div>
@@ -151,14 +151,13 @@ export default function PastorPage() {
             >
               <Image
                 src="/david-real.jpg"
-                alt="David Lacerda, pastor e fundador do Santuário Clínico"
+                alt="David Lacerda, fundador do Santuário Clínico"
                 fill
                 className="object-cover"
                 priority
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
-            {/* Badge Fundador */}
             <div className="absolute -bottom-6 -left-6 md:bottom-8 md:-left-12 bg-white/80 backdrop-blur-xl p-5 rounded-2xl shadow-[0_20px_40px_rgb(0,0,0,0.08)] z-20 flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-[#d9bdff] flex items-center justify-center text-[#604982]">
                 <span className="material-symbols-outlined text-lg" style={{ fontVariationSettings: "'FILL' 1" }}>
@@ -169,7 +168,7 @@ export default function PastorPage() {
                 <p className="font-bold text-[#28113e] text-sm leading-tight" style={{ fontFamily: "var(--font-headline)" }}>
                   David Lacerda
                 </p>
-                <p className="text-xs text-[#4a454e]">Pastor & Fundador</p>
+                <p className="text-xs text-[#4a454e]">Fundador</p>
               </div>
             </div>
           </div>
@@ -188,7 +187,7 @@ export default function PastorPage() {
                 className="text-3xl md:text-4xl font-bold text-[#28113e] mb-6 tracking-[-0.02em]"
                 style={{ fontFamily: "var(--font-headline)" }}
               >
-                Formado para servir o ser humano completo
+                Comprometido com o cuidado humano
               </h2>
               <div className="w-16 h-1 bg-[#6b538d] rounded-full" />
             </div>
@@ -197,26 +196,24 @@ export default function PastorPage() {
               <p>
                 Nascido em São Luís do Maranhão, David Lacerda cresceu vendo de perto as
                 lacunas do sistema de saúde: pessoas sem acesso a atendimento de qualidade,
-                tratadas como números em um sistema sobrecarregado. Desde cedo, sentiu o chamado
-                de ser ponte entre dois mundos: o cuidado espiritual e o acesso real à saúde.
+                tratadas como números em um sistema sobrecarregado.
               </p>
               <p>
-                Ordenado pastor pelo Seminário Betel e atuante na Comunidade Vida em Cristo,
-                David percebeu durante os grupos de aconselhamento pastoral algo que a ciência
-                já confirmava: saúde mental, fé e propósito de vida estão profundamente
-                interligados. Não bastava cuidar da alma — era preciso abrir portas para o
-                cuidado do corpo também.
+                Atuando durante anos em comunidades carentes, David percebeu algo urgente:
+                saúde mental, bem-estar emocional e acesso a médicos estão profundamente
+                interligados. Era preciso criar uma solução que quebrasse as barreiras geográficas
+                e econômicas que impediam tantos brasileiros de receber cuidado adequado.
               </p>
               <p>
-                Após anos de ministério pastoral e atuação em comunidades carentes do Maranhão,
-                David encontrou na telemedicina a ferramenta que precisava: conectar pessoas a
-                médicos qualificados, de qualquer lugar do Brasil, sem burocracia nem deslocamento.
+                Após anos de atuação comunitária no Maranhão e no Pará, David encontrou na
+                telemedicina a ferramenta que precisava: conectar pessoas a médicos qualificados,
+                de qualquer lugar do Brasil, sem burocracia nem deslocamento.
               </p>
               <p>
                 Em 2020, fundou o <strong className="text-[#28113e]">Santuário Clínico</strong> —
-                uma plataforma onde acesso a médicos online e acolhimento espiritual coexistem.
-                Hoje, sua comunidade em todo o Brasil agenda consultas com médicos especializados
-                pelo portal, com a segurança de um ambiente criado por alguém que cuida da alma.
+                uma plataforma onde acesso a médicos online e cuidado humanizado coexistem.
+                Hoje, pacientes em todo o Brasil agendam consultas com médicos especializados
+                pelo portal, com a segurança de um ambiente criado por alguém comprometido com o bem-estar humano.
               </p>
             </div>
           </div>
@@ -234,12 +231,11 @@ export default function PastorPage() {
               className="text-3xl md:text-4xl font-bold text-[#28113e] tracking-[-0.02em]"
               style={{ fontFamily: "var(--font-headline)" }}
             >
-              Uma jornada de formação e propósito
+              Uma jornada de formação e impacto
             </h2>
           </div>
 
           <div className="relative">
-            {/* Vertical line */}
             <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-[#ccc4cf] -translate-x-px hidden sm:block" aria-hidden="true" />
 
             <div className="space-y-8">
@@ -250,14 +246,12 @@ export default function PastorPage() {
                     i % 2 === 0 ? "sm:flex-row" : "sm:flex-row-reverse"
                   }`}
                 >
-                  {/* Year bubble */}
                   <div className="hidden sm:flex absolute left-1/2 top-6 -translate-x-1/2 w-12 h-12 rounded-full bg-[#28113e] text-white items-center justify-center z-10 shadow-md">
                     <span className="material-symbols-outlined text-lg" style={{ fontVariationSettings: "'FILL' 1" }}>
                       {item.icon}
                     </span>
                   </div>
 
-                  {/* Card */}
                   <div className={`sm:w-[calc(50%-3rem)] bg-white rounded-2xl p-6 shadow-[0_4px_20px_rgb(0,0,0,0.04)] ${i % 2 === 0 ? "sm:ml-auto sm:text-left" : "sm:mr-auto sm:text-left"}`}>
                     <span className="inline-block text-xs font-bold text-[#6b538d] uppercase tracking-widest mb-2">
                       {item.year}
@@ -271,7 +265,6 @@ export default function PastorPage() {
                     <p className="text-[#4a454e] text-sm leading-relaxed">{item.description}</p>
                   </div>
 
-                  {/* Mobile icon */}
                   <div className="sm:hidden flex items-center gap-3 w-full">
                     <div className="w-10 h-10 rounded-full bg-[#28113e] text-white flex items-center justify-center shrink-0">
                       <span className="material-symbols-outlined text-base" style={{ fontVariationSettings: "'FILL' 1" }}>
@@ -287,29 +280,28 @@ export default function PastorPage() {
         </div>
       </section>
 
-      {/* Ministério */}
+      {/* Atuação */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-5">
               <span className="inline-block py-1 px-3 rounded-full bg-[#eddcff] text-[#523b74] text-xs uppercase tracking-[0.05em] mb-4">
-                Ministério
+                Atuação
               </span>
               <h2
                 className="text-3xl md:text-4xl font-bold text-[#28113e] mb-6 tracking-[-0.02em]"
                 style={{ fontFamily: "var(--font-headline)" }}
               >
-                Além do consultório: o chamado pastoral
+                Além da plataforma: impacto comunitário
               </h2>
               <p className="text-lg text-[#4a454e] leading-relaxed">
-                David é, antes de tudo, um servo. Seu ministério pastoral não é uma
-                atividade paralela ao Santuário Clínico — é a âncora que dá sentido a cada
-                conexão, a cada paciente acolhido, a cada vida cuidada.
+                David mantém envolvimento ativo com comunidades e iniciativas sociais,
+                sempre com o mesmo propósito: levar cuidado de qualidade a quem mais precisa.
               </p>
             </div>
 
             <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {ministerio.map((item) => (
+              {atuacao.map((item) => (
                 <div
                   key={item.label}
                   className="bg-[#f3f4f5] rounded-2xl p-6 flex gap-4 items-start"
@@ -332,7 +324,7 @@ export default function PastorPage() {
         </div>
       </section>
 
-      {/* Palavra do Pastor */}
+      {/* Visão */}
       <section className="py-20 bg-gradient-to-br from-[#28113e] to-[#3e2755] text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <div className="w-16 h-16 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-8">
@@ -344,17 +336,16 @@ export default function PastorPage() {
             className="text-2xl md:text-3xl font-bold leading-[1.3] mb-8 text-white"
             style={{ fontFamily: "var(--font-headline)" }}
           >
-            &ldquo;Deus nos criou como seres inteiros — corpo, mente e espírito. Tratar apenas
-            um desses aspectos é como tentar acender uma vela pela metade. Minha missão é
-            iluminar o ser humano completo.&rdquo;
+            &ldquo;O acesso a cuidados médicos de qualidade não deveria depender de onde você mora
+            ou quanto você tem. O Santuário Clínico existe para mudar essa realidade.&rdquo;
           </blockquote>
-          <p className="text-[#aa8ec4] mb-10 text-lg">— David Lacerda, pastor e fundador do Santuário Clínico</p>
+          <p className="text-[#aa8ec4] mb-10 text-lg">— David Lacerda, fundador do Santuário Clínico</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/blog"
               className="bg-white text-[#28113e] px-8 py-4 rounded-full font-medium uppercase tracking-wider hover:bg-[#f3f4f5] transition-colors duration-300 text-center"
             >
-              Ler Devocionais & Artigos
+              Ler Artigos
             </Link>
             <Link
               href="/agendar"

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function CienciaFe() {
+export default function AbordagemClinica() {
   return (
     <section className="py-24 relative overflow-hidden bg-[#f8f9fa]" id="telemedicina">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -12,7 +12,7 @@ export default function CienciaFe() {
               <div className="relative w-full rounded-xl bg-[#28113e] overflow-hidden" style={{ aspectRatio: "16/9" }}>
                 <Image
                   src="/logo-footer.png"
-                  alt="Logotipo David Lacerda Telemedicina"
+                  alt="Logotipo Santuário Clínico Telemedicina"
                   fill
                   className="object-contain p-10"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -27,25 +27,22 @@ export default function CienciaFe() {
               className="text-3xl md:text-4xl font-bold text-[#28113e] mb-6 tracking-[-0.02em]"
               style={{ fontFamily: "var(--font-headline)" }}
             >
-              A Ciência e a Fé em Sintonia
+              Medicina com excelência e humanização
             </h2>
             <div className="space-y-6 text-lg text-[#4a454e]">
               <p>
-                Acreditamos que a medicina moderna é um instrumento divino para a
-                preservação da vida. No Santuário Clínico, não separamos o
-                cuidado do corpo do cuidado da alma.
+                No Santuário Clínico, acreditamos que uma consulta médica de qualidade vai além do diagnóstico.
+                Nossos profissionais combinam rigor clínico com escuta ativa e atendimento humanizado.
               </p>
               <p>
-                Nossos protocolos clínicos seguem o rigor científico mais
-                atualizado, aliados a uma escuta ativa e empática que reconhece a
-                dimensão espiritual do ser humano.
+                Nossos protocolos seguem as diretrizes do CFM e as melhores práticas da medicina baseada
+                em evidências, garantindo segurança e eficácia em cada atendimento.
               </p>
               <blockquote
                 className="border-l-4 border-[#6b538d] pl-6 py-2 my-8 italic text-[#191c1d] text-xl"
                 style={{ fontFamily: "var(--font-headline)" }}
               >
-                &ldquo;O médico trata, mas quem cura é Deus. Nossa missão é ser o
-                melhor instrumento possível nessa jornada.&rdquo;
+                &ldquo;Cuidado médico de qualidade deve ser acessível a todos, onde quer que estejam.&rdquo;
               </blockquote>
             </div>
           </div>

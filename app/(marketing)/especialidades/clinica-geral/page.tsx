@@ -18,11 +18,11 @@ export default function ClinicaGeralPage() {
       accentText="#ffffff"
       tag="Clínica Geral · Preventivo"
       title="Clínica Geral Avançada"
-      lead="Acompanhamento contínuo, check-ups preventivos e manejo de doenças crônicas com visão holística do paciente — corpo, mente e propósito de vida."
+      lead="Acompanhamento contínuo, check-ups preventivos e manejo de doenças crônicas com visão holística do paciente — corpo, mente e qualidade de vida."
       aboutTitle="Medicina de família no século XXI"
       about={[
         "A clínica geral moderna vai muito além de tratar sintomas isolados. O médico de família acompanha o paciente ao longo do tempo, conhece sua história, seu contexto de vida e seus fatores de risco — e age preventivamente antes que as doenças se instalem.",
-        "O Santuário Clínico conecta você a médicos que praticam a medicina centrada na pessoa: cada consulta considera não apenas os achados clínicos, mas também o estilo de vida, o suporte social, os hábitos alimentares e a dimensão espiritual do paciente.",
+        "O Santuário Clínico conecta você a médicos que praticam a medicina centrada na pessoa: cada consulta considera não apenas os achados clínicos, mas também o estilo de vida, o suporte social e os hábitos alimentares do paciente.",
         "Com a telemedicina, é possível oferecer esse acompanhamento longitudinal para pacientes em todo o Brasil, com a mesma qualidade de uma consulta presencial para as condições que se beneficiam do formato digital.",
       ]}
       whenItems={[
@@ -64,7 +64,7 @@ export default function ClinicaGeralPage() {
           icon: "psychology_alt",
           title: "Visão integral",
           description:
-            "Atenção ao impacto da doença na qualidade de vida, no trabalho, nas relações e na dimensão espiritual do paciente.",
+            "Atenção ao impacto da doença na qualidade de vida, no trabalho, nas relações e no bem-estar geral do paciente.",
         },
         {
           icon: "forward",

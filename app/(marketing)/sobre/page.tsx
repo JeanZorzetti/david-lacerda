@@ -6,7 +6,7 @@ import { schemaBreadcrumb, schemaOrganization } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Sobre o Santuário Clínico",
   description:
-    "Conheça o Santuário Clínico — plataforma de telemedicina fundada por David Lacerda, pastor, com missão de integrar cuidado médico, emocional e espiritual.",
+    "Conheça o Santuário Clínico — plataforma de telemedicina fundada por David Lacerda, com missão de democratizar o acesso a cuidados médicos de qualidade no Brasil.",
   path: "/sobre",
 });
 
@@ -15,7 +15,7 @@ const valores = [
     icon: "favorite",
     titulo: "Cuidado Integral",
     descricao:
-      "Acreditamos que saúde vai além do corpo — envolve mente, emoções e espírito. Cada consulta considera o paciente como um ser completo, não apenas um conjunto de sintomas.",
+      "Acreditamos que saúde vai além do corpo — envolve mente e emoções. Cada consulta considera o paciente como um ser completo, não apenas um conjunto de sintomas.",
   },
   {
     icon: "verified",
@@ -36,10 +36,10 @@ const valores = [
       "Telemedicina de qualidade para quem vive longe de grandes centros, para quem tem mobilidade reduzida, para quem não pode tirar horas do trabalho para ir a um consultório.",
   },
   {
-    icon: "church",
-    titulo: "Propósito",
+    icon: "psychology",
+    titulo: "Humanização",
     descricao:
-      "Somos movidos pela convicção de que cuidar é um chamado — não apenas uma profissão. A fé que fundou o Santuário Clínico é a mesma que orienta cada decisão da empresa.",
+      "Somos movidos pela convicção de que cuidar bem é mais do que uma profissão — é um compromisso com a dignidade e o bem-estar de cada paciente que atendemos.",
   },
   {
     icon: "lock",
@@ -52,11 +52,11 @@ const valores = [
 const time = [
   {
     nome: "David Lacerda",
-    cargo: "Pastor & Fundador",
+    cargo: "Fundador",
     descricao:
-      "Ordenado pastor e fundador do Santuário Clínico, David concebeu a plataforma a partir da convicção de que fé e ciência não são opostos — são dimensões complementares do cuidado humano.",
+      "Fundador do Santuário Clínico, David concebeu a plataforma a partir da convicção de que o acesso a cuidados médicos de qualidade deve ser universal, humanizado e sem barreiras geográficas.",
     icon: "person",
-    href: "/pastor",
+    href: "/sobre",
   },
   {
     nome: "Médicos Parceiros",
@@ -106,11 +106,11 @@ export default function SobrePage() {
               className="text-4xl md:text-5xl font-extrabold leading-[1.1] tracking-[-0.02em] text-[#28113e] mb-6"
               style={{ fontFamily: "var(--font-headline)" }}
             >
-              Cuidar é um chamado
+              Saúde de qualidade para todos
             </h1>
             <p className="text-lg md:text-xl text-[#4a454e] max-w-xl">
               O Santuário Clínico nasceu da convicção de que o cuidado com a saúde deve ser acessível,
-              humanizado e integral — alcançando corpo, mente e espírito de cada paciente.
+              humanizado e integral — alcançando corpo e mente de cada paciente, onde quer que esteja.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -141,13 +141,13 @@ export default function SobrePage() {
           </div>
           <div className="space-y-6 text-[#4a454e] leading-relaxed">
             <p>
-              O Santuário Clínico foi fundado por David Lacerda, pastor ordenado e empreendedor social, a partir de uma percepção simples mas urgente: milhões de brasileiros não têm acesso a cuidados médicos de qualidade — seja por distância geográfica, custo ou falta de tempo. E entre esses milhões, muitos carregam também um peso espiritual e emocional que nenhuma receita sozinha resolve.
+              O Santuário Clínico foi fundado por David Lacerda a partir de uma percepção simples mas urgente: milhões de brasileiros não têm acesso a cuidados médicos de qualidade — seja por distância geográfica, custo ou falta de tempo.
             </p>
             <p>
-              A visão que deu origem ao Santuário Clínico é que o cuidado mais eficaz é aquele que considera o ser humano inteiro — não apenas o sintoma. Uma plataforma de telemedicina que, além de conectar pacientes a médicos competentes, seja permeada por acolhimento, compaixão e respeito pela fé e pela história de cada pessoa.
+              A visão que deu origem ao Santuário Clínico é que o cuidado mais eficaz é aquele que considera o ser humano inteiro — não apenas o sintoma. Uma plataforma de telemedicina que, além de conectar pacientes a médicos competentes, seja permeada por acolhimento, compaixão e respeito pela história de cada pessoa.
             </p>
             <p>
-              Com infraestrutura de telemedicina regulamentada pelo CFM, o Santuário Clínico tornou isso possível: consultas com especialistas certificados, do celular, sem sair de casa, com receita digital válida em todo o Brasil — e com o diferencial único de uma organização fundada sobre valores cristãos de serviço e dignidade humana.
+              Com infraestrutura de telemedicina regulamentada pelo CFM, o Santuário Clínico tornou isso possível: consultas com especialistas certificados, do celular, sem sair de casa, com receita digital válida em todo o Brasil.
             </p>
             <p>
               Hoje, atendemos pacientes em todo o Brasil, em mais de 30 especialidades. Mas o que não mudou desde o primeiro dia é o propósito: cuidar bem, cuidar de verdade, cuidar do ser humano inteiro.
@@ -241,7 +241,7 @@ export default function SobrePage() {
       {/* CTA Final */}
       <section className="py-20 bg-gradient-to-br from-[#28113e] to-[#3e2755] text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <span className="material-symbols-outlined text-5xl text-[#aa8ec4] mb-6 block" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">church</span>
+          <span className="material-symbols-outlined text-5xl text-[#aa8ec4] mb-6 block" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">medical_services</span>
           <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ fontFamily: "var(--font-headline)" }}>
             Faça parte desta história
           </h2>
@@ -253,8 +253,8 @@ export default function SobrePage() {
             <Link href="/agendar" className="bg-white text-[#28113e] px-10 py-4 rounded-full font-medium uppercase tracking-wider hover:bg-[#f3f4f5] transition-colors">
               Agendar Consulta
             </Link>
-            <Link href="/pastor" className="border border-white/30 text-white px-10 py-4 rounded-full font-medium uppercase tracking-wider hover:bg-white/10 transition-colors">
-              Conhecer o Fundador
+            <Link href="/especialidades" className="border border-white/30 text-white px-10 py-4 rounded-full font-medium uppercase tracking-wider hover:bg-white/10 transition-colors">
+              Ver Especialidades
             </Link>
           </div>
         </div>

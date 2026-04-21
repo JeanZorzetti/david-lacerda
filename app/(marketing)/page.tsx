@@ -11,16 +11,16 @@ import { posts } from "@/.velite";
 import { sortedPosts, categoryLabels, categoryColors, formatDate, getReadingTime } from "@/lib/blog";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Telemedicina com Propósito",
+  title: "Telemedicina de Qualidade",
   description:
-    "Unindo precisão médica e acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo. Atendimento nacional 100% online.",
+    "Acesso a médicos online com excelência clínica. Telemedicina de qualidade para o seu bem-estar completo. Atendimento nacional 100% online.",
   path: "/",
 });
 
 const stats = [
-  { value: 10, suffix: "+", label: "Anos de ministério", description: "Cuidado pastoral e espiritual integrados", icon: "workspace_premium" },
+  { value: 10, suffix: "+", label: "Anos de experiência", description: "Atuação em saúde e gestão clínica", icon: "workspace_premium" },
   { value: 98, suffix: "%", label: "Satisfação dos pacientes", description: "Baseado em feedback pós-consulta", icon: "favorite" },
-  { value: 4, label: "Especialidades", description: "Saúde mental, clínica geral, nutrição e aconselhamento", icon: "medical_services" },
+  { value: 4, label: "Especialidades", description: "Saúde mental, clínica geral, nutrição e mais", icon: "medical_services" },
   { value: 50, suffix: "+", label: "Cidades atendidas", description: "Telemedicina em todo o Brasil", icon: "public" },
 ];
 
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. Sobre Dr. David — teaser */}
+      {/* 5. Sobre o Fundador — teaser */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -166,18 +166,18 @@ export default function Home() {
                     className="text-2xl font-extrabold text-white mb-3 leading-tight"
                     style={{ fontFamily: "var(--font-headline)" }}
                   >
-                    Pastor e fundador — fé e acesso à saúde, juntos.
+                    Fundador e idealizador do Santuário Clínico
                   </h3>
                   <p className="text-[#aa8ec4] text-sm leading-relaxed">
-                    Ordenado pastor e fundador do Santuário Clínico, David Lacerda criou uma plataforma
-                    onde sua comunidade acessa médicos online com o acolhimento espiritual de quem cuida da alma.
+                    David Lacerda fundou o Santuário Clínico com o objetivo de democratizar o acesso
+                    à saúde de qualidade, conectando pacientes a médicos especialistas via telemedicina.
                   </p>
                 </div>
                 <Link
-                  href="/pastor"
+                  href="/sobre"
                   className="self-start inline-flex items-center gap-2 text-sm font-medium text-[#d9bdff] hover:text-white transition-colors"
                 >
-                  Conhecer o David
+                  Conhecer o Santuário Clínico
                   <span className="material-symbols-outlined text-sm">arrow_forward</span>
                 </Link>
               </div>
@@ -186,22 +186,22 @@ export default function Home() {
             <Reveal delay={0.15}>
               <div className="space-y-6">
                 <span className="inline-block py-1 px-3 rounded-full bg-[#eddcff] text-[#523b74] text-xs uppercase tracking-[0.05em]">
-                  Ciência &amp; Fé
+                  Nossa Abordagem
                 </span>
                 <h2
                   className="text-3xl font-extrabold text-[#28113e] tracking-[-0.02em] leading-tight"
                   style={{ fontFamily: "var(--font-headline)" }}
                 >
-                  Saúde acessível com acolhimento espiritual
+                  Saúde acessível com cuidado humanizado
                 </h2>
                 <p className="text-[#4a454e] leading-relaxed">
                   O Santuário Clínico conecta você a médicos qualificados via telemedicina,
-                  em um ambiente criado por um pastor que entende que corpo e alma precisam
-                  de cuidado integral — sem abrir mão de nenhum dos dois.
+                  com atendimento humanizado, excelência clínica e respeito à individualidade
+                  de cada paciente.
                 </p>
                 <div className="space-y-3">
                   {[
-                    "Abordagem biopsicossocial e espiritual",
+                    "Abordagem biopsicossocial integrada",
                     "Respeito às crenças e valores do paciente",
                     "Medicina baseada em evidências",
                     "Atendimento humanizado, sem julgamento",
@@ -220,7 +220,7 @@ export default function Home() {
                   ))}
                 </div>
                 <Link
-                  href="/ciencia-e-fe"
+                  href="/sobre"
                   className="inline-flex items-center gap-2 text-sm font-medium text-[#6b538d] hover:text-[#28113e] transition-colors"
                 >
                   Nossa filosofia de cuidado
@@ -317,7 +317,7 @@ export default function Home() {
                 className="text-3xl md:text-4xl font-extrabold mb-4 tracking-[-0.02em]"
                 style={{ fontFamily: "var(--font-headline)" }}
               >
-                Pronto para ser cuidado por inteiro?
+                Pronto para cuidar da sua saúde?
               </h2>
               <p className="text-[#aa8ec4] text-lg mb-8">
                 Consultas 100% online para todo o Brasil. Agende agora em minutos.

@@ -50,12 +50,12 @@ export function buildMetadata({
 
 export const siteConfig = {
   name: "Santuário Clínico",
-  tagline: "Telemedicina com Propósito",
+  tagline: "Telemedicina de Qualidade",
   description:
-    "Acesso a médicos online com acolhimento espiritual. Telemedicina de excelência para o seu bem-estar completo.",
+    "Acesso a médicos online com excelência clínica. Telemedicina de qualidade para o seu bem-estar completo.",
   url: BASE_URL,
   founder: {
     name: "David Lacerda",
-    credentials: "Pastor & Fundador",
+    credentials: "Fundador",
   },
 };

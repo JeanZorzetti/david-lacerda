@@ -33,7 +33,7 @@ const testimonials = [
     name: "Roberto C.",
     location: "Manaus, AM",
     specialty: "Saúde Mental",
-    text: "Como pastor leigo, estava relutante em buscar apoio médico — pensava que precisava ter mais fé. O Santuário Clínico me mostrou que fé e ciência não são opostos. Hoje estou medicado corretamente, dormindo bem, e minha vida ministerial nunca esteve tão plena.",
+    text: "Estava relutante em buscar apoio médico por falta de tempo e distância dos consultórios. O Santuário Clínico resolveu isso. Hoje estou medicado corretamente, dormindo bem, e com qualidade de vida muito melhor — tudo sem sair de casa.",
     initials: "RC",
   },
 ];

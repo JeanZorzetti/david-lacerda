@@ -3,8 +3,8 @@ import type { Post } from "@/.velite";
 export const categoryLabels: Record<string, string> = {
   "saude-mental": "Saúde Mental",
   "clinica-geral": "Clínica Geral",
-  "devocionais": "Devocionais",
-  "ministerio": "Ministério",
+  "devocionais": "Bem-Estar",
+  "ministerio": "Saúde e Sociedade",
 };
 
 export const categoryColors: Record<string, { bg: string; text: string }> = {

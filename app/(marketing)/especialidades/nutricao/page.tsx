@@ -18,11 +18,11 @@ export default function NutricaoPage() {
       accentText="#ffffff"
       tag="Nutrição · Bem-Estar"
       title="Nutrição e Bem-Estar"
-      lead="Planos alimentares personalizados para vitalidade física, baseados em evidências e no respeito ao templo que é o seu corpo — sem dietas restritivas e sem promessas impossíveis."
-      aboutTitle="Comer bem é um ato de cuidado com o ser que você é"
+      lead="Planos alimentares personalizados para vitalidade física, baseados em evidências e no respeito ao seu estilo de vida — sem dietas restritivas e sem promessas impossíveis."
+      aboutTitle="Comer bem é um ato de cuidado com você mesmo"
       about={[
         "A nutrição clínica moderna vai muito além de contar calorias. Ela investiga a relação do paciente com o alimento, identifica deficiências nutricionais, trata condições metabólicas e constrói estratégias alimentares que cabem na vida real da pessoa.",
-        "Os médicos do Santuário Clínico abordam a nutrição como parte do cuidado integral: o que comemos afeta não apenas o peso corporal, mas o humor, a disposição, a imunidade, a saúde mental e até a espiritualidade — afinal, a Bíblia fala do corpo como templo do Espírito Santo.",
+        "Os médicos do Santuário Clínico abordam a nutrição como parte do cuidado integral: o que comemos afeta não apenas o peso corporal, mas o humor, a disposição, a imunidade e a saúde mental como um todo.",
         "O plano é construído junto com o paciente, respeitando preferências, cultura alimentar, rotina e condições de vida. Sem fórmulas genéricas. Sem proibições absolutas. Com foco em sustentabilidade e bem-estar duradouro.",
       ]}
       whenItems={[
@@ -70,7 +70,7 @@ export default function NutricaoPage() {
           icon: "spa",
           title: "Visão integral",
           description:
-            "O cuidado com o corpo como expressão de respeito à vida que Deus nos deu — nutrição com propósito.",
+            "Nutrição como parte do cuidado completo com a saúde — física, mental e emocional.",
         },
       ]}
       cases={[

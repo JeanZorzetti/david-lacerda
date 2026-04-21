@@ -3,9 +3,9 @@ import { buildMetadata } from "@/lib/seo";
 import SpecialtyPage from "@/components/sections/SpecialtyPage";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Aconselhamento Espiritual",
+  title: "Aconselhamento Terapêutico",
   description:
-    "Sessões de aconselhamento espiritual pastoral com o David Lacerda — pastor e fundador do Santuário Clínico. Fé, cura interior e propósito de vida com acolhimento real.",
+    "Sessões de aconselhamento terapêutico para suporte emocional, propósito de vida e bem-estar. Atendimento humanizado, confidencial e baseado em evidências.",
   path: "/especialidades/aconselhamento-espiritual",
 });
 
@@ -16,96 +16,96 @@ export default function AconselhamentoEspiritualPage() {
       icon="self_improvement"
       accentBg="#28113e"
       accentText="#d9bdff"
-      tag="Fé · Cura Interior · Propósito"
-      title="Aconselhamento Espiritual"
-      lead="Sessões pastorais dedicadas ao alinhamento da fé com o processo de cura, conduzidas por David Lacerda — pastor ordenado e fundador do Santuário Clínico."
-      aboutTitle="O cuidado que nenhum fármaco pode oferecer"
+      tag="Bem-estar · Propósito · Suporte Emocional"
+      title="Aconselhamento Terapêutico"
+      lead="Sessões de suporte emocional dedicadas ao equilíbrio psicológico, propósito de vida e bem-estar integral — com escuta ativa, sigilo e cuidado genuíno."
+      aboutTitle="Cuidado que vai além do diagnóstico"
       about={[
-        "O aconselhamento espiritual é uma das práticas mais antigas de cuidado humano — e uma das mais estudadas atualmente. A psiconeuroimunologia documenta com crescente rigor o impacto positivo da espiritualidade na saúde mental, na resiliência e até na resposta imune.",
-        "David Lacerda é pastor ordenado com formação teológica formal. Suas sessões de aconselhamento espiritual não são improvisadas — seguem princípios pastorais consolidados, integrando escuta ativa, orientação bíblica e oração.",
-        "Importante: o aconselhamento espiritual é distinto da psicoterapia e não a substitui. É um cuidado complementar que atende a dimensão de fé do ser humano — e que, para quem tem convicções cristãs, pode ser o elemento que faltava no processo de cura.",
+        "O aconselhamento terapêutico é uma das práticas de cuidado humano mais estudadas atualmente. A psiconeuroimunologia documenta com crescente rigor o impacto positivo do suporte emocional, do senso de propósito e dos vínculos relacionais na saúde mental e física.",
+        "As sessões de aconselhamento do Santuário Clínico seguem princípios consolidados de escuta ativa, orientação e suporte, integrando os valores e a história de vida do paciente ao processo de cuidado.",
+        "Importante: o aconselhamento terapêutico é distinto da psicoterapia clínica e não a substitui. É um cuidado complementar que atende a dimensão emocional e existencial do ser humano — e que pode ser o apoio que faltava no processo de recuperação.",
       ]}
       whenItems={[
-        "Crise de fé ou questionamentos espirituais profundos",
         "Sentimento de vazio, falta de propósito ou sentido de vida",
-        "Luto que envolve questões de fé (\"por que Deus permitiu?\")",
-        "Conflitos entre diagnóstico médico e crença religiosa",
-        "Ansiedade existencial ou medo da morte",
-        "Decisões de vida importantes que envolvem valores espirituais",
-        "Restauração após pecado, vergonha ou falha moral",
-        "Desejo de aprofundar a vida espiritual como suporte à saúde",
+        "Luto e dificuldade de elaborar perdas significativas",
+        "Ansiedade existencial ou medo do futuro",
+        "Decisões de vida importantes que envolvem valores pessoais",
+        "Conflitos relacionais e dificuldades de comunicação",
+        "Baixa autoestima ou padrões emocionais negativos recorrentes",
+        "Desejo de desenvolver maior equilíbrio emocional e bem-estar",
+        "Necessidade de suporte durante tratamento médico ou recuperação",
       ]}
       howItems={[
         {
           icon: "hearing",
-          title: "Escuta pastoral ativa",
+          title: "Escuta ativa",
           description:
-            "Espaço seguro e confidencial para compartilhar o que pesa na alma, sem julgamento e com acolhimento genuíno.",
-        },
-        {
-          icon: "menu_book",
-          title: "Orientação bíblica",
-          description:
-            "Aplicação contextualizada das Escrituras à situação vivida, respeitando a maturidade espiritual de cada pessoa.",
-        },
-        {
-          icon: "volunteer_activism",
-          title: "Oração conjunta",
-          description:
-            "Quando o paciente deseja, a sessão inclui oração — um momento de entrega e conexão com o Criador.",
+            "Espaço seguro e confidencial para compartilhar o que pesa, sem julgamento e com acolhimento genuíno.",
         },
         {
           icon: "psychology",
-          title: "Integração mente-espírito",
+          title: "Orientação baseada em valores",
           description:
-            "Como pastor, David identifica quando questões espirituais e de saúde se entrelaçam, orientando para o cuidado integral adequado.",
+            "Aplicação contextualizada de princípios de bem-estar à situação vivida, respeitando os valores de cada pessoa.",
+        },
+        {
+          icon: "volunteer_activism",
+          title: "Técnicas de regulação emocional",
+          description:
+            "Estratégias práticas de gestão emocional, mindfulness e desenvolvimento de recursos internos.",
         },
         {
           icon: "assignment",
-          title: "Plano de crescimento",
+          title: "Integração mente-corpo",
           description:
-            "Quando aplicável, orientações práticas de leitura, meditação e disciplinas espirituais para o período entre sessões.",
+            "Identificação de como questões emocionais e de saúde se entrelaçam, orientando para o cuidado integral adequado.",
+        },
+        {
+          icon: "track_changes",
+          title: "Plano de desenvolvimento",
+          description:
+            "Orientações práticas e recursos para trabalho contínuo entre as sessões.",
         },
         {
           icon: "group",
-          title: "Indicação de comunidade",
+          title: "Rede de suporte",
           description:
-            "Orientação sobre grupos de apoio, comunidades de fé e recursos pastorais locais para suporte contínuo.",
+            "Orientação sobre grupos de apoio e recursos comunitários para suporte contínuo.",
         },
       ]}
       cases={[
-        { icon: "question_mark", label: "Crise de fé" },
-        { icon: "heart_broken", label: "Luto espiritual" },
         { icon: "track_changes", label: "Propósito de vida" },
-        { icon: "healing", label: "Cura interior" },
-        { icon: "family_restroom", label: "Conflitos familiares" },
-        { icon: "sentiment_sad", label: "Culpa e perdão" },
-        { icon: "church", label: "Vida na comunidade de fé" },
-        { icon: "spa", label: "Paz interior" },
+        { icon: "heart_broken", label: "Luto e perdas" },
+        { icon: "healing", label: "Bem-estar emocional" },
+        { icon: "family_restroom", label: "Conflitos relacionais" },
+        { icon: "sentiment_sad", label: "Autoestima" },
+        { icon: "crisis_alert", label: "Ansiedade existencial" },
+        { icon: "psychology", label: "Regulação emocional" },
+        { icon: "spa", label: "Equilíbrio e paz interior" },
       ]}
       faq={[
         {
-          q: "O aconselhamento espiritual substitui a psicoterapia?",
-          a: "Não. São abordagens distintas e complementares. A psicoterapia trata condições psicológicas com técnicas clínicas validadas. O aconselhamento espiritual cuida da dimensão de fé. Em muitos casos, as duas abordagens caminham juntas.",
-        },
-        {
-          q: "Preciso ser cristão para agendar?",
-          a: "O aconselhamento no Santuário Clínico é fundamentado na tradição cristã evangélica. Pessoas de outras crenças são bem-vindas a explorar, mas o conteúdo das sessões terá essa base teológica. Para quem busca aconselhamento laico ou de outras tradições, há profissionais mais adequados.",
+          q: "O aconselhamento terapêutico substitui a psicoterapia?",
+          a: "Não. São abordagens distintas e complementares. A psicoterapia trata condições psicológicas com técnicas clínicas validadas por profissional de saúde mental. O aconselhamento terapêutico cuida da dimensão emocional e existencial. Em muitos casos, as duas abordagens caminham juntas.",
         },
         {
           q: "O que é dito na sessão fica em sigilo?",
-          a: "Sim. O sigilo pastoral é um princípio ético fundamental. As únicas exceções são situações de risco iminente de vida para o próprio paciente ou terceiros — e nesse caso, o encaminhamento para recursos de emergência é imediato.",
+          a: "Sim. O sigilo é um princípio ético fundamental. As únicas exceções são situações de risco iminente de vida para o próprio paciente ou terceiros — e nesse caso, o encaminhamento para recursos de emergência é imediato.",
         },
         {
-          q: "O aconselhamento espiritual tem alguma base científica?",
-          a: "O aconselhamento espiritual em si é uma prática pastoral, não uma terapia clínica. Porém, há extensa literatura científica sobre o impacto positivo da espiritualidade na saúde mental e física. O Santuário Clínico une as duas perspectivas com responsabilidade.",
+          q: "O aconselhamento terapêutico tem base científica?",
+          a: "Há extensa literatura científica sobre o impacto positivo do suporte emocional, do senso de propósito e dos vínculos sociais na saúde mental e física. O Santuário Clínico integra essas perspectivas com responsabilidade.",
         },
         {
-          q: "Com que frequência devo ir às sessões?",
-          a: "Depende do objetivo e da situação. Em crises agudas, sessões semanais ou quinzenais. Para crescimento espiritual, mensais são comuns. A frequência ideal será definida na primeira sessão.",
+          q: "Com que frequência devo participar das sessões?",
+          a: "Depende do objetivo e da situação. Em momentos de crise, sessões semanais ou quinzenais. Para desenvolvimento contínuo, mensais são comuns. A frequência ideal será definida na primeira sessão.",
+        },
+        {
+          q: "Posso fazer aconselhamento junto com acompanhamento médico?",
+          a: "Sim. O aconselhamento é complementar ao tratamento médico. Muitos pacientes se beneficiam do suporte emocional ao mesmo tempo em que realizam acompanhamento clínico.",
         },
       ]}
-      ctaText="Agendar Sessão Espiritual"
+      ctaText="Agendar Sessão de Aconselhamento"
     />
   );
 }

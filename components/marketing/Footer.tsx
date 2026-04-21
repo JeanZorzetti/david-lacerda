@@ -7,10 +7,9 @@ const columns = [
     title: "Institucional",
     links: [
       { href: "/sobre", label: "Sobre o Santuário" },
-      { href: "/pastor", label: "O Pastor" },
-      { href: "/ciencia-e-fe", label: "Ciência & Fé" },
       { href: "/protocolos", label: "Protocolos Clínicos" },
-      { href: "/blog", label: "Blog & Devocionais" },
+      { href: "/como-funciona", label: "Como Funciona" },
+      { href: "/blog", label: "Blog" },
     ],
   },
   {
@@ -55,11 +54,11 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-sm text-[#7c757e] leading-relaxed max-w-xs mb-6">
-              Acesso a médicos online com acolhimento espiritual para o seu bem-estar completo.
+              Acesso a médicos online com excelência clínica para o seu bem-estar completo.
               Atendimento 100% online para todo o Brasil.
             </p>
             <div className="space-y-1 text-xs text-[#7c757e]">
-              <p>Fundado por David Lacerda — Pastor</p>
+              <p>Fundado por David Lacerda</p>
               <p>Telemedicina regulamentada pelo CFM</p>
             </div>
           </div>
