@@ -4,20 +4,23 @@ import { siteConfig } from "@/lib/seo";
 
 const columns = [
   {
-    title: "Sobre",
+    title: "Institucional",
     links: [
+      { href: "/sobre", label: "Sobre o Santuário" },
       { href: "/pastor", label: "O Pastor" },
       { href: "/ciencia-e-fe", label: "Ciência & Fé" },
+      { href: "/protocolos", label: "Protocolos Clínicos" },
       { href: "/blog", label: "Blog & Devocionais" },
     ],
   },
   {
-    title: "Atendimento",
+    title: "Serviços",
     links: [
-      { href: "/telemedicina", label: "Como Funciona" },
+      { href: "/pacientes", label: "Para Pacientes" },
+      { href: "/empresas", label: "Para Empresas" },
+      { href: "/planos", label: "Planos e Preços" },
       { href: "/especialidades", label: "Especialidades" },
-      { href: "/agendar", label: "Agendar Consulta" },
-      { href: "/contato", label: "Fale Conosco" },
+      { href: "/como-funciona", label: "Como Funciona" },
     ],
   },
   {
@@ -26,6 +29,7 @@ const columns = [
       { href: "/privacidade", label: "Política de Privacidade" },
       { href: "/termos", label: "Termos de Uso" },
       { href: "/cookies", label: "Política de Cookies" },
+      { href: "/contato", label: "Fale Conosco" },
     ],
   },
 ];

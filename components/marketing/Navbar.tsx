@@ -6,17 +6,17 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const mainLinks = [
-  { href: "/especialidades", label: "Para Pacientes" },
-  { href: "/telemedicina", label: "Para Empresas" },
-  { href: "/pastor", label: "Protocolos" },
-  { href: "/agendar", label: "Planos" },
+  { href: "/pacientes", label: "Para Pacientes" },
+  { href: "/empresas", label: "Para Empresas" },
+  { href: "/protocolos", label: "Protocolos" },
+  { href: "/planos", label: "Planos" },
 ];
 
 const maisLinks = [
   { href: "/blog", label: "Blog" },
   { href: "/contato", label: "Contato" },
-  { href: "/telemedicina", label: "Como Funciona" },
-  { href: "/pastor", label: "Sobre" },
+  { href: "/como-funciona", label: "Como Funciona" },
+  { href: "/sobre", label: "Sobre" },
 ];
 
 export default function Navbar() {
