@@ -5,7 +5,7 @@ import SpecialtyPage from "@/components/sections/SpecialtyPage";
 export const metadata: Metadata = buildMetadata({
   title: "Saúde Mental e Emocional",
   description:
-    "Tratamento humanizado para ansiedade, depressão e burnout via telemedicina. O David Lacerda Telemedicina integra suporte clínico baseado em evidências com atendimento humanizado.",
+    "Tratamento humanizado para ansiedade, depressão e burnout via telemedicina. A David Lacerda Telemedicina integra suporte clínico baseado em evidências com atendimento humanizado.",
   path: "/especialidades/saude-mental",
 });
 
@@ -22,7 +22,7 @@ export default function SaudeMentalPage() {
       aboutTitle="Saúde mental é saúde — ponto final"
       about={[
         "Transtornos mentais afetam 1 em cada 4 pessoas ao longo da vida. Ansiedade, depressão, burnout e TDAH não são fraqueza de caráter — são condições clínicas reais, com causa, evolução e tratamento bem documentados.",
-        "Os médicos do David Lacerda Telemedicina combinam avaliação cuidadosa, psicoeducação e, quando necessário, farmacoterapia baseada em evidências, com escuta ativa e cuidado humanizado.",
+        "Os médicos da David Lacerda Telemedicina combinam avaliação cuidadosa, psicoeducação e, quando necessário, farmacoterapia baseada em evidências, com escuta ativa e cuidado humanizado.",
         "O atendimento é individualizado, respeitando a história, os valores e as crenças do paciente. O objetivo é um plano terapêutico real e sustentável, não apenas uma receita.",
       ]}
       whenItems={[

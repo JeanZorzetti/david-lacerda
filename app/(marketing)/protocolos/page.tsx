@@ -6,7 +6,7 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Protocolos Clínicos",
   description:
-    "Conheça os 5 protocolos do David Lacerda Telemedicina: Telemedicina 24/7, NR-1 Saúde Mental Corporativa, Emagrecimento Clínico com Tirzepatida, Acompanhamento TEA e Entrevista Qualificada.",
+    "Conheça os 5 protocolos da David Lacerda Telemedicina: Telemedicina 24/7, NR-1 Saúde Mental Corporativa, Emagrecimento Clínico com Tirzepatida, Acompanhamento TEA e Entrevista Qualificada.",
   path: "/protocolos",
 });
 
@@ -197,7 +197,7 @@ export default function ProtocolosPage() {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
     name: "Protocolos Clínicos — David Lacerda Telemedicina",
-    description: "5 protocolos clínicos do David Lacerda Telemedicina: Telemedicina, NR-1, Mounjaro, TEA e Entrevista Qualificada.",
+    description: "5 protocolos clínicos da David Lacerda Telemedicina: Telemedicina, NR-1, Mounjaro, TEA e Entrevista Qualificada.",
     url: `${siteConfig.url}/protocolos`,
     author: { "@type": "Organization", name: "David Lacerda Telemedicina" },
   };

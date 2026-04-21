@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const WA_NUMBER = "5500000000000";
-const WA_MESSAGE = "Olá! Gostaria de saber mais sobre as consultas do David Lacerda Telemedicina.";
+const WA_MESSAGE = "Olá! Gostaria de saber mais sobre as consultas da David Lacerda Telemedicina.";
 
 export function WhatsAppButton() {
   const [visible, setVisible] = useState(false);

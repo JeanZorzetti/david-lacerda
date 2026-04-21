@@ -7,7 +7,7 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Nossa Abordagem",
   description:
-    "Conheça a abordagem clínica do David Lacerda Telemedicina: medicina baseada em evidências com cuidado humanizado, rigor técnico e respeito à individualidade de cada paciente.",
+    "Conheça a abordagem clínica da David Lacerda Telemedicina: medicina baseada em evidências com cuidado humanizado, rigor técnico e respeito à individualidade de cada paciente.",
   path: "/ciencia-e-fe",
 });
 

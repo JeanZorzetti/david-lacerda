@@ -54,7 +54,7 @@ const time = [
     nome: "David Lacerda",
     cargo: "Fundador",
     descricao:
-      "Fundador do David Lacerda Telemedicina, David concebeu a plataforma a partir da convicção de que o acesso a cuidados médicos de qualidade deve ser universal, humanizado e sem barreiras geográficas.",
+      "Fundador da David Lacerda Telemedicina, David concebeu a plataforma a partir da convicção de que o acesso a cuidados médicos de qualidade deve ser universal, humanizado e sem barreiras geográficas.",
     icon: "person",
     href: "/sobre",
   },
@@ -62,7 +62,7 @@ const time = [
     nome: "Médicos Parceiros",
     cargo: "Especialistas Credenciados",
     descricao:
-      "Rede de médicos especialistas com registro ativo no CRM, selecionados por experiência, reputação e alinhamento com a proposta de cuidado integral do David Lacerda Telemedicina.",
+      "Rede de médicos especialistas com registro ativo no CRM, selecionados por experiência, reputação e alinhamento com a proposta de cuidado integral da David Lacerda Telemedicina.",
     icon: "medical_services",
     href: "/especialidades",
   },
@@ -109,7 +109,7 @@ export default function SobrePage() {
               Saúde de qualidade para todos
             </h1>
             <p className="text-lg md:text-xl text-[#4a454e] max-w-xl">
-              O David Lacerda Telemedicina nasceu da convicção de que o cuidado com a saúde deve ser acessível,
+              A David Lacerda Telemedicina nasceu da convicção de que o cuidado com a saúde deve ser acessível,
               humanizado e integral — alcançando corpo e mente de cada paciente, onde quer que esteja.
             </p>
           </div>
@@ -141,7 +141,7 @@ export default function SobrePage() {
           </div>
           <div className="space-y-6 text-[#4a454e] leading-relaxed">
             <p>
-              O David Lacerda Telemedicina foi fundado por David Lacerda a partir de uma percepção simples mas urgente: milhões de brasileiros não têm acesso a cuidados médicos de qualidade — seja por distância geográfica, custo ou falta de tempo.
+              A David Lacerda Telemedicina foi fundado por David Lacerda a partir de uma percepção simples mas urgente: milhões de brasileiros não têm acesso a cuidados médicos de qualidade — seja por distância geográfica, custo ou falta de tempo.
             </p>
             <p>
               A visão que deu origem ao David Lacerda Telemedicina é que o cuidado mais eficaz é aquele que considera o ser humano inteiro — não apenas o sintoma. Uma plataforma de telemedicina que, além de conectar pacientes a médicos competentes, seja permeada por acolhimento, compaixão e respeito pela história de cada pessoa.

@@ -1,4 +1,4 @@
-# Guia de Publicação — Blog do David Lacerda Telemedicina
+# Guia de Publicação — Blog da David Lacerda Telemedicina
 
 Guia para o Dr. David Lacerda publicar artigos no blog sem precisar de suporte técnico.
 

@@ -25,7 +25,7 @@ export function schemaFounder() {
     "@type": "Person",
     name: siteConfig.founder.name,
     jobTitle: "Fundador",
-    description: "Fundador do David Lacerda Telemedicina, plataforma de telemedicina com excelência clínica.",
+    description: "Fundador da David Lacerda Telemedicina, plataforma de telemedicina com excelência clínica.",
     url: `${BASE_URL}/pastor`,
     image: `${BASE_URL}/david-real.jpg`,
     affiliation: {

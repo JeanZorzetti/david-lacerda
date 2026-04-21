@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Termos de Uso",
   description:
-    "Termos e condições de uso dos serviços de telemedicina do David Lacerda Telemedicina.",
+    "Termos e condições de uso dos serviços de telemedicina da David Lacerda Telemedicina.",
   path: "/termos",
   noIndex: true,
 });
@@ -72,7 +72,7 @@ export default function TermosPage() {
             content: (
               <>
                 <p className="text-[#191c1d] leading-relaxed mb-3">
-                  O David Lacerda Telemedicina facilita o acesso a consultas médicas de telemedicina realizadas por médicos parceiros credenciados, nas modalidades de:
+                  A David Lacerda Telemedicina facilita o acesso a consultas médicas de telemedicina realizadas por médicos parceiros credenciados, nas modalidades de:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-sm text-[#191c1d] mb-3">
                   <li>Saúde Mental e Emocional (acompanhamento psiquiátrico)</li>
@@ -141,7 +141,7 @@ export default function TermosPage() {
             title: "6. Propriedade Intelectual",
             content: (
               <p className="text-[#191c1d] leading-relaxed">
-                Todo o conteúdo do site — textos, artigos do blog, logotipos, design e elementos visuais — é de propriedade do David Lacerda Telemedicina ou licenciado por seus fornecedores. É vedada a reprodução, distribuição ou uso comercial sem autorização expressa e por escrito. Citações de artigos do blog para fins educativos são permitidas com atribuição clara ao autor.
+                Todo o conteúdo do site — textos, artigos do blog, logotipos, design e elementos visuais — é de propriedade da David Lacerda Telemedicina ou licenciado por seus fornecedores. É vedada a reprodução, distribuição ou uso comercial sem autorização expressa e por escrito. Citações de artigos do blog para fins educativos são permitidas com atribuição clara ao autor.
               </p>
             ),
           },
@@ -166,7 +166,7 @@ export default function TermosPage() {
             content: (
               <>
                 <p className="text-[#191c1d] leading-relaxed mb-3">
-                  O David Lacerda Telemedicina não se responsabiliza por:
+                  A David Lacerda Telemedicina não se responsabiliza por:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-sm text-[#191c1d]">
                   <li>Falhas de conexão à internet do lado do paciente que impeçam a consulta</li>
@@ -175,7 +175,7 @@ export default function TermosPage() {
                   <li>Uso indevido do link de acesso compartilhado pelo paciente com terceiros</li>
                 </ul>
                 <p className="text-sm text-[#4a454e] mt-3">
-                  A responsabilidade civil do médico parceiro é regida pelo Código de Ética Médica do CFM e pela legislação civil brasileira. O David Lacerda Telemedicina atua como facilitador de acesso à plataforma de telemedicina.
+                  A responsabilidade civil do médico parceiro é regida pelo Código de Ética Médica do CFM e pela legislação civil brasileira. A David Lacerda Telemedicina atua como facilitador de acesso à plataforma de telemedicina.
                 </p>
               </>
             ),

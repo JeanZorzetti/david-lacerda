@@ -35,7 +35,7 @@ export default function Hero() {
             variants={fadeInUp}
             className="text-lg md:text-xl text-[#4a454e] mb-10 max-w-xl"
           >
-            O David Lacerda Telemedicina conecta você a médicos qualificados online,
+            A David Lacerda Telemedicina conecta você a médicos qualificados online,
             com excelência clínica e cuidado humanizado.
           </motion.p>
           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
@@ -69,7 +69,7 @@ export default function Hero() {
           >
             <Image
               src="/david-real.jpg"
-              alt="David Lacerda, fundador do David Lacerda Telemedicina"
+              alt="David Lacerda, fundador da David Lacerda Telemedicina"
               fill
               className="object-cover"
               priority

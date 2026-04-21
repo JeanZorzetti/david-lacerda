@@ -116,7 +116,7 @@ export default function Footer() {
           </p>
           <p className="text-xs text-[#7c757e] text-center md:text-right max-w-md">
             As consultas são realizadas por médicos parceiros credenciados.
-            O David Lacerda Telemedicina não presta serviços médicos diretamente.
+            A David Lacerda Telemedicina não presta serviços médicos diretamente.
           </p>
         </div>
       </div>

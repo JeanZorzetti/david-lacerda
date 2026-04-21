@@ -6,7 +6,7 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Para Pacientes",
   description:
-    "Cuidado médico online sem sair de casa. Entenda como funciona a jornada do paciente no David Lacerda Telemedicina — do agendamento à receita digital.",
+    "Cuidado médico online sem sair de casa. Entenda como funciona a jornada do paciente na David Lacerda Telemedicina — do agendamento à receita digital.",
   path: "/pacientes",
 });
 

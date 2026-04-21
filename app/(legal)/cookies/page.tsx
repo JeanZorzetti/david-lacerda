@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Política de Cookies",
   description:
-    "Entenda quais cookies utilizamos no site do David Lacerda Telemedicina, para que servem e como gerenciar suas preferências.",
+    "Entenda quais cookies utilizamos no site da David Lacerda Telemedicina, para que servem e como gerenciar suas preferências.",
   path: "/cookies",
   noIndex: true,
 });

@@ -140,7 +140,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               {post.author}
             </p>
             <p className="text-sm text-[#4a454e] leading-relaxed mb-3">
-              Fundador do David Lacerda Telemedicina. Conecta pessoas a médicos qualificados via telemedicina, com excelência clínica e cuidado humanizado.
+              Fundador da David Lacerda Telemedicina. Conecta pessoas a médicos qualificados via telemedicina, com excelência clínica e cuidado humanizado.
             </p>
             <Link href="/pastor" className="text-sm text-[#6b538d] font-medium hover:text-[#28113e] transition-colors inline-flex items-center gap-1">
               Conheça o David

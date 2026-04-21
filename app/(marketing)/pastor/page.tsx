@@ -7,7 +7,7 @@ import { schemaFounder, schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "O Fundador",
   description:
-    "Conheça David Lacerda — fundador do David Lacerda Telemedicina. Uma história de compromisso com o acesso à saúde de qualidade para todos os brasileiros.",
+    "Conheça David Lacerda — fundador da David Lacerda Telemedicina. Uma história de compromisso com o acesso à saúde de qualidade para todos os brasileiros.",
   path: "/pastor",
 });
 
@@ -36,7 +36,7 @@ const timeline = [
   {
     year: "2020",
     icon: "local_hospital",
-    title: "Fundação do David Lacerda Telemedicina",
+    title: "Fundação da David Lacerda Telemedicina",
     description:
       "Criação da plataforma de telemedicina para democratizar o acesso a médicos qualificados em todo o Brasil.",
   },
@@ -45,7 +45,7 @@ const timeline = [
     icon: "public",
     title: "Expansão Nacional",
     description:
-      "Pacientes de todos os estados brasileiros acessando médicos pelo David Lacerda Telemedicina. Plataforma em crescimento contínuo.",
+      "Pacientes de todos os estados brasileiros acessando médicos pela David Lacerda Telemedicina. Plataforma em crescimento contínuo.",
   },
 ];
 
@@ -63,7 +63,7 @@ const atuacao = [
   {
     icon: "article",
     label: "Publicações",
-    value: "Artigos sobre saúde e bem-estar no Blog do David Lacerda Telemedicina",
+    value: "Artigos sobre saúde e bem-estar no Blog da David Lacerda Telemedicina",
   },
   {
     icon: "group",
@@ -151,7 +151,7 @@ export default function PastorPage() {
             >
               <Image
                 src="/david-real.jpg"
-                alt="David Lacerda, fundador do David Lacerda Telemedicina"
+                alt="David Lacerda, fundador da David Lacerda Telemedicina"
                 fill
                 className="object-cover"
                 priority
@@ -337,9 +337,9 @@ export default function PastorPage() {
             style={{ fontFamily: "var(--font-headline)" }}
           >
             &ldquo;O acesso a cuidados médicos de qualidade não deveria depender de onde você mora
-            ou quanto você tem. O David Lacerda Telemedicina existe para mudar essa realidade.&rdquo;
+            ou quanto você tem. A David Lacerda Telemedicina existe para mudar essa realidade.&rdquo;
           </blockquote>
-          <p className="text-[#aa8ec4] mb-10 text-lg">— David Lacerda, fundador do David Lacerda Telemedicina</p>
+          <p className="text-[#aa8ec4] mb-10 text-lg">— David Lacerda, fundador da David Lacerda Telemedicina</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/blog"

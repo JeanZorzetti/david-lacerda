@@ -1,6 +1,6 @@
 # David Lacerda — Site Institucional de Telemedicina
 
-Site institucional do Dr. David Lacerda, médico e pastor, fundador do David Lacerda Telemedicina. Plataforma completa de telemedicina com agendamento integrado ao Meditele, blog MDX, LGPD compliance e design premium.
+Site institucional do Dr. David Lacerda, médico e pastor, fundador da David Lacerda Telemedicina. Plataforma completa de telemedicina com agendamento integrado ao Meditele, blog MDX, LGPD compliance e design premium.
 
 ## Stack
 

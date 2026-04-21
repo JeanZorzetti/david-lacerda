@@ -25,7 +25,7 @@ export function GET() {
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title><![CDATA[${siteConfig.name} — Blog]]></title>
-    <description><![CDATA[Artigos sobre saúde, bem-estar e telemedicina pelo David Lacerda Telemedicina — fundado por David Lacerda.]]></description>
+    <description><![CDATA[Artigos sobre saúde, bem-estar e telemedicina pela David Lacerda Telemedicina — fundado por David Lacerda.]]></description>
     <link>${baseUrl}/blog</link>
     <atom:link href="${baseUrl}/feed.xml" rel="self" type="application/rss+xml"/>
     <language>pt-BR</language>
