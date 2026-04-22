@@ -3,6 +3,9 @@ import { z } from "zod";
 import { verifyPassword } from "@/lib/auth/password";
 import { signAdminToken } from "@/lib/auth/jwt";
 import { COOKIE_NAME } from "@/lib/auth/session";
+import { getDb } from "@/lib/db";
+import { adminUsers } from "@/lib/db/schema";
+import { eq } from "drizzle-orm";
 
 const schema = z.object({
   email: z.string().email(),
@@ -41,21 +44,27 @@ export async function POST(req: NextRequest) {
   }
 
   const { email, password } = parsed.data;
-  const ADMIN_EMAIL = process.env.ADMIN_EMAIL;
-  const ADMIN_HASH = process.env.ADMIN_PASSWORD_HASH;
 
-  if (!ADMIN_EMAIL || !ADMIN_HASH) {
-    return NextResponse.json({ message: "Admin não configurado" }, { status: 503 });
+  let user: { id: string; email: string; passwordHash: string } | undefined;
+  try {
+    const db = getDb();
+    const rows = await db
+      .select({ id: adminUsers.id, email: adminUsers.email, passwordHash: adminUsers.passwordHash })
+      .from(adminUsers)
+      .where(eq(adminUsers.email, email))
+      .limit(1);
+    user = rows[0];
+  } catch {
+    return NextResponse.json({ message: "Erro interno" }, { status: 500 });
   }
 
-  const emailMatch = email === ADMIN_EMAIL;
-  const passwordMatch = emailMatch ? await verifyPassword(password, ADMIN_HASH) : false;
+  const passwordMatch = user ? await verifyPassword(password, user.passwordHash) : false;
 
-  if (!emailMatch || !passwordMatch) {
+  if (!user || !passwordMatch) {
     return NextResponse.json({ message: "Credenciais inválidas" }, { status: 401 });
   }
 
-  const token = await signAdminToken(email);
+  const token = await signAdminToken(user.email);
   const isProduction = process.env.NODE_ENV === "production";
 
   const response = NextResponse.json({ message: "ok" }, { status: 200 });

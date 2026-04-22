@@ -26,8 +26,6 @@ export default function ConfiguracoesPage() {
         <ul className="text-sm text-[#4a454e] space-y-2 font-mono">
           {[
             "DATABASE_URL",
-            "ADMIN_EMAIL",
-            "ADMIN_PASSWORD_HASH",
             "JWT_SECRET",
             "ASAAS_API_KEY",
             "ASAAS_BASE_URL",
@@ -45,18 +43,6 @@ export default function ConfiguracoesPage() {
         </ul>
       </div>
 
-      <div className="bg-white rounded-2xl p-6 border border-[#e7e8e9] shadow-sm space-y-3">
-        <h2 className="text-base font-bold text-[#28113e]">Gerar hash de senha</h2>
-        <p className="text-sm text-[#4a454e]">
-          Para atualizar a senha do admin, execute localmente:
-        </p>
-        <code className="block bg-[#f3f4f5] rounded-xl px-4 py-3 text-xs text-[#28113e]">
-          npx tsx scripts/hash-password.ts &quot;nova-senha&quot;
-        </code>
-        <p className="text-sm text-[#4a454e]">
-          Copie o hash gerado para a variável <strong>ADMIN_PASSWORD_HASH</strong> no EasyPanel.
-        </p>
-      </div>
     </div>
   );
 }
