@@ -72,6 +72,11 @@ export async function POST(req: NextRequest) {
     });
 
     loginUrl = await gerarMagicLink(meditelePatientId, EXPIRES_MINUTES);
+
+    // Registrar lead/venda no prolife-site (não bloqueia o fluxo)
+    registrarVendaProlife({ nome, email, cpf, telefone, especialidade }).catch((e) =>
+      console.error("[agendar] registrarVendaProlife:", e)
+    );
   } catch (err) {
     console.error("[agendar] Meditele error:", err);
     const message = err instanceof Error ? err.message : "Erro ao criar acesso";
@@ -155,4 +160,44 @@ export async function POST(req: NextRequest) {
     { message: "Agendamento realizado! Verifique seu e-mail para o link de acesso." },
     { status: 200 }
   );
+}
+
+async function registrarVendaProlife(opts: {
+  nome: string;
+  email: string;
+  cpf: string;
+  telefone?: string;
+  especialidade: string;
+}) {
+  const secret = process.env.INTERNAL_SECRET;
+  const prolifeUrl = process.env.PROLIFE_INTERNAL_URL ?? "https://prolifemed.com.br";
+
+  if (!secret) {
+    console.warn("[agendar] INTERNAL_SECRET não configurado — lead não registrado no prolife-site");
+    return;
+  }
+
+  const res = await fetch(`${prolifeUrl}/api/internal/b2c-venda`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${secret}`,
+    },
+    body: JSON.stringify({
+      origem: "david",
+      nome: opts.nome,
+      email: opts.email,
+      cpf: opts.cpf,
+      telefone: opts.telefone,
+      plano: opts.especialidade,
+      valor_mensal: 47, // plano base Individual
+      observacoes: `Agendamento via David Lacerda Telemedicina — Especialidade: ${opts.especialidade}`,
+    }),
+  });
+
+  if (!res.ok) {
+    const err = await res.text();
+    throw new Error(`prolife-site respondeu ${res.status}: ${err}`);
+  }
+  console.log(`[agendar] Lead registrado no prolife-site para ${opts.email}`);
 }
