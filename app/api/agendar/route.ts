@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { criarPaciente, gerarMagicLink } from "@/lib/meditele";
+import { saveSubmission } from "@/lib/db/save-submission";
 import {
   emailConfirmacaoAgendamento,
   emailNotificacaoInterna,
@@ -46,6 +47,8 @@ export async function POST(req: NextRequest) {
 
   const { nome, cpf, email, telefone, dataNascimento, genero, especialidade, mensagem } =
     parsed.data;
+
+  await saveSubmission({ type: "agendar", payload: { nome, email, telefone, dataNascimento, genero, especialidade, mensagem }, name: nome, email, phone: telefone ?? null });
 
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
   const FROM_EMAIL = "David Lacerda Telemedicina <contato@davidlacerda.com.br>";

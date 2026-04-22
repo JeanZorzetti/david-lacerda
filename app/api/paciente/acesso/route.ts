@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { gerarMagicLink } from "@/lib/meditele";
+import { saveSubmission } from "@/lib/db/save-submission";
 import { emailAcessoPaciente } from "@/lib/email-templates";
 
 const schema = z.object({
@@ -44,6 +45,12 @@ export async function POST(req: NextRequest) {
 
   const { identificador } = parsed.data;
   const isEmail = identificador.includes("@");
+
+  await saveSubmission({
+    type: "paciente_acesso",
+    payload: { identificador: isEmail ? identificador : "[cpf-omitted]" },
+    email: isEmail ? identificador : null,
+  });
   const cpfClean = identificador.replace(/\D/g, "");
 
   const MEDITELE_API_KEY = process.env.MEDITELE_API_KEY;

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
+import { saveSubmission } from "@/lib/db/save-submission";
 
 const schema = z.object({
   empresa: z.string().min(2).max(200),
@@ -33,6 +34,8 @@ export async function POST(req: NextRequest) {
   }
 
   const { empresa, nome, email, colaboradores } = parsed.data;
+
+  await saveSubmission({ type: "empresas", payload: { empresa, nome, email, colaboradores }, name: nome, email });
 
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
   const TO_EMAIL = process.env.CONTACT_EMAIL ?? "contato@davidlacerda.com.br";

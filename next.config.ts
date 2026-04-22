@@ -4,6 +4,7 @@ import { withSentryConfig } from "@sentry/nextjs";
 const nextConfig: NextConfig = {
   output: "standalone",
   compress: true,
+  serverExternalPackages: ["pg", "bcrypt"],
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
