@@ -6,19 +6,19 @@ import { schemaBreadcrumb } from "@/lib/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Protocolos Clínicos",
   description:
-    "Conheça os 5 protocolos da David Lacerda Telemedicina: Telemedicina 24/7, NR-1 Saúde Mental Corporativa, Emagrecimento Clínico com Tirzepatida, Acompanhamento TEA e Entrevista Qualificada.",
+    "Conheça os 5 protocolos da David Lacerda Telemedicina: Telemedicina, NR-1 Saúde Mental Corporativa, Emagrecimento Clínico com Tirzepatida, Acompanhamento TEA e Entrevista Qualificada.",
   path: "/protocolos",
 });
 
 const protocolos = [
   {
     numero: "01",
-    titulo: "Telemedicina Pro Life",
-    subtitulo: "Consultas ilimitadas · 24h/7 dias",
+    titulo: "Telemedicina David Lacerda",
+    subtitulo: "Consultas ilimitadas · Pronto-Atendimento",
     descricao:
-      "Acesso contínuo a consultas médicas online com mais de 32 especialidades, via videochamada, 24 horas por dia, 7 dias por semana — incluindo fins de semana e feriados. Atendimento por fila de pronto-atendimento (PA) com tempo médio de espera de até 15 minutos, ou agendado para especialistas e multiprofissionais.",
+      "Acesso contínuo a consultas médicas online com mais de 32 especialidades, via videochamada, com atendimento disponível incluindo fins de semana e feriados. Atendimento por fila de pronto-atendimento (PA) com tempo médio de espera de até 15 minutos, ou agendado para especialistas e multiprofissionais.",
     detalhes: [
-      "Consultas ilimitadas com clínicos gerais no PA 24h",
+      "Consultas ilimitadas com clínicos gerais no Pronto-Atendimento",
       "Mais de 32 especialidades disponíveis para agendamento",
       "Emissão de receitas digitais com assinatura ICP-Brasil (medicamentos comuns, antibióticos e controlados)",
       "Atestados e declarações médicas com validade legal",
@@ -27,7 +27,7 @@ const protocolos = [
       "App próprio para agendamento e acesso às consultas",
     ],
     sla: [
-      { label: "Tempo de espera no PA 24h", valor: "Até 15 minutos" },
+      { label: "Tempo de espera no PA", valor: "Até 15 minutos" },
       { label: "Uptime da plataforma", valor: "99,5% mensal" },
       { label: "Envio de receita digital", valor: "Até 2h após consulta" },
       { label: "Cancelamento de consulta", valor: "Mínimo 48h de antecedência" },
@@ -37,7 +37,7 @@ const protocolos = [
   },
   {
     numero: "02",
-    titulo: "Programa NR-1 Pro Life",
+    titulo: "Programa NR-1 — David Lacerda Telemedicina",
     subtitulo: "Saúde Mental Corporativa · Conformidade Legal",
     descricao:
       "Programa estruturado para garantir conformidade legal com a NR-1 do MTE — que exige das empresas medidas de prevenção a riscos psicossociais no trabalho. Atendimento psicológico, clínico e psiquiátrico via telemedicina, com relatório mensal de conformidade anonimizado.",
@@ -61,7 +61,7 @@ const protocolos = [
   },
   {
     numero: "03",
-    titulo: "Programa Mounjaro Pro Life",
+    titulo: "Programa Mounjaro — David Lacerda Telemedicina",
     subtitulo: "Emagrecimento Clínico · Tirzepatida · Multidisciplinar",
     descricao:
       "Tratamento médico estruturado para emagrecimento sustentável com Tirzepatida (Mounjaro), com acompanhamento multidisciplinar completo: médico, nutricional e psicológico. Foco na mudança real de comportamento alimentar e prevenção do efeito rebote.",
@@ -85,7 +85,7 @@ const protocolos = [
   },
   {
     numero: "04",
-    titulo: "Projeto TEA Pro Life",
+    titulo: "Projeto TEA — David Lacerda Telemedicina",
     subtitulo: "Transtorno do Espectro Autista · Acompanhamento Multidisciplinar",
     descricao:
       "Avaliação, diagnóstico e acompanhamento multidisciplinar estruturado para crianças com suspeita ou diagnóstico de TEA, combinando Psiquiatria Pediátrica, Neuropediatria, Psicologia, Fonoaudiologia e Fisioterapia — 100% digital, com os mesmos especialistas em cada sessão.",
@@ -109,12 +109,12 @@ const protocolos = [
   },
   {
     numero: "05",
-    titulo: "Entrevista Qualificada Pro Life",
+    titulo: "Entrevista Qualificada — David Lacerda Telemedicina",
     subtitulo: "Triagem Clínica · Declaração de Saúde · Controle de Sinistralidade",
     descricao:
       "Realização da Entrevista Qualificada Gravada de beneficiários de planos de saúde, com finalidade de declaração de saúde. Garante segurança jurídica para a operadora, análise de risco assistencial e conformidade com normas ANS — conduzida por Médico CRM ou Técnico de Enfermagem COREN.",
     detalhes: [
-      "Contato ativo da equipe Pro Life para agendamento de cada beneficiário",
+      "Contato ativo da equipe para agendamento de cada beneficiário",
       "Entrevista por Médico CRM (Modalidade Padrão) ou Técnico de Enfermagem COREN (Modalidade Técnico)",
       "Gravação obrigatória da entrevista para fins probatórios e de auditoria",
       "Retificação formal em caso de resposta positiva (CID, nome da doença, data do diagnóstico)",

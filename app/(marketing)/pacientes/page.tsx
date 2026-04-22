@@ -91,7 +91,7 @@ const inclusos = [
   "Prontuário eletrônico com histórico de consultas",
   "Orientações pós-consulta por escrito",
   "Reagendamento gratuito em caso de imprevisto",
-  "Suporte por e-mail em até 24 horas",
+  "Suporte por e-mail com retorno ágil",
 ];
 
 const faq = [
@@ -188,7 +188,7 @@ export default function PacientesPage() {
             {[
               { icon: "groups", value: "+5.000", label: "Consultas realizadas" },
               { icon: "star", value: "4.9/5", label: "Satisfação dos pacientes" },
-              { icon: "timer", value: "< 24h", label: "Agenda disponível" },
+              { icon: "timer", value: "Rápido", label: "Agenda disponível" },
               { icon: "verified_user", value: "CFM", label: "Regulamentado" },
             ].map((stat) => (
               <div key={stat.label} className="bg-[#f3f4f5] rounded-2xl p-6 text-center">

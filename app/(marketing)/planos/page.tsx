@@ -16,17 +16,17 @@ const planosTelemedicina = [
     nome: "Individual",
     preco: "R$ 47",
     periodo: "/mês",
-    descricao: "Consultas ilimitadas para 1 vida, acesso completo a todas as especialidades, 24h/7 dias.",
+    descricao: "Consultas ilimitadas para 1 vida, acesso completo a todas as especialidades disponíveis.",
     destaque: false,
     badge: null,
     inclui: [
       "1 vida — acesso completo",
-      "Consultas ilimitadas no PA 24h",
+      "Consultas ilimitadas no Pronto-Atendimento",
       "Mais de 32 especialidades",
       "Receita digital ICP-Brasil",
       "Atestados e encaminhamentos",
       "Prontuário eletrônico",
-      "App Pro Life exclusivo",
+      "App exclusivo da plataforma",
     ],
     cta: "Começar Agora",
     href: "/agendar",
@@ -41,13 +41,13 @@ const planosTelemedicina = [
     badge: "Mais escolhido",
     inclui: [
       "Até 4 vidas com acesso completo",
-      "Consultas ilimitadas no PA 24h",
+      "Consultas ilimitadas no Pronto-Atendimento",
       "Mais de 32 especialidades",
       "Inclui pediatria e ginecologia",
       "Receita digital ICP-Brasil",
       "Atestados e encaminhamentos",
       "Prontuário por membro da família",
-      "App Pro Life exclusivo",
+      "App exclusivo da plataforma",
     ],
     cta: "Escolher Plano Familiar",
     href: "/agendar",
@@ -62,13 +62,13 @@ const planosTelemedicina = [
     badge: null,
     inclui: [
       "Até 6 vidas com acesso completo",
-      "Consultas ilimitadas no PA 24h",
+      "Consultas ilimitadas no Pronto-Atendimento",
       "Mais de 32 especialidades",
       "Inclui pediatria e ginecologia",
       "Receita digital ICP-Brasil",
       "Atestados e encaminhamentos",
       "Prontuário por membro da família",
-      "App Pro Life exclusivo",
+      "App exclusivo da plataforma",
     ],
     cta: "Escolher Plano Familiar+",
     href: "/agendar",
@@ -122,12 +122,12 @@ const programasEspeciais = [
 ];
 
 const comparativo = [
-  { feature: "Consultas ilimitadas no PA 24h", individual: true, familiar: true, familiarPlus: true },
+  { feature: "Consultas ilimitadas no Pronto-Atendimento", individual: true, familiar: true, familiarPlus: true },
   { feature: "Especialidades disponíveis", individual: "+32", familiar: "+32", familiarPlus: "+32" },
   { feature: "Receita digital ICP-Brasil", individual: true, familiar: true, familiarPlus: true },
   { feature: "Atestados e encaminhamentos", individual: true, familiar: true, familiarPlus: true },
   { feature: "Prontuário eletrônico", individual: true, familiar: true, familiarPlus: true },
-  { feature: "App Pro Life exclusivo", individual: true, familiar: true, familiarPlus: true },
+  { feature: "App exclusivo da plataforma", individual: true, familiar: true, familiarPlus: true },
   { feature: "Vidas cobertas", individual: "1", familiar: "até 4", familiarPlus: "até 6" },
   { feature: "Cancelamento a qualquer momento", individual: true, familiar: true, familiarPlus: true },
 ];
@@ -138,8 +138,8 @@ const faq = [
     a: "Sim. Não há fidelidade nem multa de cancelamento. Basta solicitar o cancelamento com antecedência mínima de 48h antes do próximo ciclo de faturamento.",
   },
   {
-    q: "Como funciona o atendimento 24h?",
-    a: "Você acessa o app Pro Life, entra na fila de pronto-atendimento e é atendido pelo próximo Clínico Geral disponível. O tempo médio de espera é de até 15 minutos — inclusive fins de semana e feriados.",
+    q: "Como funciona o Pronto-Atendimento?",
+    a: "Você acessa o app da plataforma, entra na fila de pronto-atendimento e é atendido pelo próximo Clínico Geral disponível. O tempo médio de espera é de até 15 minutos — inclusive fins de semana e feriados.",
   },
   {
     q: "A receita digital é aceita em farmácias?",
@@ -200,7 +200,7 @@ export default function PlanosPage() {
           Planos que cabem no seu cuidado
         </h1>
         <p className="text-lg md:text-xl text-[#4a454e] max-w-2xl mx-auto">
-          Telemedicina ilimitada 24h, saúde mental corporativa NR-1, emagrecimento clínico e acompanhamento TEA. Sem fidelidade, sem burocracia.
+          Telemedicina ilimitada, saúde mental corporativa NR-1, emagrecimento clínico e acompanhamento TEA. Sem fidelidade, sem burocracia.
         </p>
       </section>
 
@@ -210,9 +210,9 @@ export default function PlanosPage() {
           <div className="text-center mb-10">
             <span className="inline-block py-1 px-3 rounded-full bg-[#eddcff] text-[#523b74] text-xs uppercase tracking-[0.05em] mb-3">Telemedicina</span>
             <h2 className="text-2xl font-extrabold text-[#28113e] tracking-[-0.02em]" style={{ fontFamily: "var(--font-headline)" }}>
-              Consultas ilimitadas · 24h/7 dias
+              Consultas ilimitadas · Pronto-Atendimento
             </h2>
-            <p className="text-[#4a454e] mt-2 text-sm">Mais de 32 especialidades disponíveis via app Pro Life</p>
+            <p className="text-[#4a454e] mt-2 text-sm">Mais de 32 especialidades disponíveis via app da plataforma</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {planosTelemedicina.map((plano) => (
@@ -384,7 +384,7 @@ export default function PlanosPage() {
               { icon: "verified_user", title: "CFM Regulamentado", desc: "Médicos com registro ativo no CRM, seguindo a Resolução CFM 2.314/2022 e Lei 14.510/2022." },
               { icon: "lock", title: "Criptografia Ponta a Ponta", desc: "Videoconsultas criptografadas. Seus dados nunca trafegam sem proteção." },
               { icon: "receipt_long", title: "Receita com Validade Nacional", desc: "Assinatura eletrônica ICP-Brasil aceita em qualquer farmácia do Brasil." },
-              { icon: "phone_android", title: "App Pro Life", desc: "Agendamento, fila de atendimento e histórico de consultas no seu celular." },
+              { icon: "phone_android", title: "App da Plataforma", desc: "Agendamento, fila de atendimento e histórico de consultas no seu celular." },
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-2xl p-6 flex flex-col gap-3">
                 <span className="material-symbols-outlined text-3xl text-[#6b538d]" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">{item.icon}</span>
