@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { saveSubmission } from "@/lib/db/save-submission";
+import { registrarLeadProlife } from "@/lib/prolife-api";
 
 const schema = z.object({
   name: z.string().min(2).max(100),
@@ -44,6 +45,11 @@ export async function POST(req: NextRequest) {
   const { name, email, phone, subject, message } = parsed.data;
 
   await saveSubmission({ type: "contact", payload: { name, email, phone, subject, message }, name, email, phone: phone ?? null });
+
+  registrarLeadProlife({
+    nome: name, email, telefone: phone,
+    tipo: "contato", assunto: subjectLabels[subject] ?? subject, mensagem: message,
+  }).catch(console.error);
 
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
   const TO_EMAIL = process.env.CONTACT_EMAIL ?? "contato@davidlacerda.com.br";
